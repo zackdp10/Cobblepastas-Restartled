@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:millenium",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:millenium.geo",
+      "poser": "cobblemon:millenium",
+      "texture": "cobblemon:textures/pokemon/millenium/millenium.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/millenium/millenium_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:turmur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:turmur",
+      "model": "cobblemon:turmur.geo",
+      "texture": "cobblemon:textures/pokemon/turmur/turmur.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/turmur/turmur_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/turmur/turmur_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/turmur/turmur_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/turmur/turmur_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "portraitScale": 3,
+  "portraitTranslation": [
+    0.2,
+    -0.5,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0.0,
+    0.5,
+    0
+  ],
+  "rootBone": "faceleech",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('faceleech', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('faceleech', 'ground_walk')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('faceleech', 'cry')"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:rainy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:rainy.geo",
+      "poser": "cobblemon:rainy",
+      "texture": "cobblemon:textures/pokemon/rainy/rainy.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/rainy/rainy_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/rainy/rainy_alpha.png"
+        }
+      ]
+    }
+  ]
+}

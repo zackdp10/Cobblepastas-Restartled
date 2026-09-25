@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:cofawer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cofawer",
+      "model": "cobblemon:cofawer.geo",
+      "texture": "cobblemon:textures/pokemon/cofawer/cofawer.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/cofawer/cofawer_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cofawer/cofawer_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/cofawer/cofawer_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/cofawer/cofawer_alpha.png"
+        }
+      ]
+    }
+  ]
+}

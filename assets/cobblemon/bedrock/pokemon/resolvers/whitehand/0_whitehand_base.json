@@ -1,0 +1,20 @@
+{
+ "species": "cobblemon:whitehand",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:whitehand",
+     "model": "cobblemon:whitehand.geo",
+     "texture": "cobblemon:textures/pokemon/whitehand/whitehand.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/whitehand/whitehand_shiny.png",
+	 "layers": []
+	}
+ ]
+}

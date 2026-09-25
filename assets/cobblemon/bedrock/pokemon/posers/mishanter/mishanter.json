@@ -1,0 +1,46 @@
+{
+  "portraitScale": 1.7,
+  "portraitTranslation": [
+    -0.6,
+    3.3,
+    0
+  ],
+  "profileScale": 0.38,
+  "profileTranslation": [
+    -0.1,
+    1.2,
+    0
+  ],
+  "rootBone": "mishanter",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('mishanter', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mishanter', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('mishanter', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mishanter', 'blink')"
+      ]
+    }
+  }
+}

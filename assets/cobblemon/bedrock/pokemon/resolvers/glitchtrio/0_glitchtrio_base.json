@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glitchtrio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:glitchtrio",
+      "model": "cobblemon:glitchtrio.geo",
+      "texture": "cobblemon:textures/pokemon/glitchtrio/glitchtrio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/glitchtrio/glitchtrio_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "animations": {
+    "faint": "q.bedrock_primary('whitehand', 'faint', q.curve('one'))"
+  },
+  "portraitScale": 2,
+  "portraitTranslation": [
+    -0.5,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    -0.3,
+    0.3,
+    0
+  ],
+  "rootBone": "whitehand",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 1,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('whitehand', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 1,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('whitehand', 'ground_walk')"
+      ]
+    },
+    "shoulder_left": {
+      "poseName": "shoulder_left",
+      "transformTicks": 1,
+      "poseTypes": [
+        "SHOULDER_LEFT"
+      ],
+      "animations": [
+        "q.bedrock('whitehand', 'shoulder_left')"
+      ]
+    },
+    "shoulder_right": {
+      "poseName": "shoulder_right",
+      "transformTicks": 1,
+      "poseTypes": [
+        "SHOULDER_RIGHT"
+      ],
+      "animations": [
+        "q.bedrock('whitehand', 'shoulder_right')"
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 1,
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "animations": [
+        "q.bedrock('whitehand', 'ground_idle')"
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 1,
+      "poseTypes": [
+        "SWIM"
+      ],
+      "animations": [
+        "q.bedrock('whitehand', 'ground_walk')"
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 1,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('whitehand', 'sleep')"
+      ]
+    }
+  }
+}

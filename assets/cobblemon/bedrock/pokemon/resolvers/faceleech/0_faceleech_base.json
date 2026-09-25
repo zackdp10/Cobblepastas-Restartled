@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:faceleech",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:faceleech",
+      "model": "cobblemon:faceleech.geo",
+      "texture": "cobblemon:textures/pokemon/faceleech/faceleech.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/faceleech/faceleech_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/faceleech/faceleech_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/faceleech/faceleech_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/faceleech/faceleech_alpha.png"
+        }
+      ]
+    }
+  ]
+}

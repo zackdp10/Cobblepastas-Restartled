@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:manafetus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:manafetus",
+      "model": "cobblemon:manafetus.geo",
+      "texture": "cobblemon:textures/pokemon/manafetus/manafetus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/manafetus/manafetus_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/manafetus/manafetus_alpha.png"
+        }
+      ]
+    }
+  ]
+}

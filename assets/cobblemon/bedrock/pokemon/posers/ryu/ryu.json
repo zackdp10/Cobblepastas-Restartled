@@ -1,0 +1,101 @@
+{
+  "portraitScale": 1.7,
+  "portraitTranslation": [
+    -0.4,
+    0.3,
+    0
+  ],
+  "profileScale": 0.8,
+  "profileTranslation": [
+    0.2,
+    0.6,
+    0
+  ],
+  "rootBone": "ryu",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ryu', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ryu', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ryu', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ryu', 'blink')"
+      ]
+    },
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 20,
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('ryu', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ryu', 'blink')"
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "animations": [
+        "q.bedrock('ryu', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ryu', 'blink')"
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SWIM"
+      ],
+      "animations": [
+        "q.bedrock('ryu', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ryu', 'blink')"
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('ryu', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('ryu', 'cry')"
+  }
+}

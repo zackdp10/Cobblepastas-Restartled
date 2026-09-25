@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:charon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:charon",
+      "model": "cobblemon:charon.geo",
+      "texture": "cobblemon:textures/pokemon/charon/charon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/charon/charon_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/charon/charon_alpha.png"
+        }
+      ]
+    }
+  ]
+}

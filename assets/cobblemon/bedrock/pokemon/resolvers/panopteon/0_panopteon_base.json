@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:panopteon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:panopteon",
+      "model": "cobblemon:panopteon.geo",
+      "texture": "cobblemon:textures/pokemon/panopteon/panopteon.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/panopteon/panopteon_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:eeeee",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:eeeee",
+      "model": "cobblemon:eeeee.geo",
+      "texture": "cobblemon:textures/pokemon/eeeee/eeeee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/eeeee/eeeee_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/eeeee/eeeee_alpha.png"
+        }
+      ]
+    }
+  ]
+}

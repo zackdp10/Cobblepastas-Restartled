@@ -1,0 +1,62 @@
+{
+  "species": "cobblemon:paras",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "eerie"
+      ],
+      "poser": "cobblemon:paras",
+      "model": "cobblemon:paras_eerie.geo",
+      "texture": "cobblemon:textures/pokemon/paras_eerie/paras_eerie.png",
+      "layers": [
+        {
+          "name": "drool",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/paras_eerie/drool/drool1.png",
+              "cobblemon:textures/pokemon/paras_eerie/drool/drool2.png",
+              "cobblemon:textures/pokemon/paras_eerie/drool/drool3.png"
+            ],
+            "fps": 2,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "eerie",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/paras_eerie/paras_eerie_shiny.png",
+      "layers": [
+        {
+          "name": "drool",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/paras_eerie/drool/drool1.png",
+              "cobblemon:textures/pokemon/paras_eerie/drool/drool2.png",
+              "cobblemon:textures/pokemon/paras_eerie/drool/drool3.png"
+            ],
+            "fps": 2,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "eerie",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/paras_eerie/paras_eerie_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:mishanter",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mishanter",
+      "model": "cobblemon:mishanter.geo",
+      "texture": "cobblemon:textures/pokemon/mishanter/mishanter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/mishanter/mishanter_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mishanter/mishanter_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/mishanter/mishanter_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/mishanter/mishanter_alpha.png"
+        }
+      ]
+    }
+  ]
+}

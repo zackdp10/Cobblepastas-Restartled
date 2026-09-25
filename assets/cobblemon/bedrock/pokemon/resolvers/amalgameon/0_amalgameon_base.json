@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:amalgameon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:amalgameon",
+      "model": "cobblemon:amalgameon.geo",
+      "texture": "cobblemon:textures/pokemon/amalgameon/amalgameon.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/amalgameon/amalgameon_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/amalgameon/amalgameon_alpha.png"
+        }
+      ]
+    }
+  ]
+}

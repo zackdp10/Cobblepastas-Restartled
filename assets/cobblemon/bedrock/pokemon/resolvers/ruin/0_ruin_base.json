@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:ruin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:ruin.geo",
+      "poser": "cobblemon:ruin",
+      "texture": "cobblemon:textures/pokemon/ruin/ruin.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ruin/ruin_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/ruin/ruin_alpha.png"
+        }
+      ]
+    }
+  ]
+}

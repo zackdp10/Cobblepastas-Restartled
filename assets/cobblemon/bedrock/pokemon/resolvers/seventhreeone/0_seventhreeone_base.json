@@ -1,0 +1,54 @@
+{
+  "species": "cobblemon:seventhreeone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:seventhreeone",
+      "model": "cobblemon:seventhreeone.geo",
+      "texture": "cobblemon:textures/pokemon/seventhreeone/seventhreeone.png",
+      "layers": [
+        {
+          "name": "figures",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/figure1.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/figure1.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/figure2.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/figure3.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/figure4.png"
+            ],
+            "fps": 2.5,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/seventhreeone/seventhreeone.png",
+      "layers": [
+        {
+          "name": "figures_shiny",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures_shiny/figure1_shiny.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures_shiny/figure1_shiny.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/figure2.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures/figure3.png",
+              "cobblemon:textures/pokemon/seventhreeone/figures_shiny/figure4_shiny.png"
+            ],
+            "fps": 2.5,
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

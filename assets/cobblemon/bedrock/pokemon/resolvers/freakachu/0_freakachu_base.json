@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:freakachu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [
+        "male"
+      ],
+      "poser": "cobblemon:freakachu",
+      "model": "cobblemon:freakachu_male.geo",
+      "texture": "cobblemon:textures/pokemon/freakachu/freakachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "male",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/freakachu/freakachu_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female"
+      ],
+      "poser": "cobblemon:freakachu",
+      "model": "cobblemon:freakachu_female.geo",
+      "texture": "cobblemon:textures/pokemon/freakachu/freakachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/freakachu/freakachu_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "male",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/freakachu/freakachu_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/freakachu/freakachu_alpha.png"
+        }
+      ]
+    }
+  ]
+}

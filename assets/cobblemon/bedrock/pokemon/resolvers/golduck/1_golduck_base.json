@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:golduck",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "eerie"
+      ],
+      "poser": "cobblemon:golduck_eerie",
+      "model": "cobblemon:golduck_eerie.geo",
+      "texture": "cobblemon:textures/pokemon/golduck_eerie/golduck_eerie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "eerie",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/golduck_eerie/golduck_eerie_shiny.png"
+    },
+    {
+      "aspects": [
+        "eerie",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/golduck_eerie/golduck_eerie_alpha.png"
+        }
+      ]
+    }
+  ]
+}

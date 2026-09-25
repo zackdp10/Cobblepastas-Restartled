@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:nightmare",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nightmare",
+      "model": "cobblemon:nightmare.geo",
+      "texture": "cobblemon:textures/pokemon/nightmare/nightmare.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/nightmare/nightmare_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/nightmare/nightmare_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/nightmare/nightmare_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/nightmare/nightmare_alpha.png"
+        }
+      ]
+    }
+  ]
+}

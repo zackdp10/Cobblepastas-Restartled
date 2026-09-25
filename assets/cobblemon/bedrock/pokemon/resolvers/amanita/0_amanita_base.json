@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:amanita",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:amanita",
+      "model": "cobblemon:parasect.geo",
+      "texture": "cobblemon:textures/pokemon/amanita/amanita.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/amanita/amanita_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/amanita/amanita_alpha.png"
+        }
+      ]
+    }
+  ]
+}

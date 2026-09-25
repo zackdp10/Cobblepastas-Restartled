@@ -1,0 +1,74 @@
+{
+  "species": "cobblemon:futile",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:futile",
+      "model": "cobblemon:futile.geo",
+      "texture": "cobblemon:textures/pokemon/futile/futile.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/futile/futile_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "eye_glow",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/futile/eye_glow/eye_glow1.png",
+              "cobblemon:textures/pokemon/futile/eye_glow/eye_glow2.png",
+              "cobblemon:textures/pokemon/futile/eye_glow/eye_glow3.png"
+            ],
+            "fps": 8,
+            "loop": true,
+            "translucent": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/futile/futile_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/futile/futile_shiny_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "eye_glow_shiny",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/futile/eye_glow_shiny/eye_glow_shiny1.png",
+              "cobblemon:textures/pokemon/futile/eye_glow_shiny/eye_glow_shiny2.png",
+              "cobblemon:textures/pokemon/futile/eye_glow_shiny/eye_glow_shiny3.png"
+            ],
+            "fps": 8,
+            "loop": true,
+            "translucent": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/futile/futile_alpha.png"
+        }
+      ]
+    }
+  ]
+}

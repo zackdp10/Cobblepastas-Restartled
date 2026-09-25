@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:pinkachu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [
+        "male"
+      ],
+      "poser": "cobblemon:pinkachu",
+      "model": "cobblemon:pinkachu_male.geo",
+      "texture": "cobblemon:textures/pokemon/pinkachu/pinkachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "male",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/pinkachu/pinkachu_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female"
+      ],
+      "poser": "cobblemon:pinkachu",
+      "model": "cobblemon:pinkachu_female.geo",
+      "texture": "cobblemon:textures/pokemon/pinkachu/pinkachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/pinkachu/pinkachu_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "male",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/pinkachu/pinkachu_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/pinkachu/pinkachu_alpha.png"
+        }
+      ]
+    }
+  ]
+}

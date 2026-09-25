@@ -1,0 +1,47 @@
+{
+  "species": "cobblemon:ghost",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ghost",
+      "model": "cobblemon:ghost.geo",
+      "texture": "cobblemon:textures/pokemon/ghost/ghost.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ghost/ghost_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:ghost_shiny",
+      "texture": "cobblemon:textures/pokemon/ghost/ghost_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ghost/ghost_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/ghost/ghost_alpha.png"
+        }
+      ]
+    }
+  ]
+}

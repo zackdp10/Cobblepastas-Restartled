@@ -1,0 +1,64 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('eeeee', 'cry')"
+  },
+  "portraitScale": 1.8,
+  "portraitTranslation": [
+    -0.2,
+    -0.2,
+    0
+  ],
+  "profileScale": 0.8,
+  "profileTranslation": [
+    0,
+    0.6,
+    0
+  ],
+  "rootBone": "eevee",
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('eeeee', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eeeee', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('eeeee', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eeeee', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('eeeee', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eeeee', 'blink')"
+      ]
+    }
+  }
+}
