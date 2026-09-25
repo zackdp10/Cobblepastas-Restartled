@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:sweet_berries" },
+    { "item": "minecraft:sugar" },
+    { "tag": "c:drinks/milk" },
+    { "item": "minecraft:honey_bottle" },
+    { "item": "cobblepastas:mist_stone" }
+  ],
+  "result": {
+    "id": "cobblepastas:glitched_item"
+  },
+  "seasoningProcessors": [],
+  "seasoningTag": "cobblemon:empty",
+  "type": "cobblemon:cooking_pot_shapeless"
+}

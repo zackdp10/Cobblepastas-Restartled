@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "M S",
+    "HAD",
+    " E "
+  ],
+  "key": {
+    "M": { "item": "cobblemon:moon_stone" },
+    "S": { "item": "cobblemon:sun_stone" },
+    "H": { "item": "cobblemon:dawn_stone" },
+    "A": { "item": "cobblemon:shiny_stone" },
+    "D": { "item": "cobblemon:dusk_stone" },
+    "E": { "item": "cobblemon:everstone" }
+  },
+  "result": {
+    "id": "cobblepastas:cycle_stone",
+    "count": 1
+  }
+}

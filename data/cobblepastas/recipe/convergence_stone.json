@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " T ",
+    "WFL",
+    " I "
+  ],
+  "key": {
+    "T": { "item": "cobblemon:thunder_stone" },
+    "W": { "item": "cobblemon:water_stone" },
+    "F": { "item": "cobblemon:fire_stone" },
+    "L": { "item": "cobblemon:leaf_stone" },
+    "I": { "item": "cobblemon:ice_stone" }
+  },
+  "result": {
+    "id": "cobblepastas:convergence_stone",
+    "count": 1
+  }
+}
