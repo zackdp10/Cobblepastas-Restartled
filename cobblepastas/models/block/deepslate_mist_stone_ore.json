@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": { "all": "cobblepastas:block/deepslate_mist_stone_ore" }
+}
