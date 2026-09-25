@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:ghost",
+    "speciesId": "cobblemon:ghost",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

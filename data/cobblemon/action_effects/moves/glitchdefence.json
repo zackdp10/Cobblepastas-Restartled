@@ -1,0 +1,1 @@
+{"timeline":[{"holds":["effects"],"type":"add_holds"},{"animation":["cottonguard","status"],"type":"animation"},{"pause":0.1,"type":"pause"},{"effect":"cobblemon:cottonguard","locators":["middle"],"type":"entity_particles"},{"pause":2.5,"type":"pause"},{"holds":["effects"],"type":"remove_holds"},{"pause":0.5,"type":"pause"}]}

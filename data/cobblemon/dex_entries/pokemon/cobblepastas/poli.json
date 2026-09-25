@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:poli",
+    "speciesId": "cobblemon:poli",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

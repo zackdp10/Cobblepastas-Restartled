@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:glitchlett",
+    "speciesId": "cobblemon:glitchlett",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

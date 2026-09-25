@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:amanita",
+    "speciesId": "cobblemon:amanita",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

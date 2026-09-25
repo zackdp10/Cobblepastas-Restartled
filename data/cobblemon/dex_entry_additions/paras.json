@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:paras",
+    "forms": [
+      {
+        "displayForm": "eerie",
+        "unlockForms": ["eerie"]
+      }
+    ]
+}  

@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:mishanter",
+    "speciesId": "cobblemon:mishanter",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

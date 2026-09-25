@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:umbreon",
+    "forms": [
+      {
+        "displayForm": "eerie",
+        "unlockForms": ["eerie"]
+      }
+    ]
+}  

@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:scyther",
+    "forms": [
+      {
+        "displayForm": "eerie",
+        "unlockForms": ["eerie"]
+      }
+    ]
+}  

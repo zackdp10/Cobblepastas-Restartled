@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:turmur",
+    "speciesId": "cobblemon:turmur",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

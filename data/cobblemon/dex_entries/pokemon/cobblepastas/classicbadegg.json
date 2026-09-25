@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:classicbadegg",
+  "speciesId": "cobblemon:classicbadegg",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

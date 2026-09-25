@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:feralisleep",
+  "speciesId": "cobblemon:feralisleep",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

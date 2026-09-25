@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:whitehand",
+  "speciesId": "cobblemon:whitehand",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

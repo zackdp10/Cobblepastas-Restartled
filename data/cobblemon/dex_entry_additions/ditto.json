@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:ditto",
+    "forms": [
+      {
+        "displayForm": "eerie",
+        "unlockForms": ["eerie"]
+      }
+    ]
+}  

@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:golduck",
+    "forms": [
+      {
+        "displayForm": "eerie",
+        "unlockForms": ["eerie"]
+      }
+    ]
+}  

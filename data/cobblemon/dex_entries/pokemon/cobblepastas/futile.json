@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:futile",
+    "speciesId": "cobblemon:futile",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
