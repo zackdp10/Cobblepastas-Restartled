@@ -1,0 +1,105 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "scyther-eerie-1-normal",
+      "pokemon": "scyther eerie=true alpha=false",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 1.62,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_hills"
+        ],
+        "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "scyther-eerie-1-alpha",
+      "pokemon": "scyther eerie=true alpha=true",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 0.18,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_hills"
+        ],
+        "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "scyther-eerie-2-normal",
+      "pokemon": "scyther eerie=true alpha=false",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 1.62,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "scyther-eerie-2-alpha",
+      "pokemon": "scyther eerie=true alpha=true",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 0.18,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

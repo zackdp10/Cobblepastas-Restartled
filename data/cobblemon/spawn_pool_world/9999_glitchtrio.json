@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "glitchtrio-cave-normal",
+      "pokemon": "glitchtrio alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "26-45",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 7
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "glitchtrio-cave-alpha",
+      "pokemon": "glitchtrio alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "26-45",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 7
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

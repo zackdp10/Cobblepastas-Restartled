@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "turmur-1-normal",
+      "pokemon": "turmur alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "turmur-1-alpha",
+      "pokemon": "turmur alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

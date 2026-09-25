@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cofawer-1-normal",
+      "pokemon": "cofawer alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 0.72,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "cofawer-1-alpha",
+      "pokemon": "cofawer alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 0.08,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

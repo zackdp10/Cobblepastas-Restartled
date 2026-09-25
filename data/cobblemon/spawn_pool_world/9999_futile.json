@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "futile-normal",
+      "pokemon": "futile alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "35-50",
+      "weight": 5.4,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_temperate"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "futile-alpha",
+      "pokemon": "futile alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "35-50",
+      "weight": 0.6,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_temperate"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

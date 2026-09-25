@@ -1,0 +1,139 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ditto-eerie-1-normal",
+      "pokemon": "ditto eerie=true alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "4-29",
+      "weight": 1.8,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "ditto-eerie-1-alpha",
+      "pokemon": "ditto eerie=true alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "4-29",
+      "weight": 0.2,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "ditto-eerie-2-normal",
+      "pokemon": "ditto eerie=true alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "4-29",
+      "weight": 9,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "ditto-eerie-2-alpha",
+      "pokemon": "ditto eerie=true alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "4-29",
+      "weight": 1,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "ditto-eerie-3-normal",
+      "pokemon": "ditto eerie=true alpha=false",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "4-29",
+      "weight": 9,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "ditto-eerie-3-alpha",
+      "pokemon": "ditto eerie=true alpha=true",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "4-29",
+      "weight": 1,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

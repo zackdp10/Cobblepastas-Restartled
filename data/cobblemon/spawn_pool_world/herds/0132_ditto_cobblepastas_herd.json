@@ -1,0 +1,161 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "isSlimeChunk": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "ditto-1-cobblepastas-herd",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 20,
+      "levelRange": "4-29",
+      "maxHerdSize": 2,
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": true,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "pokemon": "ditto alpha=false",
+          "weight": 80
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "ditto eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "ditto eerie=true alpha=true",
+          "weight": 12
+        }
+      ]
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "bucket": "ultra-rare",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "isSlimeChunk": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "ditto-2-cobblepastas-herd",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 12,
+      "levelRange": "4-29",
+      "maxHerdSize": 2,
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": true,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "pokemon": "ditto alpha=false",
+          "weight": 80
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "ditto eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "ditto eerie=true alpha=true",
+          "weight": 12
+        }
+      ]
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "id": "ditto-3-cobblepastas-herd",
+      "presets": [
+        "mansion"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 20,
+      "levelRange": "4-29",
+      "maxHerdSize": 2,
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": true,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "pokemon": "ditto alpha=false",
+          "weight": 80
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "ditto eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "4-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "ditto eerie=true alpha=true",
+          "weight": 12
+        }
+      ]
+    }
+  ]
+}

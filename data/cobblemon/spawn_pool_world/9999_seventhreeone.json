@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "seventhreeone-1-normal",
+      "pokemon": "seventhreeone alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "15-40",
+      "weight": 4.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_village"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "seventhreeone-1-alpha",
+      "pokemon": "seventhreeone alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "15-40",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_village"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

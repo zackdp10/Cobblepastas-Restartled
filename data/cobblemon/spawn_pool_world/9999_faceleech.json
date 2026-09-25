@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "faceleech-1-normal",
+      "pokemon": "faceleech alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "faceleech-1-alpha",
+      "pokemon": "faceleech alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "siren-1-normal",
+      "pokemon": "siren alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "siren-1-alpha",
+      "pokemon": "siren alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

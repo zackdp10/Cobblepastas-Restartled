@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "unown-eerie-1-normal",
+      "pokemon": "unown eerie=true alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "1-100",
+      "weight": 3.3921,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "unown-eerie-1-alpha",
+      "pokemon": "unown eerie=true alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "1-100",
+      "weight": 0.3769,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

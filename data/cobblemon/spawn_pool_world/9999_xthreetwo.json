@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "xthreetwo-1-normal",
+      "pokemon": "xthreetwo alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "minecraft:stony_peaks"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "xthreetwo-1-alpha",
+      "pokemon": "xthreetwo alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "minecraft:stony_peaks"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}
