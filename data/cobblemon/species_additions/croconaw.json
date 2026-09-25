@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:croconaw",
+  "evolutions": [
+    {
+      "id": "croconaw_feralisleep",
+      "variant": "item_interact",
+      "result": "feralisleep",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "requiredContext": "cobblepastas:glitched_item"
+    }
+  ]
+}

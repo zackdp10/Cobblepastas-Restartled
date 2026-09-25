@@ -1,0 +1,99 @@
+{
+  "implemented": true,
+  "name": "cofawer",
+  "nationalPokedexNumber": 22,
+  "primaryType": "normal",
+  "secondaryType": "ghost",
+  "abilities": [
+    "wanderingspirit"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 110,
+    "defence": 120,
+    "special_attack": 65,
+    "special_defence": 95,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    },
+    "herd": {
+      "maxSize": 2,
+      "toleratedLeaders": [
+        {
+          "pokemon": "cofawer alpha=false",
+          "tier": 1
+        }
+      ]
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 120,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:tackle",
+    "6:growl",
+    "12:nightshade",
+    "18:slam",
+    "24:willowisp",
+    "30:bite",
+    "36:grudge",
+    "42:swift",
+    "48:shadowball",
+    "54:swagger",
+    "60:crunch",
+    "66:uproar",
+    "72:leechlife",
+    "78:destinybond",
+    "84:shadowclaw",
+    "90:hyperfang"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.cofawer.desc1",
+    "cobblemon.species.cofawer.desc2"
+  ],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.9,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 925,
+  "aspects": []
+}

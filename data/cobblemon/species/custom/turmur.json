@@ -1,0 +1,129 @@
+{
+  "implemented": true,
+  "name": "turmur",
+  "nationalPokedexNumber": 19,
+  "primaryType": "poison",
+  "abilities": [
+    "levitate"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 185,
+    "defence": 100,
+    "special_attack": 130,
+    "special_defence": 140,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": 0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 218,
+  "experienceGroup": "slow",
+  "eggCycles": 120,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:surf",
+    "10:scaryface",
+    "15:leechlife",
+    "20:acid",
+    "25:perishsong",
+    "30:meanlook",
+    "37:uproar",
+    "44:nightmare",
+    "50:hypnosis",
+    "55:recover",
+    "60:focusenergy",
+    "70:gunkshot",
+    "80:dreameater",
+    "90:transform",
+    "98:explosion",
+    "100:splash",
+    "tm:waterpulse",
+    "tm:calmmind",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hail",
+    "tm:grasswhistle",
+    "legacy:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:gigadrain",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:discharge",
+    "tm:earthquake",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sludgebomb",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:beatup",
+    "tm:secretpower",
+    "tm:thief",
+    "tm:skillswap",
+    "tm:snatch",
+    "tm:cut",
+    "tm:fly",
+    "tm:surf",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "tm:waterfall",
+    "tm:dive"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.turmur.desc1",
+    "cobblemon.species.turmur.desc2"
+  ],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 45,
+  "weight": 3520,
+  "aspects": []
+}

@@ -1,0 +1,22 @@
+{
+  "target": "cobblemon:jigglypuff",
+  "evolutions": [
+    {
+      "id": "jigglypuff_disabled",
+      "variant": "level_up",
+      "result": "disabled",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+			"variant": "level",
+			"minLevel": 22
+        },
+		{
+			"variant": "time_range",
+			"range": "night"
+		}
+      ]
+    }
+  ]
+}

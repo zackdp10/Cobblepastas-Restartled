@@ -1,0 +1,163 @@
+{
+  "implemented": true,
+  "name": "pinkachu",
+  "nationalPokedexNumber": 8,
+  "primaryType": "psychic",
+  "abilities": [
+    "overcoat",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 60,
+    "defence": 85,
+    "special_attack": 80,
+    "special_defence": 85,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      }
+    },
+    "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "pikachu alpha=false",
+          "tier": 1
+        }
+      ]
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 243,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 10,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:light_gray_concrete",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:pink_concrete",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:confusion",
+    "5:growl",
+    "7:playnice",
+    "10:quickattack",
+    "13:mistball",
+    "18:thunderwave",
+    "21:feint",
+    "23:doubleteam",
+    "26:calmmind",
+    "29:nuzzle",
+    "34:eeriespell",
+    "37:slam",
+    "42:psywave",
+    "45:agility",
+    "50:zenheadbutt",
+    "53:lightscreen",
+    "58:psychic",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:chargebeam",
+    "tm:confide",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:echoedvoice",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:frustration",
+    "tm:grassknot",
+    "legacy:hiddenpower",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rocksmash",
+    "tm:round",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:covet",
+    "tutor:electroball",
+    "tutor:electroweb",
+    "tutor:focuspunch",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:magnetrise",
+    "tutor:quickattack",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:snore",
+    "tutor:thunderpunch",
+    "tutor:thundershock",
+    "tutor:thunderwave"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.pinkachu.desc1",
+    "cobblemon.species.pinkachu.desc2"
+  ],
+  "preEvolution": "pichu",
+  "evolutions": [],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 1,
+    "height": 1.15,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+  "aspects": []
+}

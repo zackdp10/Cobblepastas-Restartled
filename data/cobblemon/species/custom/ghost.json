@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "ghost",
+  "nationalPokedexNumber": 13,
+  "primaryType": "ghost",
+  "abilities": [
+    "dread"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 65,
+    "special_attack": 85,
+    "special_defence": 65,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 225,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:wither_skeleton_skull",
+        "quantityRange": "1-1",
+        "percentage": 3
+      },
+      {
+        "item": "cobblemon:reaper_cloth",
+        "quantityRange": "1-1",
+        "percentage": 20
+      },
+      {
+        "item": "minecraft:crying_obsidian",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
+  "moves": [
+    "1:curse",
+    "1:growl",
+    "1:leer",
+    "5:tailwhip",
+    "9:headbutt",
+    "13:boneclub",
+    "17:focusenergy",
+    "21:bonemerang",
+    "25:shadowbone",
+    "29:shadowsneak",
+    "33:nightshade",
+    "37:hex",
+    "41:willowisp",
+    "45:poltergeist",
+    "49:grudge",
+    "53:phantomforce",
+    "57:destinybond"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.ghost.desc1",
+    "cobblemon.species.ghost.desc2"
+  ],
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.7,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+  "aspects": []
+}

@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "seventhreeone",
+  "nationalPokedexNumber": 15,
+  "primaryType": "normal",
+  "abilities": [
+    "infiltrator",
+    "h:glitchedstatic"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 76,
+    "defence": 104,
+    "special_attack": 76,
+    "special_defence": 104,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 255,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:glitchdefence",
+    "1:glitchmulti",
+    "1:glitchcharge",
+    "1:flail",
+    "1:ragepowder",
+    "1:tackle",
+    "1:astonish",
+    "1:acidspray",
+    "4:shadowpunch",
+    "8:round",
+    "12:endure",
+    "16:torment",
+    "20:corrosivegas",
+    "24:uturn",
+    "28:recover",
+    "32:bodyslam",
+    "36:safeguard",
+    "40:snarl",
+    "44:spite",
+    "48:defendorder",
+    "52:hyperbeam"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.seventhreeone.desc1",
+    "cobblemon.species.seventhreeone.desc2"
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+  "aspects": []
+}

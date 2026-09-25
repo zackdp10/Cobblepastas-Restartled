@@ -1,0 +1,92 @@
+{
+  "implemented": true,
+  "name": "learow",
+  "nationalPokedexNumber": 6,
+  "primaryType": "poison",
+  "secondaryType": "flying",
+  "abilities": [
+    "insomnia",
+    "merciless",
+    "h:moxie"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 40,
+    "special_attack": 95,
+    "special_defence": 40,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 177,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:haze",
+    "5:peck",
+    "10:smog",
+    "15:pursuit",
+    "20:wingattack",
+    "25:swagger",
+    "30:crosspoison",
+    "35:fly",
+    "40:nastyplot",
+    "45:sludgebomb",
+    "50:airslash",
+    "55:toxicspikes",
+    "60:direclaw"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.learow.desc1",
+    "cobblemon.species.learow.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.65,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 21,
+  "aspects": []
+}

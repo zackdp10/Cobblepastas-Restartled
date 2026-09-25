@@ -1,0 +1,85 @@
+{
+  "implemented": true,
+  "name": "faceleech",
+  "nationalPokedexNumber": 18,
+  "primaryType": "poison",
+  "abilities": [
+    "speedboost"
+  ],
+  "baseStats": {
+    "hp": 1,
+    "attack": 175,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 255
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 215,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 60,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:poisonfang",
+    "11:confuseray",
+    "21:bite",
+    "30:takedown",
+    "45:doubleedge",
+    "tm:cut",
+    "tm:fly",
+    "tm:surf",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "tm:waterfall",
+    "tm:dive"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.faceleech.desc1",
+    "cobblemon.species.faceleech.desc2"
+  ],
+  "baseScale": 0.21,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 2,
+  "weight": 17,
+  "aspects": []
+}

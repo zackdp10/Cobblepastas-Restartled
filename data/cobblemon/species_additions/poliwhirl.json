@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:poliwhirl",
+  "evolutions": [
+    {
+      "id": "poliwhirl_poli",
+      "variant": "item_interact",
+      "result": "poli",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:iron_sword"
+    }
+  ]
+}

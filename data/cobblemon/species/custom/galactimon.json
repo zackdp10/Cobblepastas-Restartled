@@ -1,0 +1,125 @@
+{
+  "implemented": true,
+  "name": "galactimon",
+  "nationalPokedexNumber": 16,
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "abilities": [
+    "levitate"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 105,
+    "defence": 90,
+    "special_attack": 105,
+    "special_defence": 90,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "4-15"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 153,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:harden",
+    "1:tackle",
+    "1:confusion",
+    "5:rockthrow",
+    "8:hypnosis",
+    "10:rockpolish",
+    "12:firespin",
+    "13:psywave",
+    "15:rockslide",
+    "17:embargo",
+    "20:psyshock",
+    "20:zenheadbutt",
+    "25:cosmicpower",
+    "28:moonlight",
+    "30:psychic",
+    "33:healblock",
+    "35:stoneedge",
+    "38:powergem",
+    "40:futuresight",
+    "40:solarbeam",
+    "45:magicroom",
+    "45:wonderroom",
+    "48:moonblast",
+    "50:explosion",
+    "55:psychup",
+    "tm:calmmind",
+    "tm:toxic",
+    "legacy:hiddenpower",
+    "tm:sunnyday",
+    "tm:icebeam",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:skillswap",
+    "tm:overheat",
+    "tm:flash",
+    "tm:dive"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.galactimon.desc1",
+    "cobblemon.species.galactimon.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.1,
+    "height": 1.6,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+  "aspects": []
+}

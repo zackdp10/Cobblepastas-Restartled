@@ -1,0 +1,118 @@
+{
+  "target": "cobblemon:paras",
+  "forms": [
+    {
+      "name": "Eerie",
+      "primaryType": "bug",
+      "secondaryType": "poison",
+      "abilities": [
+        "poisontouch",
+        "dryskin",
+        "h:unnerve"
+      ],
+      "baseStats": {
+        "hp": 35,
+        "attack": 70,
+        "defence": 55,
+        "special_attack": 45,
+        "special_defence": 55,
+        "speed": 25
+      },
+      "catchRate": 190,
+      "maleRatio": -1,
+      "baseExperienceYield": 57,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_fast",
+      "eggCycles": 20,
+      "eggGroups": [
+        "bug",
+        "grass"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false
+          }
+        },
+        "herd": {
+          "maxSize": 2,
+          "toleratedLeaders": [
+            {
+              "pokemon": "paras alpha=false",
+              "tier": 1
+            }
+          ]
+        }
+      },
+      "moves": [
+        "1:scratch",
+        "6:poisonpowder",
+        "6:quash",
+        "11:acid",
+        "11:leechlife",
+        "17:furycutter",
+        "22:honeclaws",
+        "27:slash",
+        "33:venomdrench",
+        "38:venoshock",
+        "43:corrosivegas",
+        "49:ragepowder",
+        "54:xscissor"
+      ],
+      "labels": [
+        "gen1",
+        "eerie"
+      ],
+      "pokedex": [
+        "cobblemon.species.paraseerie.desc1",
+        "cobblemon.species.paraseerie.desc2"
+      ],
+      "aspects": [
+        "eerie"
+      ],
+      "height": 3,
+      "weight": 54,
+      "evolutions": [
+        {
+          "id": "paras-amanita-level_up",
+          "variant": "level_up",
+          "result": "amanita",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "wish"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 24
+            },
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:everstone"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

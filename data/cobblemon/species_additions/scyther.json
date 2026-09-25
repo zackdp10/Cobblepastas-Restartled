@@ -1,0 +1,106 @@
+{
+  "target": "cobblemon:scyther",
+  "forms": [
+    {
+      "name": "Eerie",
+      "primaryType": "bug",
+      "secondaryType": "dark",
+      "abilities": [
+        "swarm",
+        "sharpness",
+        "h:unburden"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 110,
+        "defence": 80,
+        "special_attack": 55,
+        "special_defence": 80,
+        "speed": 105
+      },
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 100,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_fast",
+      "eggCycles": 25,
+      "eggGroups": [
+        "bug"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": false,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "scyther alpha=false",
+              "tier": 1
+            }
+          ]
+        }
+      },
+      "moves": [
+        "1:leer",
+        "1:quickattack",
+        "1:cut",
+        "4:furycutter",
+        "8:falseswipe",
+        "9:pursuit",
+        "12:wingattack",
+        "16:doubleteam",
+        "20:doublehit",
+        "24:slash",
+        "28:focusenergy",
+        "32:flash",
+        "33:razorwind",
+        "36:airslash",
+        "40:xscissor",
+        "44:laserfocus",
+        "44:swordsdance",
+        "45:nightslash",
+        "61:strength"
+      ],
+      "labels": [
+        "gen1",
+        "eerie"
+      ],
+      "pokedex": [
+        "cobblemon.species.scythereerie.desc1",
+        "cobblemon.species.scythereerie.desc2"
+      ],
+      "aspects": [
+        "eerie"
+      ],
+      "height": 15,
+      "weight": 560,
+      "evolutions": []
+    }
+  ]
+}

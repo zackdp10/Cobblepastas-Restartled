@@ -1,0 +1,128 @@
+{
+  "implemented": true,
+  "name": "xthreetwo",
+  "nationalPokedexNumber": 17,
+  "primaryType": "steel",
+  "secondaryType": "electric",
+  "abilities": [
+    "levitate"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 120,
+    "defence": 100,
+    "special_attack": 110,
+    "special_defence": 60,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true
+      }
+    }
+  },
+  "catchRate": 12,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 233,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 2560,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:hyperbeam",
+    "1:metalclaw",
+    "5:thundershock",
+    "8:lockon",
+    "10:discharge",
+    "13:chargebeam",
+    "16:spark",
+    "20:irontail",
+    "24:screech",
+    "28:flashcannon",
+    "32:shiftgear",
+    "37:supercellslam",
+    "42:wildcharge",
+    "47:zapcannon",
+    "52:steelbeam",
+    "58:explosion",
+    "64:gigaimpact",
+    "tm:dragonclaw",
+    "tm:waterpulse",
+    "tm:toxic",
+    "legacy:hiddenpower",
+    "tm:sunnyday",
+    "tm:icebeam",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:gigadrain",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:irontail",
+    "tm:thunderbolt",
+    "tm:discharge",
+    "tm:earthquake",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:beatup",
+    "tm:torment",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:thief",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.xthreetwo.desc1",
+    "cobblemon.species.xthreetwo.desc2"
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.9,
+    "height": 2.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 1205,
+  "aspects": []
+}

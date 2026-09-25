@@ -1,0 +1,46 @@
+{
+  "target": "cobblemon:eevee",
+  "evolutions": [
+    {
+      "id": "eevee_eeeee",
+      "variant": "item_interact",
+      "result": "eeeee",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "psychocut"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone"
+    },
+    {
+      "id": "eevee_umbreon_eerie",
+      "variant": "item_interact",
+      "result": "umbreon eerie",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "bitterblade"
+      ],
+      "requirements": [
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "requiredContext": "cobblemon:x_attack"
+    },
+    {
+      "id": "eevee_amalgameon",
+      "variant": "item_interact",
+      "result": "amalgameon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ],
+      "requiredContext": "cobblepastas:convergence_stone"
+    }
+  ]
+}

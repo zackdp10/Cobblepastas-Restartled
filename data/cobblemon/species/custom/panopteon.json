@@ -1,0 +1,64 @@
+{
+  "implemented": true,
+  "name": "Panopteon",
+  "primaryType": "normal",
+  "baseStats": {
+    "hp": 100,
+    "attack": 85,
+    "defence": 105,
+    "special_attack": 130,
+    "special_defence": 110,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "catchRate": 45,
+  "baseExperienceYield": 300,
+  "experienceGroup": "medium_fast",
+  "eggGroups": ["undiscovered"],
+  "eggCycles": 20,
+  "baseFriendship": 15,
+  "height": 27,
+  "weight": 2450,
+  "maleRatio": -1,
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.2,
+    "fixed": false
+  },
+  "shoulderMountable": false,
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": { "canFly": true }
+    }
+  },
+  "moves": [
+    "1:helpinghand", "1:swift", "20:storedpower", "25:triattack",
+    "30:calmmind", "35:extrasensory", "40:hypervoice", "45:dazzlinggleam",
+    "50:psychic", "55:futuresight", "60:lastresort",
+    "tm:flamethrower", "tm:fireblast", "tm:surf", "tm:chillingwater",
+    "tm:icebeam", "tm:blizzard", "tm:thunderbolt", "tm:thunder",
+    "tm:energyball", "tm:solarbeam", "tm:psychic", "tm:psyshock",
+    "tm:shadowball", "tm:darkpulse", "tm:dazzlinggleam", "tm:hypervoice",
+    "tm:swift", "tm:terablast", "tm:storedpower", "tm:weatherball",
+    "tm:calmmind", "tm:agility", "tm:reflect", "tm:lightscreen",
+    "tm:protect", "tm:substitute", "tm:rest", "tm:sleeptalk",
+    "tm:helpinghand", "tm:batonpass", "tm:sunnyday", "tm:raindance",
+    "tm:snowscape", "tm:mistyterrain", "tm:psychicterrain"
+  ],
+  "evolutions": [],
+  "abilities": ["forewarn", "protean", "h:amalgamabsorption"],
+  "labels": ["custom"],
+  "pokedex": [
+    "cobblemon.species.panopteon.desc1",
+    "cobblemon.species.panopteon.desc2"
+  ]
+}

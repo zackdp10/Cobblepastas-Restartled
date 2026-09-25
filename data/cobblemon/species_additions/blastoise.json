@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:blastoise",
+  "evolutions": [
+    {
+      "id": "blastoise_rainy",
+      "variant": "item_interact",
+      "result": "rainy",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "glitchmulti"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblepastas:mist_stone"
+    }
+  ]
+}

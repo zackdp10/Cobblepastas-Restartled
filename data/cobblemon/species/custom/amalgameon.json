@@ -1,0 +1,125 @@
+{
+  "implemented": true,
+  "name": "Amalgameon",
+  "primaryType": "normal",
+  "baseStats": {
+    "hp": 120,
+    "attack": 85,
+    "defence": 80,
+    "special_attack": 105,
+    "special_defence": 105,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "catchRate": 45,
+  "baseExperienceYield": 236,
+  "experienceGroup": "medium_fast",
+  "eggGroups": [
+    "field"
+  ],
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "height": 28,
+  "weight": 1800,
+  "maleRatio": 0.5,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 3.2,
+    "height": 2.1,
+    "fixed": false
+  },
+  "shoulderMountable": false,
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "1:helpinghand",
+    "1:covet",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:bite",
+    "25:swift",
+    "30:icywind",
+    "30:magicalleaf",
+    "30:waterpulse",
+    "35:firefang",
+    "35:thunderfang",
+    "40:psybeam",
+    "40:darkpulse",
+    "45:discharge",
+    "45:lavaplume",
+    "50:moonblast",
+    "55:lastresort",
+    "tm:swordsdance",
+    "tm:hydropump",
+    "tm:blizzard",
+    "tm:thunder",
+    "tm:flareblitz",
+    "tm:leafblade",
+    "tm:gigadrain",
+    "tm:psychic",
+    "tm:darkpulse",
+    "tm:moonblast",
+    "tm:shadowball",
+    "tm:thunderbolt",
+    "tm:icebeam",
+    "tm:flamethrower",
+    "tm:energyball",
+    "tm:playrough",
+    "tm:surf",
+    "tm:calmmind",
+    "tutor:batonpass",
+    "tutor:healbell",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:mysticalfire",
+    "tutor:tripleaxel",
+    "tutor:weatherball",
+    "egg:curse",
+    "egg:detect",
+    "egg:flail",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn"
+  ],
+  "evolutions": [
+    {
+      "id": "amalgameon_panopteon",
+      "variant": "item_interact",
+      "result": "panopteon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "revelationdance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "requiredContext": "cobblepastas:cycle_stone"
+    }
+  ],
+  "abilities": [
+    "colorchange",
+    "protean",
+    "h:amalgamabsorption"
+  ],
+  "pokedex": [
+    "cobblemon.species.amalgameon.desc1",
+    "cobblemon.species.amalgameon.desc2"
+  ]
+}

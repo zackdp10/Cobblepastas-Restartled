@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "mishanter",
+  "nationalPokedexNumber": 21,
+  "primaryType": "fairy",
+  "secondaryType": "dark",
+  "abilities": [
+    "neuroforce"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 115,
+    "defence": 90,
+    "special_attack": 115,
+    "special_defence": 100,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 306,
+  "experienceGroup": "slow",
+  "eggCycles": 120,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:gravity",
+    "5:taunt",
+    "10:snarl",
+    "15:naturepower",
+    "20:nightslash",
+    "25:tailwind",
+    "30:psychup",
+    "35:airslash",
+    "40:mistyterrain",
+    "45:darkpulse",
+    "50:oblivionwing",
+    "55:geomancy",
+    "60:moonblast",
+    "65:dragonrush",
+    "70:megahorn",
+    "75:focusblast",
+    "80:outrage",
+    "85:hyperbeam"
+  ],
+  "labels": [
+    "custom",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.mishanter.desc1",
+    "cobblemon.species.mishanter.desc2",
+    "cobblemon.species.mishanter.desc3"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 2,
+    "height": 3.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 30,
+  "weight": 2150,
+  "aspects": []
+}

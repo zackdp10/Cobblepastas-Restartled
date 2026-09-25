@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:dratini",
+  "evolutions": [
+    {
+      "id": "dratini-ryu-level_up",
+      "variant": "level_up",
+      "result": "ryu",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "hail"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_freezing"
+        },
+        {
+          "variant": "properties",
+          "target": "gender=male"
+        }
+      ]
+    }
+  ]
+}
