@@ -1,0 +1,728 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.faceleech.pose": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            -10,
+            0,
+            0
+          ]
+        },
+        "head": {
+          "rotation": [
+            7.5,
+            0,
+            0
+          ]
+        },
+        "snoot": {
+          "rotation": [
+            7.5,
+            0,
+            0
+          ]
+        },
+        "righttoof1": {
+          "rotation": [
+            55,
+            0,
+            -10
+          ]
+        },
+        "righttoof2": {
+          "rotation": [
+            -55,
+            0,
+            10
+          ]
+        },
+        "lefttoof1": {
+          "rotation": [
+            55,
+            0,
+            10
+          ]
+        },
+        "lefttoof2": {
+          "rotation": [
+            -55,
+            0,
+            -10
+          ]
+        },
+        "righttail1": {
+          "rotation": [
+            -7.5,
+            0,
+            0
+          ]
+        },
+        "righttail2": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        },
+        "righttail3": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        },
+        "righttail4": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        },
+        "righttail5": {
+          "rotation": [
+            -15,
+            0,
+            0
+          ]
+        },
+        "righttail6": {
+          "rotation": [
+            -25,
+            0,
+            0
+          ]
+        },
+        "lefttail1": {
+          "rotation": [
+            30,
+            0,
+            0
+          ]
+        },
+        "lefttail2": {
+          "rotation": [
+            -15,
+            0,
+            0
+          ]
+        },
+        "lefttail3": {
+          "rotation": [
+            -15,
+            0,
+            0
+          ]
+        },
+        "lefttail4": {
+          "rotation": [
+            -15,
+            0,
+            0
+          ]
+        },
+        "lefttail5": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        },
+        "lefttail6": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.faceleech.ground_idle": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            7.5,
+            0,
+            0
+          ],
+          "position": [
+            0,
+            2,
+            -1
+          ]
+        },
+        "torso": {
+          "rotation": [
+            "15-Math.cos(q.anim_time/2*360)*-3",
+            0,
+            0
+          ],
+          "position": [
+            0,
+            "0+Math.sin(q.anim_time/2*360)*-1",
+            0
+          ]
+        },
+        "head": {
+          "rotation": [
+            "-15-Math.sin(q.anim_time/2*360)*3",
+            0,
+            0
+          ]
+        },
+        "snoot": {
+          "rotation": [
+            "7.5-Math.sin(q.anim_time/2*360)*-3",
+            0,
+            0
+          ]
+        },
+        "righttoof1": {
+          "rotation": [
+            55,
+            0,
+            -10
+          ]
+        },
+        "righttoof2": {
+          "rotation": [
+            -55,
+            0,
+            10
+          ]
+        },
+        "lefttoof1": {
+          "rotation": [
+            55,
+            0,
+            10
+          ]
+        },
+        "lefttoof2": {
+          "rotation": [
+            -55,
+            0,
+            -10
+          ]
+        },
+        "eyes": {
+          "scale": 1
+        },
+        "righttail1": {
+          "rotation": [
+            "22.5-Math.cos(q.anim_time/2*360)*-3",
+            0,
+            0
+          ]
+        },
+        "righttail2": {
+          "rotation": [
+            -35,
+            0,
+            0
+          ]
+        },
+        "righttail3": {
+          "rotation": [
+            "-40-Math.sin(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "righttail4": {
+          "rotation": [
+            "-45-Math.cos(q.anim_time/2*360)*6",
+            0,
+            0
+          ]
+        },
+        "righttail5": {
+          "rotation": [
+            "25-Math.sin(q.anim_time/2*360)*6",
+            0,
+            0
+          ]
+        },
+        "righttail6": {
+          "rotation": [
+            "30-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "lefttail1": {
+          "rotation": [
+            "-5-Math.cos(q.anim_time/2*360)*6",
+            0,
+            0
+          ]
+        },
+        "lefttail2": {
+          "rotation": [
+            -30,
+            0,
+            0
+          ]
+        },
+        "lefttail3": {
+          "rotation": [
+            "-45-Math.sin(q.anim_time/2*360)*6",
+            0,
+            0
+          ]
+        },
+        "lefttail4": {
+          "rotation": [
+            "25-Math.cos(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "lefttail5": {
+          "rotation": [
+            "25-Math.cos(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "lefttail6": {
+          "rotation": [
+            "-25-Math.sin(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.faceleech.ground_walk": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            "-10-Math.cos(q.anim_time/2*360)*-8",
+            0,
+            0
+          ],
+          "position": [
+            0,
+            "3+Math.sin(q.anim_time/2*360)*-2",
+            0
+          ]
+        },
+        "head": {
+          "rotation": [
+            "7.5-Math.sin(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "snoot": {
+          "rotation": [
+            "7.5-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "righttoof1": {
+          "rotation": [
+            55,
+            0,
+            -10
+          ]
+        },
+        "righttoof2": {
+          "rotation": [
+            -55,
+            0,
+            10
+          ]
+        },
+        "lefttoof1": {
+          "rotation": [
+            55,
+            0,
+            10
+          ]
+        },
+        "lefttoof2": {
+          "rotation": [
+            -55,
+            0,
+            -10
+          ]
+        },
+        "eyes": {
+          "scale": 1
+        },
+        "righttail1": {
+          "rotation": [
+            "-7.5-Math.cos(q.anim_time/2*360)*20",
+            0,
+            0
+          ]
+        },
+        "righttail2": {
+          "rotation": [
+            "15-Math.sin(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "righttail3": {
+          "rotation": [
+            "15-Math.sin(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "righttail4": {
+          "rotation": [
+            "15-Math.cos(q.anim_time/2*360)*-16",
+            0,
+            0
+          ]
+        },
+        "righttail5": {
+          "rotation": [
+            "-15-Math.cos(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "righttail6": {
+          "rotation": [
+            "-25-Math.sin(q.anim_time/2*360)*18",
+            0,
+            0
+          ]
+        },
+        "lefttail1": {
+          "rotation": [
+            "30-Math.cos(q.anim_time/2*360)*-10",
+            0,
+            0
+          ]
+        },
+        "lefttail2": {
+          "rotation": [
+            "-15-Math.sin(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "lefttail3": {
+          "rotation": [
+            "-15-Math.sin(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "lefttail4": {
+          "rotation": [
+            "-15-Math.cos(q.anim_time/2*360)*16",
+            0,
+            0
+          ]
+        },
+        "lefttail5": {
+          "rotation": [
+            "15-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "lefttail6": {
+          "rotation": [
+            "15-Math.sin(q.anim_time/2*360)*-18",
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.faceleech.sleep": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            -5,
+            0,
+            0
+          ],
+          "position": [
+            0,
+            -9,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            1,
+            "1+Math.sin(q.anim_time/6*360)*-0.05",
+            1
+          ]
+        },
+        "snoot": {
+          "scale": [
+            "1+Math.sin(q.anim_time/6*360)*0.05",
+            "0.9+Math.cos(q.anim_time/6*360)*0.05",
+            1
+          ]
+        },
+        "righttoof1": {
+          "rotation": [
+            50,
+            0,
+            -12.5
+          ]
+        },
+        "righttoof2": {
+          "rotation": [
+            -50,
+            0,
+            10
+          ]
+        },
+        "lefttoof1": {
+          "rotation": [
+            50,
+            0,
+            12.5
+          ]
+        },
+        "lefttoof2": {
+          "rotation": [
+            -50,
+            0,
+            -10
+          ]
+        },
+        "eyes": {
+          "scale": [
+            1,
+            0,
+            1
+          ]
+        },
+        "mouth": {
+          "scale": [
+            1,
+            0.8,
+            1
+          ]
+        },
+        "righttail1": {
+          "rotation": [
+            8.1102,
+            22.2971,
+            3.0948
+          ]
+        },
+        "righttail2": {
+          "rotation": [
+            -7.5,
+            0,
+            0
+          ]
+        },
+        "righttail3": {
+          "rotation": [
+            -5.2109,
+            -17.4181,
+            2.218
+          ]
+        },
+        "righttail4": {
+          "rotation": [
+            17.5,
+            -15,
+            0
+          ]
+        },
+        "righttail5": {
+          "rotation": [
+            -10,
+            -35,
+            0
+          ]
+        },
+        "righttail6": {
+          "rotation": [
+            -42.5,
+            0,
+            0
+          ]
+        },
+        "lefttail1": {
+          "rotation": [
+            -7.5,
+            0,
+            0
+          ]
+        },
+        "lefttail2": {
+          "rotation": [
+            10,
+            0,
+            0
+          ]
+        },
+        "lefttail3": {
+          "rotation": [
+            2.5096,
+            -4.9952,
+            -0.2186
+          ]
+        },
+        "lefttail4": {
+          "rotation": [
+            0,
+            -7.5,
+            0
+          ]
+        },
+        "lefttail5": {
+          "rotation": [
+            0,
+            20,
+            0
+          ]
+        },
+        "lefttail6": {
+          "rotation": [
+            0,
+            30,
+            0
+          ]
+        }
+      }
+    },
+    "animation.faceleech.quirk_blink": {
+      "animation_length": 0.5,
+      "bones": {
+        "eyes": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "0.125": {
+              "pre": [
+                1,
+                1,
+                1
+              ],
+              "post": [
+                1,
+                0,
+                1
+              ]
+            },
+            "0.25": {
+              "pre": [
+                1,
+                0,
+                1
+              ],
+              "post": [
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        }
+      }
+    },
+    "animation.faceleech.recoil": {
+      "animation_length": 1,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.125": {
+              "post": [
+                10,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [
+                -5,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "eyes": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "0.0833": {
+              "pre": [
+                1,
+                1,
+                1
+              ],
+              "post": [
+                1,
+                0,
+                1
+              ]
+            },
+            "0.25": {
+              "pre": [
+                1,
+                0,
+                1
+              ],
+              "post": [
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        }
+      }
+    },
+    "animation.faceleech.new": {
+      "loop": true
+    },
+    "animation.faceleech.cry": {
+      "animation_length": 1.58,
+      "bones": {},
+      "sound_effects": {
+        "0.0": {
+          "effect": "pokemon.faceleech.cry"
+        }
+      }
+    }
+  }
+}

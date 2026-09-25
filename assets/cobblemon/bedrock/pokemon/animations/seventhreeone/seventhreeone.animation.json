@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.seventhreeone.ground_idle": {
+      "loop": true,
+      "bones": {
+        "seventhreeone": {
+          "position": [
+            0,
+            "2-math.sin(q.anim_time*70*2+60)*-4",
+            0
+          ]
+        }
+      }
+    },
+    "animation.seventhreeone.ground_walk": {
+      "loop": true,
+      "bones": {
+        "seventhreeone": {
+          "position": [
+            0,
+            "2-math.sin(q.anim_time*70*2+60)*-4",
+            0
+          ]
+        }
+      }
+    },
+    "animation.seventhreeone.cry": {
+      "animation_length": 0.93,
+      "bones": {},
+      "sound_effects": {
+        "0.0": {
+          "effect": "pokemon.seventhreeone.cry"
+        }
+      }
+    }
+  }
+}
