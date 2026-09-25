@@ -1,0 +1,49 @@
+{
+  "portraitScale": 1.9,
+  "portraitTranslation": [
+    -0.35,
+    1,
+    0
+  ],
+  "profileScale": 0.65,
+  "profileTranslation": [
+    0,
+    0.75,
+    0
+  ],
+  "rootBone": "cofawer",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('cofawer', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('cofawer', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('cofawer', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('cofawer', 'blink')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('cofawer', 'cry')"
+  }
+}

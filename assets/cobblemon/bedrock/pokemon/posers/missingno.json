@@ -1,0 +1,91 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('missingno', 'cry')",
+    "faint": "q.bedrock_primary('missingno', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('missingno', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('missingno', 'recoil')",
+    "special": "q.bedrock_primary('missingno', 'special', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    1.85,
+    0
+  ],
+  "profileScale": 0.4,
+  "profileTranslation": [
+    0,
+    1.18,
+    0
+  ],
+  "rootBone": "missingno",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('missingno', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('missingno', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('missingno', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('missingno', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "transformTicks": 10,
+      "poseTypes": [
+        "HOVER"
+      ],
+      "animations": [
+        "q.bedrock('missingno', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('missingno', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "transformTicks": 10,
+      "poseTypes": [
+        "FLY"
+      ],
+      "animations": [
+        "q.bedrock('missingno', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('missingno', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('missingno', 'sleep')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

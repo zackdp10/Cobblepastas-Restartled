@@ -1,0 +1,57 @@
+{
+  "rootBone": "Amalgameon",
+  "portraitScale": 0.9,
+  "portraitTranslation": [
+    -0.2,
+    0.35,
+    0
+  ],
+  "profileScale": 0.55,
+  "profileTranslation": [
+    0,
+    0.8,
+    0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('amalgameon', 'cry')",
+    "recoil": "q.bedrock_stateful('amalgameon', 'recoil')",
+    "faint": "q.bedrock_primary('amalgameon', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('amalgameon', 'battle_idle2')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('amalgameon', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('amalgameon', 'ground_walk')"
+      ]
+    }
+  }
+}

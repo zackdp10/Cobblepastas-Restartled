@@ -1,0 +1,58 @@
+{
+  "rootBone": "bone",
+  "portraitScale": 0.55,
+  "portraitTranslation": [
+    0,
+    1.5,
+    0
+  ],
+  "profileScale": 0.45,
+  "profileTranslation": [
+    0,
+    1.5,
+    0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('panopteon', 'cry')",
+    "recoil": "q.bedrock_stateful('panopteon', 'recoil')",
+    "faint": "q.bedrock_primary('panopteon', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "HOVER"
+      ],
+      "animations": [
+        "q.bedrock('panopteon', 'idle')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK",
+        "FLY",
+        "SWIM"
+      ],
+      "animations": [
+        "q.bedrock('panopteon', 'walk')"
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('panopteon', 'sleep')"
+      ]
+    }
+  }
+}

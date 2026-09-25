@@ -1,0 +1,52 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('galactimon', 'cry')",
+    "faint": "q.bedrock_primary('galactimon', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('galactimon', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('galactimon', 'special', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.4,
+  "portraitTranslation": [
+    -0.1,
+    0.65,
+    0
+  ],
+  "profileScale": 0.8,
+  "profileTranslation": [
+    0,
+    0.8,
+    0
+  ],
+  "rootBone": "galactimon",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('galactimon', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('galactimon', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('galactimon', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('galactimon', 'blink')"
+      ]
+    }
+  }
+}
