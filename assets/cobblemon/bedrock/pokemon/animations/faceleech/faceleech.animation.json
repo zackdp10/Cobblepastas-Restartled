@@ -1,0 +1,120 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.faceleech.ground_idle": {
+			"loop": true,
+			"bones": {
+				"tentacle_left": {
+					"rotation": ["-25+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0],
+					"position": [0, "0+(math.cos(q.anim_time*50*3+180)*6)*0.05", 0]
+				},
+				"tentacle_left2": {
+					"rotation": ["-95+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_left3": {
+					"rotation": ["37.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_left4": {
+					"rotation": ["40+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_right": {
+					"rotation": ["12.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", "0+(math.cos(q.anim_time*50*3+180)*6)*0.05", 0]
+				},
+				"tentacle_right2": {
+					"rotation": ["-72.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_right3": {
+					"rotation": ["-67.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_right4": {
+					"rotation": ["62.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_right5": {
+					"rotation": ["62.4879+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_left5": {
+					"rotation": ["25+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"body": {
+					"rotation": ["0+(math.cos(q.anim_time*90*2+180)*10)*0.1", "0+(math.cos(q.anim_time*90*2+180)*10)*0.1", "0+(math.sin(q.anim_time*90*3+180)*4)*0.1"],
+					"position": [0, "0+(math.cos(q.anim_time*50*3+180)*6)*0.2", 0]
+				}
+			}
+		},
+		"animation.faceleech.ground_walk": {
+			"loop": true,
+			"bones": {
+				"tentacle_left": {
+					"rotation": ["-25+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0],
+					"position": [0, "0+(math.cos(q.anim_time*50*3+180)*6)*0.05", 0]
+				},
+				"tentacle_left2": {
+					"rotation": ["42.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_left3": {
+					"rotation": ["-47.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_left4": {
+					"rotation": ["40+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_right": {
+					"rotation": ["12.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", "0+(math.cos(q.anim_time*50*3+180)*6)*0.05", 0]
+				},
+				"tentacle_right2": {
+					"rotation": ["-45+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_right3": {
+					"rotation": ["52.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_right4": {
+					"rotation": ["-27.5+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_right5": {
+					"rotation": ["62.4879+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"tentacle_left5": {
+					"rotation": ["25+(math.cos(q.anim_time*90*2+180)*10)*0.3", 0, 0]
+				},
+				"body": {
+					"rotation": ["10+(math.cos(q.anim_time*90*2+180)*10)*0.1", "0+(math.cos(q.anim_time*90*2+180)*10)*0.1", "0+(math.sin(q.anim_time*90*3+180)*4)*0.1"],
+					"position": [0, "0+(math.cos(q.anim_time*50*3+180)*6)*0.4", 0]
+				}
+			}
+		},
+		"animation.faceleech.pose": {
+			"loop": true,
+			"bones": {
+				"tentacle_left": {
+					"rotation": [-25, 0, 0]
+				},
+				"tentacle_left2": {
+					"rotation": [-95, 0, 0]
+				},
+				"tentacle_left3": {
+					"rotation": [37.5, 0, 0]
+				},
+				"tentacle_left4": {
+					"rotation": [40, 0, 0]
+				},
+				"tentacle_right": {
+					"rotation": [12.5, 0, 0]
+				},
+				"tentacle_right2": {
+					"rotation": [-72.5, 0, 0]
+				},
+				"tentacle_right3": {
+					"rotation": [-67.5, 0, 0]
+				},
+				"tentacle_right4": {
+					"rotation": [62.5, 0, 0]
+				},
+				"tentacle_right5": {
+					"rotation": [62.48791, -0.24443, -0.02975]
+				},
+				"tentacle_left5": {
+					"rotation": [25, 0, 0]
+				}
+			}
+		}
+	}
+}
