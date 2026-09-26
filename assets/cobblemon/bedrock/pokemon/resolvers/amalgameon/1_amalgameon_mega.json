@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:amalgameon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+      ],
+      "poser": "cobblemon:panopteon",
+      "model": "cobblemon:panopteon.geo",
+      "texture": "cobblemon:textures/pokemon/panopteon/panopteon.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/panopteon/panopteon_shiny.png"
+    }
+  ]
+}

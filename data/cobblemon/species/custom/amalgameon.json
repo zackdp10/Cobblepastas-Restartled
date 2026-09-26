@@ -91,28 +91,6 @@
     "egg:wish",
     "egg:yawn"
   ],
-  "evolutions": [
-    {
-      "id": "amalgameon_panopteon",
-      "variant": "item_interact",
-      "result": "panopteon",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "revelationdance"
-      ],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 50
-        },
-        {
-          "variant": "time_range",
-          "range": "night"
-        }
-      ],
-      "requiredContext": "cobblepastas:cycle_stone"
-    }
-  ],
   "abilities": [
     "colorchange",
     "protean",
@@ -121,5 +99,43 @@
   "pokedex": [
     "cobblemon.species.amalgameon.desc1",
     "cobblemon.species.amalgameon.desc2"
+  ],
+  "features": [
+    "mega_evolution"
+  ],
+  "forms": [
+    {
+      "name": "Mega",
+      "aspects": [
+        "mega"
+      ],
+      "primaryType": "normal",
+      "height": 27,
+      "weight": 2450,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.2,
+        "fixed": false
+      },
+      "baseStats": {
+        "hp": 120,
+        "attack": 85,
+        "defence": 115,
+        "special_attack": 155,
+        "special_defence": 120,
+        "speed": 80
+      },
+      "abilities": [
+        "amalgamshift"
+      ],
+      "labels": [
+        "custom",
+        "mega"
+      ],
+      "pokedex": [
+        "cobblemon.species.amalgameon-mega.desc1",
+        "cobblemon.species.amalgameon-mega.desc2"
+      ]
+    }
   ]
 }

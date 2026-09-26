@@ -84,6 +84,14 @@
 					}
 				},
 				{
+					"name": "locator_head",
+					"parent": "head",
+					"pivot": [-0.17559, 44.2, 0],
+					"locators": {
+						"head": [-0.17559, 44.2, 0]
+					}
+				},
+				{
 					"name": "left_arm",
 					"parent": "torso",
 					"pivot": [8.75, 30.5, 1.5],

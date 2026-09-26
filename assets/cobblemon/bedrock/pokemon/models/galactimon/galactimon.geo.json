@@ -50,6 +50,14 @@
 					}
 				},
 				{
+					"name": "locator_head",
+					"parent": "eye",
+					"pivot": [0, 28.25, -0.3],
+					"locators": {
+						"head": [0, 28.25, -0.3]
+					}
+				},
+				{
 					"name": "orb1",
 					"parent": "body",
 					"pivot": [-12, 31, -1.5],

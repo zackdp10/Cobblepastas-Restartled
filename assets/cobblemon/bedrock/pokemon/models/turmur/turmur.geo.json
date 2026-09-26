@@ -107,6 +107,14 @@
 					]
 				},
 				{
+					"name": "locator_head",
+					"parent": "head",
+					"pivot": [0, 30, 0],
+					"locators": {
+						"head": [0, 30, 0]
+					}
+				},
+				{
 					"name": "drip1",
 					"parent": "torso",
 					"pivot": [-1.5, 5.25, -1.75],

@@ -61,11 +61,8 @@
   "cobblemon.species.unownking.desc1": "A ferocious Pokémon said to remain dormant for centuries at a time. Its body shows no sign of life until hunger forces it to awaken.",
   "cobblemon.species.unownking.desc2": "Once awake, the Unown King hunts every living thing it encounters. It does not return to sleep until nothing nearby remains.",
   "cobblemon.species.badegg.name": "Bad Egg",
-  "cobblemon.species.badegg.desc1": "Checksum mismatch. Egg contents: M̷A̷N̷A̷P̷H̷Y̷",
-  "cobblemon.species.badegg.desc2": "Status: HUNGRY. MAMA? MAMA? MAMA?",
-  "cobblemon.species.classicbadegg.name": "Bad Egg",
-  "cobblemon.species.classicbadegg.desc1": "cobblemon.dex.entry not found.",
-  "cobblemon.species.classicbadegg.desc2": "ERROR: Pokémon data failed checksum validation. BAD EGG flag applied.",
+  "cobblemon.species.badegg.desc1": "ERROR: Pokémon data failed checksum validation. BAD EGG flag applied.",
+  "cobblemon.species.badegg.desc2": "Its contents remain unknown until it evolves.",
   "cobblemon.species.manafetus.name": "Manafetus",
   "cobblemon.species.manafetus.desc1": "It formed when a corrupted Manaphy Egg absorbed another Pokémon. Conflicting data now struggles to shape its body.",
   "cobblemon.species.manafetus.desc2": "It has been said that it calls its Trainer ‘Mama’ and constantly begs to be fed. Pokémon that disappear near it are replaced by Bad Eggs.",
@@ -151,5 +148,13 @@
   "cobblemon.species.feralisleep.desc2": "Though its eyes stay closed, it hunts by sensing ripples and heartbeats. Anyone sleeping nearby dreams of sinking into deep, lightless water.",
   "cobblemon.ability.donotwake": "Do Not Wake",
   "cobblemon.ability.donotwake.desc": "The first time it enters battle, it falls asleep and raises its Defence by one stage. It cannot activate again during that battle.",
-  "item.cobblepastas.glitched_item": "[][]"
+  "item.cobblepastas.glitched_item": "[][]",
+  "cobblemon.species.amalgameon-mega.name": "Mega Amalgameon",
+  "cobblemon.species.amalgameon-mega.desc1": "Mega Amalgameon’s central eye observes every path evolution could have taken. The bodies surrounding it are not separate creatures, but discarded possibilities pulled into a single form.",
+  "cobblemon.species.amalgameon-mega.desc2": "Trainers who meet its gaze remember lives they never lived and choices they never made.",
+  "cobblemon.ability.amalgamshift": "Amalgam Shift",
+  "cobblemon.ability.amalgamshift.desc": "After Mega Amalgameon finishes its move, changes to a random different single type.",
+  "cobblemon.pokedex.info.form.amalgameon": "Amalgameon",
+  "cobblemon.pokedex.info.form.amalgameon-mega": "Mega Amalgameon",
+  "cobblemon.battle.activate.amalgamshift": "Amalgam Shift changed its type!"
 }

@@ -81,6 +81,14 @@
 					"locators": {
 						"eye": [0, 8.9, 0]
 					}
+				},
+				{
+					"name": "locator_head",
+					"parent": "head",
+					"pivot": [0, 12.5, -4.5],
+					"locators": {
+						"head": [0, 12.5, -4.5]
+					}
 				}
 			]
 		}

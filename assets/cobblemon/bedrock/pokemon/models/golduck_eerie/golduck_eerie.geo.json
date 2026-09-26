@@ -2192,6 +2192,22 @@
               -2.26
             ]
           }
+        },
+        {
+          "name": "locator_head",
+          "parent": "head",
+          "pivot": [
+            0,
+            25,
+            0
+          ],
+          "locators": {
+            "head": [
+              0,
+              25,
+              0
+            ]
+          }
         }
       ]
     }

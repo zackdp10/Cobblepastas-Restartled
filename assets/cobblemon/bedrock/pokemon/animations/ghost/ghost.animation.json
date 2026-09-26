@@ -113,8 +113,14 @@
       },
       "particle_effects": {
         "0.0": [
-          { "effect": "dread_smoke", "locator": "gas" },
-          { "effect": "dread_smoke", "locator": "gas" }
+          {
+            "effect": "dread_smoke",
+            "locator": "gas"
+          },
+          {
+            "effect": "dread_smoke",
+            "locator": "gas"
+          }
         ]
       }
     },
@@ -235,8 +241,14 @@
       },
       "particle_effects": {
         "0.0": [
-          { "effect": "dread_smoke", "locator": "gas" },
-          { "effect": "dread_smoke", "locator": "gas" }
+          {
+            "effect": "dread_smoke",
+            "locator": "gas"
+          },
+          {
+            "effect": "dread_smoke",
+            "locator": "gas"
+          }
         ]
       }
     },
@@ -352,8 +364,14 @@
       },
       "particle_effects": {
         "0.0": [
-          { "effect": "dread_smoke", "locator": "gas" },
-          { "effect": "dread_smoke", "locator": "gas" }
+          {
+            "effect": "dread_smoke",
+            "locator": "gas"
+          },
+          {
+            "effect": "dread_smoke",
+            "locator": "gas"
+          }
         ]
       }
     },
@@ -474,28 +492,15 @@
       },
       "particle_effects": {
         "0.0": [
-          { "effect": "dread_smoke", "locator": "gas" },
-          { "effect": "dread_smoke", "locator": "gas" }
-        ]
-      }
-    },
-    "animation.ghost.faint": {
-      "animation_length": 2,
-      "bones": {
-        "ghost": {
-          "scale": {
-            "0.0": [
-              1,
-              1,
-              1
-            ],
-            "0.125": [
-              0,
-              0,
-              1
-            ]
+          {
+            "effect": "dread_smoke",
+            "locator": "gas"
+          },
+          {
+            "effect": "dread_smoke",
+            "locator": "gas"
           }
-        }
+        ]
       }
     },
     "animation.ghost.cry": {

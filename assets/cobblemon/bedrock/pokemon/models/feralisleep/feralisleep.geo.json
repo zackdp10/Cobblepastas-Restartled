@@ -6,7 +6,7 @@
 				"identifier": "geometry.feralisleep",
 				"texture_width": 128,
 				"texture_height": 128,
-				"visible_bounds_width": 5,
+				"visible_bounds_width": 6,
 				"visible_bounds_height": 4.5,
 				"visible_bounds_offset": [0, 1.75, 0]
 			},
@@ -116,9 +116,9 @@
 				{
 					"name": "locator_head",
 					"parent": "head",
-					"pivot": [0, 42.75, 8],
+					"pivot": [0, 41, 10.5],
 					"locators": {
-						"head": [0, 42.75, 8]
+						"head": [0, 41, 10.5]
 					}
 				},
 				{

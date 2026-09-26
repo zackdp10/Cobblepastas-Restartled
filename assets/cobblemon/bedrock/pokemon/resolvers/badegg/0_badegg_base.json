@@ -7,6 +7,13 @@
       "poser": "cobblemon:badegg",
       "model": "cobblemon:badegg.geo",
       "texture": "cobblemon:textures/pokemon/badegg/badegg.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/badegg/badegg_shiny.png",
       "layers": [
         {
           "name": "emissive",
@@ -18,24 +25,6 @@
           "name": "transparent",
           "emissive": false,
           "texture": "cobblemon:textures/pokemon/badegg/badegg_transparency.png",
-          "translucent": true
-        }
-      ]
-    },
-    {
-      "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/badegg/badegg_shiny.png",
-      "layers": [
-        {
-          "name": "emissive",
-          "emissive": true,
-          "texture": "cobblemon:textures/pokemon/badegg/badegg_shiny_emissive.png",
-          "translucent": true
-        },
-        {
-          "name": "transparent",
-          "emissive": false,
-          "texture": "cobblemon:textures/pokemon/badegg/badegg_shiny_transparency.png",
           "translucent": true
         }
       ]

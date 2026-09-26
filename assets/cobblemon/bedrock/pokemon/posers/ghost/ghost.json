@@ -1,6 +1,5 @@
 {
   "animations": {
-    "faint": "q.bedrock_primary('ghost', 'faint', q.curve('one'))",
     "cry": "q.bedrock_stateful('ghost', 'cry')"
   },
   "portraitScale": 2,

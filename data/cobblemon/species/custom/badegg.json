@@ -23,7 +23,7 @@
     "moving": {
       "canLook": false,
       "walk": {
-        "canWalk": false,
+        "canWalk": true,
         "avoidsLand": false
       },
       "swim": {
@@ -57,17 +57,31 @@
   ],
   "evolutions": [
     {
-      "id": "badegg_manafetus",
+      "id": "badegg_missingno",
       "variant": "level_up",
+      "result": "missingno",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "blocks_traveled",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "id": "badegg_manafetus",
+      "variant": "item_interact",
       "result": "manafetus",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": 20
         }
-      ]
+      ],
+      "requiredContext": "cobblepastas:mist_stone"
     }
   ],
   "baseScale": 1.0,

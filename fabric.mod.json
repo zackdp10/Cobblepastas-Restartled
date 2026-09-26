@@ -12,7 +12,8 @@
   "entrypoints": {
     "main": [
       "com.pineapple.cobblepastas.CobblepastasMod",
-      "com.pineapple.cobblepastas.CobblepastasExistingGroup"
+      "com.pineapple.cobblepastas.CobblepastasExistingGroup",
+      "com.pineapple.cobblepastas.AmalgamniteRegistration"
     ]
   },
   "icon": "pack.png",
@@ -20,6 +21,7 @@
     "fabricloader": ">=0.16.0",
     "fabric-api": ">=0.116.6+1.21.1",
     "minecraft": "~1.21.1",
-    "cobblemon": ">=1.8.1"
+    "cobblemon": ">=1.8.1",
+    "mega_showdown": ">=1.2.0"
   }
 }

@@ -582,6 +582,14 @@
 					]
 				},
 				{
+					"name": "locator_head",
+					"parent": "head",
+					"pivot": [0, 34.15, -1],
+					"locators": {
+						"head": [0, 34.15, -1]
+					}
+				},
+				{
 					"name": "legs",
 					"parent": "body",
 					"pivot": [0, 17, 0]
