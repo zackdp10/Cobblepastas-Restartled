@@ -1,0 +1,12 @@
+{
+  "bleed_drip": {
+    "sounds": [
+      {"name": "cobblepastas:status/bleed", "volume": 0.6}
+    ]
+  },
+  "hemorrhage_drip": {
+    "sounds": [
+      {"name": "cobblepastas:status/hemorrhage", "volume": 0.6}
+    ]
+  }
+}

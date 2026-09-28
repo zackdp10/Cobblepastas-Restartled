@@ -1,0 +1,13 @@
+{
+  "name": "bleed",
+  "id": "bld",
+  "applyMsg": "cobblemon.status.bleed.apply",
+  "removeMsg": "cobblemon.status.bleed.remove",
+  "minDur": 180,
+  "maxDur": 300,
+  "damageStatusData": {
+    "chance": 15,
+    "damagePercent": 0.0625,
+    "healingAbility": ""
+  }
+}

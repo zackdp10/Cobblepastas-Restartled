@@ -54,6 +54,7 @@
     "entries": []
   },
   "moves": [
+    "1:cruelstrike",
     "1:pound",
     "1:bind",
     "8:suckerpunch",
@@ -66,11 +67,15 @@
     "33:amnesia",
     "40:drainpunch",
     "40:bulletpunch",
+    "44:openwound",
     "45:megapunch",
     "50:destinybond",
     "53:trickroom",
     "55:wonderroom",
-    "36:visegrip"
+    "36:visegrip",
+    "tm:openwound",
+    "tm:tearopen",
+    "tm:serratedstrike"
   ],
   "labels": [
     "custom"

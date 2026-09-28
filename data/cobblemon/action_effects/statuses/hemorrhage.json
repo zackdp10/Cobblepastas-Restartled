@@ -1,0 +1,1 @@
+{"timeline":[{"holds":["effects"],"type":"add_holds"},{"effect":"cobblepastas:hemorrhage_drip","locators":["middle"],"type":"entity_particles"},{"expressions":["q.sound('cobblepastas:hemorrhage_drip', 1.0, 1.0);"],"type":"entity_molang"},{"holds":["effects"],"type":"remove_holds"},{"pause":0.6,"type":"pause"}]}

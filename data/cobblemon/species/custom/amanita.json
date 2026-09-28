@@ -47,6 +47,7 @@
     "grass"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:acid",
     "1:crosspoison",
     "1:leechlife",
@@ -56,11 +57,14 @@
     "17:furycutter",
     "22:honeclaws",
     "29:slash",
+    "32:bloodsiphon",
     "37:venomdrench",
     "44:venoshock",
     "51:corrosivegas",
     "59:ragepowder",
-    "66:xscissor"
+    "66:xscissor",
+    "tm:openwound",
+    "tm:serratedstrike"
   ],
   "labels": [
     "custom"

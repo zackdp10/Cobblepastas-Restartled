@@ -56,6 +56,7 @@
     ]
   },
   "moves": [
+    "1:cruelstrike",
     "1:nightmare",
     "1:confusion",
     "1:nightshade",
@@ -68,6 +69,7 @@
     "1:storedpower",
     "9:hypnosis",
     "12:hex",
+    "30:rupture",
     "15:teleport",
     "18:psybeam",
     "23:destinybond",
@@ -209,7 +211,8 @@
     "tutor:trick",
     "tutor:tripleaxel",
     "tutor:wonderroom",
-    "tutor:zenheadbutt"
+    "tutor:zenheadbutt",
+    "tm:tearopen"
   ],
   "labels": [
     "custom"

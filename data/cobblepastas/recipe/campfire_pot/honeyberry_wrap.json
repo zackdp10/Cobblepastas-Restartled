@@ -1,0 +1,15 @@
+{
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:paper" },
+    { "item": "minecraft:honey_bottle" },
+    { "tag": "cobblemon:berries" },
+    { "item": "minecraft:string" }
+  ],
+  "result": {
+    "id": "cobblepastas:honeyberry_wrap"
+  },
+  "seasoningProcessors": [],
+  "seasoningTag": "cobblemon:empty",
+  "type": "cobblemon:cooking_pot_shapeless"
+}

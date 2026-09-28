@@ -85,6 +85,7 @@
   ],
   "maleRatio": 0.875,
   "moves": [
+    "1:cruelstrike",
     "1:scratch",
     "1:leer",
     "1:watergun",
@@ -97,6 +98,7 @@
     "24:flail",
     "32:crunch",
     "37:slash",
+    "40:crimsoncurrent",
     "44:screech",
     "51:thrash",
     "59:aquatail",
@@ -254,7 +256,9 @@
     "legacy:snore",
     "legacy:swagger",
     "legacy:toxic",
-    "special:hydrocannon"
+    "special:hydrocannon",
+    "tm:tearopen",
+    "tm:serratedstrike"
   ],
   "name": "Feralisleep",
   "nationalPokedexNumber": 31,

@@ -66,6 +66,7 @@
     ]
   },
   "moves": [
+    "1:cruelstrike",
     "1:curse",
     "1:growl",
     "1:leer",
@@ -77,12 +78,15 @@
     "25:shadowbone",
     "29:shadowsneak",
     "33:nightshade",
-    "37:hex",
+    "37:rupture",
     "41:willowisp",
     "45:poltergeist",
     "49:grudge",
     "53:phantomforce",
-    "57:destinybond"
+    "57:destinybond",
+    "tm:openwound",
+    "tm:tearopen",
+    "tm:serratedstrike"
   ],
   "labels": [
     "custom"

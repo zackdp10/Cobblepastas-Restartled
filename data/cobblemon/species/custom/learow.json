@@ -49,6 +49,7 @@
     "flying"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:astonish",
     "1:haze",
     "5:peck",

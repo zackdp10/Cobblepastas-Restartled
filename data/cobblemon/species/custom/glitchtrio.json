@@ -91,6 +91,7 @@
   ],
   "maleRatio": 0.5,
   "moves": [
+    "1:cruelstrike",
     "1:nightslash",
     "1:triattack",
     "1:scratch",

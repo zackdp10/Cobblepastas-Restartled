@@ -43,9 +43,11 @@
     "undiscovered"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:poisonfang",
     "11:confuseray",
     "21:bite",
+    "26:bloodsiphon",
     "30:takedown",
     "45:doubleedge",
     "tm:cut",
@@ -55,7 +57,10 @@
     "tm:flash",
     "tm:rocksmash",
     "tm:waterfall",
-    "tm:dive"
+    "tm:dive",
+    "tm:openwound",
+    "tm:tearopen",
+    "tm:serratedstrike"
   ],
   "labels": [
     "custom"

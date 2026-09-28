@@ -13,7 +13,8 @@
     "main": [
       "com.pineapple.cobblepastas.CobblepastasMod",
       "com.pineapple.cobblepastas.CobblepastasExistingGroup",
-      "com.pineapple.cobblepastas.AmalgamniteRegistration"
+      "com.pineapple.cobblepastas.AmalgamniteRegistration",
+      "com.pineapple.cobblepastas.HoneyberryWrapRegistration"
     ]
   },
   "icon": "pack.png",

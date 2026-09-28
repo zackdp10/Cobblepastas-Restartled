@@ -53,6 +53,7 @@
     "undiscovered"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:astonish",
     "1:tackle",
     "6:growl",
@@ -66,10 +67,13 @@
     "54:swagger",
     "60:crunch",
     "66:uproar",
-    "72:leechlife",
+    "72:bloodsiphon",
     "78:destinybond",
     "84:shadowclaw",
-    "90:hyperfang"
+    "90:hyperfang",
+    "tm:openwound",
+    "tm:tearopen",
+    "tm:serratedstrike"
   ],
   "labels": [
     "custom"

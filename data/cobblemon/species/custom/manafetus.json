@@ -46,6 +46,7 @@
     "undiscovered"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:splash",
     "1:bubble",
     "1:tailglow",
@@ -58,6 +59,7 @@
     "46:signalbeam",
     "54:silktrap",
     "61:lunge",
+    "65:bloodsiphon",
     "69:stickyweb",
     "76:heartswap",
     "76:takeheart"

@@ -44,6 +44,7 @@
     "monster"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:sing",
     "1:pound",
     "1:struggle",
@@ -66,7 +67,9 @@
     "49:hypervoice",
     "52:torment",
     "56:foulplay",
-    "60:doubleedge"
+    "60:doubleedge",
+    "tm:openwound",
+    "tm:tearopen"
   ],
   "labels": [
     "custom"

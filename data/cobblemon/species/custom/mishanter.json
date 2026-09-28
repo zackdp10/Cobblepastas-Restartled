@@ -44,6 +44,7 @@
     "undiscovered"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:tackle",
     "1:gravity",
     "5:taunt",
@@ -62,7 +63,9 @@
     "70:megahorn",
     "75:focusblast",
     "80:outrage",
-    "85:hyperbeam"
+    "85:hyperbeam",
+    "tm:tearopen",
+    "tm:serratedstrike"
   ],
   "labels": [
     "custom",

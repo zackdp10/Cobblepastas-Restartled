@@ -46,6 +46,7 @@
     "water_1"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:pound",
     "1:watergun",
     "1:hypnosis",
@@ -54,6 +55,7 @@
     "10:mindreader",
     "14:bubblebeam",
     "18:hex",
+    "32:rupture",
     "22:raindance",
     "26:bodyslam",
     "30:bittermalice",

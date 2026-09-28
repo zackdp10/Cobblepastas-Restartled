@@ -87,6 +87,7 @@
   ],
   "maleRatio": 0.875,
   "moves": [
+    "1:cruelstrike",
     "1:abyss",
     "1:flashcannon",
     "1:tackle",
@@ -105,7 +106,7 @@
     "42:irondefense",
     "49:hydropump",
     "56:wavecrash",
-    "egg:aquajet",
+    "egg:crimsoncurrent",
     "egg:aquaring",
     "egg:fakeout",
     "egg:flail",
@@ -249,7 +250,8 @@
     "special:block",
     "special:celebrate",
     "special:followme",
-    "special:hydrocannon"
+    "special:hydrocannon",
+    "tm:serratedstrike"
   ],
   "name": "Ruin",
   "nationalPokedexNumber": 29,

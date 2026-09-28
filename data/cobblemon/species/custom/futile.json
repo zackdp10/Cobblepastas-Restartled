@@ -46,6 +46,7 @@
     "human_like"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:confusion",
     "1:disable",
     "1:kinesis",

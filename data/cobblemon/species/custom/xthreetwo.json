@@ -47,6 +47,7 @@
     "undiscovered"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:hyperbeam",
     "1:metalclaw",
     "5:thundershock",
@@ -58,6 +59,7 @@
     "24:screech",
     "28:flashcannon",
     "32:shiftgear",
+    "36:openwound",
     "37:supercellslam",
     "42:wildcharge",
     "47:zapcannon",
@@ -98,7 +100,9 @@
     "tm:thief",
     "tm:strength",
     "tm:flash",
-    "tm:rocksmash"
+    "tm:rocksmash",
+    "tm:openwound",
+    "tm:serratedstrike"
   ],
   "labels": [
     "custom"

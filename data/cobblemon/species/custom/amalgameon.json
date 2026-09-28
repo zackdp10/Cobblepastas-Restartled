@@ -37,6 +37,7 @@
   },
   "shoulderMountable": false,
   "moves": [
+    "1:cruelstrike",
     "1:tackle",
     "1:tailwhip",
     "1:helpinghand",
@@ -49,10 +50,12 @@
     "30:icywind",
     "30:magicalleaf",
     "30:waterpulse",
+    "30:crimsoncurrent",
     "35:firefang",
     "35:thunderfang",
     "40:psybeam",
     "40:darkpulse",
+    "40:rupture",
     "45:discharge",
     "45:lavaplume",
     "50:moonblast",
@@ -89,7 +92,8 @@
     "egg:flail",
     "egg:tickle",
     "egg:wish",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:tearopen"
   ],
   "abilities": [
     "colorchange",

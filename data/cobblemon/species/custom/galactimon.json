@@ -44,6 +44,7 @@
     "mineral"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:harden",
     "1:tackle",
     "1:confusion",

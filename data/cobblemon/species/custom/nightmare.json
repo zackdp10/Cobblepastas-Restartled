@@ -44,6 +44,7 @@
     "amorphous"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:confuseray",
     "1:hypnosis",
     "1:lick",
@@ -56,6 +57,7 @@
     "20:curse",
     "24:shadowclaw",
     "30:shadowball",
+    "33:rupture",
     "36:darkpulse",
     "42:suckerpunch",
     "48:phantomforce",
@@ -239,7 +241,9 @@
     "tutor:uproar",
     "tutor:willowisp",
     "tutor:wonderroom",
-    "tutor:zapcannon"
+    "tutor:zapcannon",
+    "tm:openwound",
+    "tm:tearopen"
   ],
   "labels": [
     "custom"

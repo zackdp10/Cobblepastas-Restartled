@@ -43,9 +43,11 @@
     "undiscovered"
   ],
   "moves": [
+    "1:cruelstrike",
     "1:surf",
     "10:scaryface",
     "15:leechlife",
+    "33:bloodsiphon",
     "20:acid",
     "25:perishsong",
     "30:meanlook",
@@ -99,7 +101,8 @@
     "tm:flash",
     "tm:rocksmash",
     "tm:waterfall",
-    "tm:dive"
+    "tm:dive",
+    "tm:tearopen"
   ],
   "labels": [
     "custom"
