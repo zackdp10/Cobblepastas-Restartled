@@ -4,10 +4,5 @@
   "applyMsg": "cobblemon.status.hemorrhage.apply",
   "removeMsg": "cobblemon.status.hemorrhage.remove",
   "minDur": 180,
-  "maxDur": 300,
-  "damageStatusData": {
-    "chance": 15,
-    "damagePercent": 0.08333333333333333,
-    "healingAbility": ""
-  }
+  "maxDur": 300
 }
