@@ -1,4 +1,7 @@
 {
   "item.cobblepastas.amalgamnite": "Amalgamnite",
-  "tooltip.cobblepastas.amalgamnite.tooltip": "§7Allows Amalgameon to Mega Evolve into Mega Amalgameon"
+  "tooltip.cobblepastas.amalgamnite.tooltip": "\u00a77Allows Amalgameon to Mega Evolve into Mega Amalgameon",
+  "item.cobblepastas.blood_orb": "Blood Orb",
+  "item.cobblepastas.blood_orb.tooltip": "Makes the holder bleed.",
+  "item.cobblepastas.blood_orb.tooltip.1": "It pulses in a way that feels wrong."
 }

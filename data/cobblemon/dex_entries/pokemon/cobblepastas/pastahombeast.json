@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pastahombeast",
+  "speciesId": "cobblemon:pastahombeast",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

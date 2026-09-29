@@ -80,7 +80,8 @@
       "result": "millenium",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "abyss"
+        "abyss",
+        "crimsoncurrent"
       ],
       "requirements": [],
       "requiredContext": "cobblepastas:mist_stone"

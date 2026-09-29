@@ -1,0 +1,120 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pastahombone-hombeast-beach-herd",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "rare",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "canSeeSky": true
+      },
+      "spawnablePositionType": "grounded",
+      "levelRange": "20-50",
+      "maxHerdSize": 3,
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "40-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "pastahombeast alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "20-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "pokemon": "pastahombone alpha=false",
+          "weight": 12
+        }
+      ]
+    },
+    {
+      "id": "pastahombone-hombeast-cave-herd",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "rare",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "spawnablePositionType": "grounded",
+      "levelRange": "20-50",
+      "maxHerdSize": 3,
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "40-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "pastahombeast alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "20-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "pokemon": "pastahombone alpha=false",
+          "weight": 12
+        }
+      ]
+    },
+    {
+      "id": "pastahombone-hombeast-mountain-herd",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "rare",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "canSeeSky": true
+      },
+      "spawnablePositionType": "grounded",
+      "levelRange": "20-50",
+      "maxHerdSize": 3,
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "40-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "pastahombeast alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "20-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "pokemon": "pastahombone alpha=false",
+          "weight": 12
+        }
+      ]
+    }
+  ]
+}

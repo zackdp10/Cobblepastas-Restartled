@@ -1,0 +1,70 @@
+{
+  "portraitScale": 1.1,
+  "portraitTranslation": [
+    0,
+    -0.04,
+    0
+  ],
+  "profileScale": 0.6,
+  "profileTranslation": [
+    0,
+    0.5,
+    0
+  ],
+  "rootBone": "pastahombeast",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('pastahombeast', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pastahombeast', 'quirk_blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('pastahombeast', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pastahombeast', 'quirk_blink')"
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('pastahombeast', 'sleep')"
+      ]
+    },
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": [
+        "STAND"
+      ],
+      "transformTicks": 5,
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('pastahombeast', 'battle_idle')"
+      ]
+    }
+  },
+  "animations": {
+    "recoil": "q.bedrock_stateful('pastahombeast', 'recoil')"
+  }
+}

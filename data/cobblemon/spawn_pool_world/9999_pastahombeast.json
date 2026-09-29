@@ -1,0 +1,61 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pastahombeast-beach",
+      "pokemon": "pastahombeast alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "40-50",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "canSeeSky": true
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "pastahombeast-cave",
+      "pokemon": "pastahombeast alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "40-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "pastahombeast-mountain",
+      "pokemon": "pastahombeast alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "40-50",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "canSeeSky": true
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

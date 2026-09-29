@@ -1,0 +1,113 @@
+{
+  "implemented": true,
+  "name": "pastahombeast",
+  "nationalPokedexNumber": 33,
+  "primaryType": "rock",
+  "secondaryType": "ground",
+  "abilities": [
+    "hypercutter",
+    "intimidate"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 100,
+    "defence": 130,
+    "special_attack": 30,
+    "special_defence": 84,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 210,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:cruelstrike",
+    "1:bide",
+    "1:dragonclaw",
+    "14:visegrip",
+    "20:feintattack",
+    "20:rockblast",
+    "27:crushclaw",
+    "32:guillotine",
+    "41:crabhammer",
+    "52:fissure",
+    "80:beatup",
+    "legacy:hiddenpower",
+    "tm:dragonclaw",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:strength",
+    "tm:rocksmash",
+    "tm:roar",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:sludgebomb",
+    "tm:overheat",
+    "tm:beatup",
+    "tm:tearopen",
+    "tm:serratedstrike",
+    "tm:openwound"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.pastahombeast.desc1",
+    "cobblemon.species.pastahombeast.desc2"
+  ],
+  "baseScale": 1.25,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.9,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 2200,
+  "aspects": [],
+  "preEvolution": "pastahombone"
+}

@@ -247,5 +247,21 @@
         "volume": 0.8
       }
     ]
+  },
+  "pokemon.pastahombone.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/pastahombone/pastahombone_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.pastahombeast.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/pastahombeast/pastahombeast_cry",
+        "volume": 0.8
+      }
+    ]
   }
 }

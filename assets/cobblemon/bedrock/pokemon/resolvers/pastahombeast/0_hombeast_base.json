@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pastahombeast",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pastahombeast",
+      "model": "cobblemon:pastahombeast.geo",
+      "texture": "cobblemon:textures/pokemon/pastahombeast/pastahombeast.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/pastahombeast/pastahombeast_shiny.png"
+    }
+  ]
+}

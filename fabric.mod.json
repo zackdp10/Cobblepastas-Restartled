@@ -14,7 +14,9 @@
       "com.pineapple.cobblepastas.CobblepastasMod",
       "com.pineapple.cobblepastas.CobblepastasExistingGroup",
       "com.pineapple.cobblepastas.AmalgamniteRegistration",
-      "com.pineapple.cobblepastas.HoneyberryWrapRegistration"
+      "com.pineapple.cobblepastas.HoneyberryWrapRegistration",
+      "com.pineapple.cobblepastas.BloodOrbRegistration",
+      "com.pineapple.cobblepastas.BloodOrbHeldItemRemap"
     ]
   },
   "icon": "pack.png",
