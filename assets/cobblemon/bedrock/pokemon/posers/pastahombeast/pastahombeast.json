@@ -65,6 +65,7 @@
     }
   },
   "animations": {
-    "recoil": "q.bedrock_stateful('pastahombeast', 'recoil')"
+    "recoil": "q.bedrock_stateful('pastahombeast', 'recoil')",
+    "cry": "q.bedrock_stateful('pastahombeast', 'cry')"
   }
 }

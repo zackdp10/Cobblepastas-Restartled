@@ -104,5 +104,18 @@
       "preEvolution": "eevee",
       "evolutions": []
     }
+  ],
+  "evolutions": [
+    {
+      "id": "umbreon_hemogeone",
+      "variant": "item_interact",
+      "result": "hemogeone",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "bloodyspray"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblepastas:blood_orb"
+    }
   ]
 }

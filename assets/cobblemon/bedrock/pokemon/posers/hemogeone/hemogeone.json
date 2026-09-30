@@ -1,0 +1,65 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('hemogeone', 'cry')",
+    "faint": "q.bedrock_primary('hemogeone', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('hemogeone', 'recoil')"
+  },
+  "portraitScale": 2.18,
+  "portraitTranslation": [
+    -0.71,
+    0.13,
+    0
+  ],
+  "poses": {
+    "standing": {
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('hemogeone', 'ground_idle')"
+      ],
+      "isBattle": false,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hemogeone', 'quirk_blink')"
+      ]
+    },
+    "walking": {
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('hemogeone', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hemogeone', 'quirk_blink')"
+      ]
+    },
+    "battle-standing": {
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('hemogeone', 'ground_idle')"
+      ],
+      "isBattle": true,
+      "poseTypes": [
+        "STAND"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hemogeone', 'quirk_blink')"
+      ]
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [
+    0,
+    0.55,
+    0
+  ],
+  "rootBone": "hemogeone"
+}

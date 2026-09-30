@@ -263,5 +263,13 @@
         "volume": 0.8
       }
     ]
+  },
+  "pokemon.hemogeone.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/hemogeone/hemogeone_cry",
+        "volume": 0.8
+      }
+    ]
   }
 }
