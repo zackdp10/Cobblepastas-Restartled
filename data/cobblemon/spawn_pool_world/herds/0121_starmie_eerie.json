@@ -1,0 +1,244 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "id": "starmie-1-eerie-herd",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 0.9,
+      "levelRange": "29-52",
+      "maxHerdSize": 4,
+      "herdablePokemon": [
+        {
+          "pokemon": "starmie eerie=true alpha=false",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "weight": 0.9,
+          "levelRange": "29-52"
+        },
+        {
+          "pokemon": "starmie eerie=true alpha=true",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "weight": 0.1,
+          "levelRange": "29-52"
+        },
+        {
+          "pokemon": "staryu eerie=true alpha=false",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 3,
+          "weight": 0.9,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3"
+        },
+        {
+          "pokemon": "staryu eerie=true alpha=true",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 3,
+          "weight": 0.1,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3"
+        }
+      ]
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": true
+      },
+      "id": "starmie-2-eerie-herd",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon-herd",
+      "weight": 0.54,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      },
+      "levelRange": "29-52",
+      "maxHerdSize": 4,
+      "herdablePokemon": [
+        {
+          "pokemon": "starmie eerie=true alpha=false",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "weight": 0.9,
+          "levelRange": "29-52"
+        },
+        {
+          "pokemon": "starmie eerie=true alpha=true",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "weight": 0.1,
+          "levelRange": "29-52"
+        },
+        {
+          "pokemon": "staryu eerie=true alpha=false",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 3,
+          "weight": 0.9,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3"
+        },
+        {
+          "pokemon": "staryu eerie=true alpha=true",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 3,
+          "weight": 0.1,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3"
+        }
+      ]
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "starmie-5-eerie-herd",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon-herd",
+      "weight": 0.54,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      },
+      "levelRange": "29-52",
+      "maxHerdSize": 4,
+      "herdablePokemon": [
+        {
+          "pokemon": "starmie eerie=true alpha=false",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "weight": 0.9,
+          "levelRange": "29-52"
+        },
+        {
+          "pokemon": "starmie eerie=true alpha=true",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "weight": 0.1,
+          "levelRange": "29-52"
+        },
+        {
+          "pokemon": "staryu eerie=true alpha=false",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 3,
+          "weight": 0.9,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3"
+        },
+        {
+          "pokemon": "staryu eerie=true alpha=true",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 3,
+          "weight": 0.1,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3"
+        }
+      ]
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "id": "starmie-8-eerie-herd",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon-herd",
+      "weight": 0.54,
+      "levelRange": "29-52",
+      "maxHerdSize": 4,
+      "herdablePokemon": [
+        {
+          "pokemon": "starmie eerie=true alpha=false",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "weight": 0.9,
+          "levelRange": "29-52"
+        },
+        {
+          "pokemon": "starmie eerie=true alpha=true",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "weight": 0.1,
+          "levelRange": "29-52"
+        },
+        {
+          "pokemon": "staryu eerie=true alpha=false",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 3,
+          "weight": 0.9,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3"
+        },
+        {
+          "pokemon": "staryu eerie=true alpha=true",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 3,
+          "weight": 0.1,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3"
+        }
+      ]
+    }
+  ]
+}

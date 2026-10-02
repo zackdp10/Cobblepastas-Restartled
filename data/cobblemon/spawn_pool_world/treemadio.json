@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "treemadio-1",
+      "pokemon": "madio madioform=treemadio alpha=false",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.8,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "treemadio-1-alpha",
+      "pokemon": "madio madioform=treemadio alpha=true",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 1.2,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural"
+      ]
+    }
+  ]
+}

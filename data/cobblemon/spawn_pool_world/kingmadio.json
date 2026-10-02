@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kingmadio-1",
+      "pokemon": "kingmadio alpha=false",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "spawnablePositionType": "grounded",
+      "weight": 10.8,
+      "level": "40-60",
+      "condition": {
+        "biomes": [
+          "minecraft:mushroom_fields"
+        ],
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "kingmadio-1-alpha",
+      "pokemon": "kingmadio alpha=true",
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "spawnablePositionType": "grounded",
+      "weight": 1.2,
+      "level": "40-60",
+      "condition": {
+        "biomes": [
+          "minecraft:mushroom_fields"
+        ],
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural"
+      ]
+    }
+  ]
+}

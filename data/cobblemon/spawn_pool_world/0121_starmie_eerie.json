@@ -1,0 +1,533 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "id": "starmie-1-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 5.4
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "id": "starmie-1-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 0.6
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": true
+      },
+      "id": "starmie-2-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon",
+      "weight": 3.24,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": true
+      },
+      "id": "starmie-2-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon",
+      "weight": 0.36,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    },
+    {
+      "anticondition": {
+        "minLureLevel": 1
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_tropical_island"
+        ],
+        "canSeeSky": true
+      },
+      "id": "starmie-3-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 3.24,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    },
+    {
+      "anticondition": {
+        "minLureLevel": 1
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_tropical_island"
+        ],
+        "canSeeSky": true
+      },
+      "id": "starmie-3-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 0.36,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_tropical_island"
+        ],
+        "canSeeSky": true,
+        "minLureLevel": 1
+      },
+      "id": "starmie-4-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 1.08,
+      "weightMultipliers": [
+        {
+          "condition": {
+            "timeRange": "night"
+          },
+          "multiplier": 1.5
+        },
+        {
+          "condition": {
+            "minLureLevel": 3
+          },
+          "multiplier": 3.0
+        }
+      ]
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_tropical_island"
+        ],
+        "canSeeSky": true,
+        "minLureLevel": 1
+      },
+      "id": "starmie-4-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 0.12,
+      "weightMultipliers": [
+        {
+          "condition": {
+            "timeRange": "night"
+          },
+          "multiplier": 1.5
+        },
+        {
+          "condition": {
+            "minLureLevel": 3
+          },
+          "multiplier": 3.0
+        }
+      ]
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "starmie-5-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon",
+      "weight": 3.24,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "starmie-5-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon",
+      "weight": 0.36,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    },
+    {
+      "anticondition": {
+        "minLureLevel": 1
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_tropical_island"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "starmie-6-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 3.24,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    },
+    {
+      "anticondition": {
+        "minLureLevel": 1
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_tropical_island"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "starmie-6-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 0.36,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_tropical_island"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minLureLevel": 1,
+        "minSkyLight": 8
+      },
+      "id": "starmie-7-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 1.08,
+      "weightMultipliers": [
+        {
+          "condition": {
+            "timeRange": "night"
+          },
+          "multiplier": 1.5
+        },
+        {
+          "condition": {
+            "minLureLevel": 3
+          },
+          "multiplier": 3.0
+        }
+      ]
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_tropical_island"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minLureLevel": 1,
+        "minSkyLight": 8
+      },
+      "id": "starmie-7-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 0.12,
+      "weightMultipliers": [
+        {
+          "condition": {
+            "timeRange": "night"
+          },
+          "multiplier": 1.5
+        },
+        {
+          "condition": {
+            "minLureLevel": 3
+          },
+          "multiplier": 3.0
+        }
+      ]
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "id": "starmie-8-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon",
+      "weight": 3.24
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "id": "starmie-8-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon",
+      "weight": 0.36
+    },
+    {
+      "anticondition": {
+        "minLureLevel": 1
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "id": "starmie-9-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 3.24
+    },
+    {
+      "anticondition": {
+        "minLureLevel": 1
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "id": "starmie-9-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 0.36
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minLureLevel": 1,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "id": "starmie-10-eerie",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=false",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 1.08,
+      "weightMultiplier": {
+        "condition": {
+          "minLureLevel": 3
+        },
+        "multiplier": 3.0
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minLureLevel": 1,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "id": "starmie-10-eerie-alpha",
+      "level": "29-52",
+      "pokemon": "starmie eerie=true alpha=true",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 0.12,
+      "weightMultiplier": {
+        "condition": {
+          "minLureLevel": 3
+        },
+        "multiplier": 3.0
+      }
+    }
+  ]
+}

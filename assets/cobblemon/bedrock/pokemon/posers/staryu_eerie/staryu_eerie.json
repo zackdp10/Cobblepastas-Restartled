@@ -1,0 +1,145 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('staryu_eerie', 'cry')",
+    "physical": "q.bedrock_primary('staryu_eerie', 'physical', q.curve('symmetrical'))"
+  },
+  "portraitScale": 2.02,
+  "portraitTranslation": [
+    -0.09,
+    -1,
+    0.0
+  ],
+  "poses": {
+    "float": {
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.look('body')",
+        "q.bedrock('staryu_eerie', 'water_idle')"
+      ],
+      "isTouchingWater": true,
+      "poseTypes": [
+        "STAND",
+        "FLOAT"
+      ],
+      "isUnderWater": true,
+      "quirks": [
+        "q.bedrock_quirk('staryu_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "run": {
+      "animations": [
+        "q.bedrock('staryu_eerie', 'ground_run')"
+      ],
+      "condition": "q.is_sprinting",
+      "isTouchingWater": false,
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('staryu_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "sleep": {
+      "animations": [
+        "q.bedrock('staryu_eerie', 'sleep')"
+      ],
+      "isTouchingWater": false,
+      "poseTypes": [
+        "SLEEP"
+      ]
+    },
+    "standing": {
+      "animations": [
+        "q.look('body', 0, 1)",
+        "q.bedrock('staryu_eerie', 'ground_idle')"
+      ],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('staryu_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "swim": {
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.bedrock('staryu_eerie', 'water_swim')"
+      ],
+      "isTouchingWater": true,
+      "poseTypes": [
+        "SWIM"
+      ],
+      "isUnderWater": true,
+      "quirks": [
+        "q.bedrock_quirk('staryu_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "walking": {
+      "animations": [
+        "q.bedrock('staryu_eerie', 'ground_walk')"
+      ],
+      "isTouchingWater": false,
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('staryu_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "battle_standing": {
+      "animations": [
+        "q.look('body', 0, 1)",
+        "q.bedrock('staryu_eerie', 'ground_idle')"
+      ],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('staryu_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "surface_idle": {
+      "animations": [
+        "q.bedrock('staryu_eerie', 'surfacewater_idle')"
+      ],
+      "isTouchingWater": true,
+      "poseTypes": [
+        "STAND",
+        "FLOAT"
+      ],
+      "isUnderWater": false,
+      "quirks": [
+        "q.bedrock_quirk('staryu_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "surface_swim": {
+      "animations": [
+        "q.bedrock('staryu_eerie', 'surfacewater_swim')"
+      ],
+      "isTouchingWater": true,
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "isUnderWater": false,
+      "quirks": [
+        "q.bedrock_quirk('staryu_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    }
+  },
+  "profileScale": 0.92,
+  "profileTranslation": [
+    0.0,
+    0.39,
+    0.0
+  ],
+  "rootBone": "staryu"
+}

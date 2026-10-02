@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "normadio-1",
+      "pokemon": "madio madioform=normadio alpha=false",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.8,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "normadio-1-alpha",
+      "pokemon": "madio madioform=normadio alpha=true",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 1.2,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural"
+      ]
+    }
+  ]
+}

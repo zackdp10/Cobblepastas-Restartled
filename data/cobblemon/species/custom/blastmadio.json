@@ -1,0 +1,133 @@
+{
+  "primaryType": "ghost",
+  "secondaryType": "fire",
+  "abilities": [
+    "magmaarmor",
+    "drought"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 115,
+    "defence": 55,
+    "special_attack": 105,
+    "special_defence": 85,
+    "speed": 90
+  },
+  "behaviour": {
+    "combat": {
+      "willFlee": false,
+      "willDefendSelf": true,
+      "willDefendOwner": false
+    },
+    "moving": {
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.25
+      },
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false,
+        "avoidsWater": true,
+        "swimSpeed": 0.25
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 180,
+  "experienceGroup": "fast",
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "1",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:explosion",
+    "5:teleport",
+    "11:meanlook",
+    "23:painsplit",
+    "27:block",
+    "33:flamewheel",
+    "40:perishsong",
+    "45:shadowball",
+    "50:endure",
+    "58:eruption",
+    "64:detect",
+    "tm:roar",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:grasswhistle",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:irontail",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:skillswap",
+    "tm:snatch",
+    "tm:overheat",
+    "tm:strength",
+    "tm:flash",
+    "tm:hyperbeam",
+    "tm:thief"
+  ],
+  "baseScale": 1.4886,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.6,
+    "fixed": false
+  },
+  "height": 20,
+  "weight": 80,
+  "lightingData": {
+    "lightLevel": 0,
+    "liquidGlowMode": "BOTH"
+  },
+  "evolutions": [],
+  "implemented": true,
+  "name": "Blastmadio",
+  "nationalPokedexNumber": 10001,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "pokedex": [
+    "cobblemon.species.blastmadio.desc1"
+  ],
+  "preEvolution": "madio form=Burstmadio"
+}

@@ -10,8 +10,8 @@
   ],
   "profileScale": 1,
   "profileTranslation": [
-    -0.3,
-    0.3,
+    0.05,
+    0.2,
     0
   ],
   "rootBone": "whitehand",
@@ -89,5 +89,15 @@
         "q.bedrock('whitehand', 'sleep')"
       ]
     }
-  }
+  },
+  "profileSummaryTranslation": [
+    -0.15,
+    0.3,
+    0
+  ],
+  "profilePokedexTranslation": [
+    -0.3,
+    0.3,
+    0
+  ]
 }

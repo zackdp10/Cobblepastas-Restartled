@@ -1,0 +1,19 @@
+{
+  "keys": [
+    "madioform"
+  ],
+  "type": "choice",
+  "choices": [
+    "normadio",
+    "gluemadio",
+    "earthmadio",
+    "bonemadio",
+    "seamadio",
+    "burstmadio",
+    "treemadio",
+    "aeromadio"
+  ],
+  "default": "normadio",
+  "isAspect": true,
+  "aspectFormat": "{{choice}}"
+}

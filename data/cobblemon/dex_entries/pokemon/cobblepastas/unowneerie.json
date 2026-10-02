@@ -1,0 +1,17 @@
+{
+  "id": "cobblemon:unowneerie",
+  "speciesId": "cobblemon:unown",
+  "displayAspects": [
+    "eerie"
+  ],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Eerie",
+      "unlockForms": [
+        "Eerie"
+      ]
+    }
+  ],
+  "variations": []
+}

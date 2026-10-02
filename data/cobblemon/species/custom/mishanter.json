@@ -73,8 +73,7 @@
   ],
   "pokedex": [
     "cobblemon.species.mishanter.desc1",
-    "cobblemon.species.mishanter.desc2",
-    "cobblemon.species.mishanter.desc3"
+    "cobblemon.species.mishanter.desc2"
   ],
   "baseScale": 1,
   "hitbox": {

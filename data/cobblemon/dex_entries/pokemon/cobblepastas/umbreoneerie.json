@@ -1,0 +1,17 @@
+{
+  "id": "cobblemon:umbreoneerie",
+  "speciesId": "cobblemon:umbreon",
+  "displayAspects": [
+    "eerie"
+  ],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Eerie",
+      "unlockForms": [
+        "Eerie"
+      ]
+    }
+  ],
+  "variations": []
+}

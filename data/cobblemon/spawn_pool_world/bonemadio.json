@@ -1,0 +1,87 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bonemadio-1",
+      "pokemon": "madio madioform=bonemadio alpha=false",
+      "type": "pokemon",
+      "bucket": "rare",
+      "spawnablePositionType": "grounded",
+      "weight": 10.8,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 0,
+        "maxLight": 4,
+        "canSeeSky": false
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "bonemadio-1-alpha",
+      "pokemon": "madio madioform=bonemadio alpha=true",
+      "type": "pokemon",
+      "bucket": "rare",
+      "spawnablePositionType": "grounded",
+      "weight": 1.2,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 0,
+        "maxLight": 4,
+        "canSeeSky": false
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "bonemadio-dripstone",
+      "pokemon": "madio madioform=bonemadio alpha=false",
+      "type": "pokemon",
+      "bucket": "rare",
+      "spawnablePositionType": "grounded",
+      "weight": 21.6,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ],
+        "maxSkyLight": 0,
+        "maxLight": 4,
+        "canSeeSky": false
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "bonemadio-dripstone-alpha",
+      "pokemon": "madio madioform=bonemadio alpha=true",
+      "type": "pokemon",
+      "bucket": "rare",
+      "spawnablePositionType": "grounded",
+      "weight": 2.4,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_dripstone"
+        ],
+        "maxSkyLight": 0,
+        "maxLight": 4,
+        "canSeeSky": false
+      },
+      "presets": [
+        "natural"
+      ]
+    }
+  ]
+}

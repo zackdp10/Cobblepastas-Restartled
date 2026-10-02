@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:blastmadio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:blastmadio",
+      "model": "cobblemon:madio.geo",
+      "texture": "cobblemon:textures/pokemon/blastmadio/blastmadio.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:blastmadio",
+      "model": "cobblemon:madio.geo",
+      "texture": "cobblemon:textures/pokemon/blastmadio/blastmadio_shiny.png"
+    }
+  ]
+}

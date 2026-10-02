@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:kingmadio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kingmadio",
+      "model": "cobblemon:kingmadio.geo",
+      "texture": "cobblemon:textures/pokemon/kingmadio/kingmadio.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:kingmadio",
+      "model": "cobblemon:kingmadio.geo",
+      "texture": "cobblemon:textures/pokemon/kingmadio/kingmadio_shiny.png"
+    }
+  ]
+}

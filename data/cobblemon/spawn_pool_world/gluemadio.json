@@ -1,0 +1,49 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gluemadio-1",
+      "pokemon": "madio madioform=gluemadio alpha=false",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.8,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "timeRange": "night",
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "gluemadio-1-alpha",
+      "pokemon": "madio madioform=gluemadio alpha=true",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 1.2,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "timeRange": "night",
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      },
+      "presets": [
+        "natural"
+      ]
+    }
+  ]
+}

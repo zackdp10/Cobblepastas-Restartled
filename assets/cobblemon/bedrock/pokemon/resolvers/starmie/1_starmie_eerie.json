@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:starmie",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "eerie"
+      ],
+      "poser": "cobblemon:starmie_eerie",
+      "model": "cobblemon:starmie_eerie.geo",
+      "texture": "cobblemon:textures/pokemon/starmie_eerie/starmie_eerie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "eerie",
+        "shiny"
+      ],
+      "poser": "cobblemon:starmie_eerie",
+      "model": "cobblemon:starmie_eerie.geo",
+      "texture": "cobblemon:textures/pokemon/starmie_eerie/starmie_eerie_shiny.png",
+      "layers": []
+    }
+  ]
+}

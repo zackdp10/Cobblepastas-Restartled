@@ -1,4 +1,17 @@
 {
-  "pokemon": ["ditto", "umbreon", "paras", "golduck", "scyther", "unown"],
-  "features": ["eerie"]
+  "pokemon": [
+    "ditto",
+    "umbreon",
+    "paras",
+    "golduck",
+    "scyther",
+    "unown",
+    "staryu",
+    "starmie",
+    "staryu",
+    "starmie"
+  ],
+  "features": [
+    "eerie"
+  ]
 }

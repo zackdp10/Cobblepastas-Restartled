@@ -27,7 +27,16 @@
           "levelRangeOffset": "-2-4",
           "maxTimes": 1,
           "pokemon": "pastahombeast alpha=false",
-          "weight": 12
+          "weight": 10.8
+        },
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "40-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "pastahombeast alpha=true",
+          "weight": 1.2
         },
         {
           "isFollower": true,
@@ -36,7 +45,16 @@
           "levelRangeOffset": "-3-3",
           "maxTimes": 2,
           "pokemon": "pastahombone alpha=false",
-          "weight": 12
+          "weight": 10.8
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "20-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "pokemon": "pastahombone alpha=true",
+          "weight": 1.2
         }
       ]
     },
@@ -52,7 +70,9 @@
         "biomes": [
           "#cobblemon:is_overworld"
         ],
-        "canSeeSky": false
+        "canSeeSky": false,
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "spawnablePositionType": "grounded",
       "levelRange": "20-50",
@@ -65,7 +85,16 @@
           "levelRangeOffset": "-2-4",
           "maxTimes": 1,
           "pokemon": "pastahombeast alpha=false",
-          "weight": 12
+          "weight": 10.8
+        },
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "40-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "pastahombeast alpha=true",
+          "weight": 1.2
         },
         {
           "isFollower": true,
@@ -74,7 +103,16 @@
           "levelRangeOffset": "-3-3",
           "maxTimes": 2,
           "pokemon": "pastahombone alpha=false",
-          "weight": 12
+          "weight": 10.8
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "20-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "pokemon": "pastahombone alpha=true",
+          "weight": 1.2
         }
       ]
     },
@@ -103,7 +141,16 @@
           "levelRangeOffset": "-2-4",
           "maxTimes": 1,
           "pokemon": "pastahombeast alpha=false",
-          "weight": 12
+          "weight": 10.8
+        },
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "40-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "pastahombeast alpha=true",
+          "weight": 1.2
         },
         {
           "isFollower": true,
@@ -112,7 +159,16 @@
           "levelRangeOffset": "-3-3",
           "maxTimes": 2,
           "pokemon": "pastahombone alpha=false",
-          "weight": 12
+          "weight": 10.8
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "20-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "pokemon": "pastahombone alpha=true",
+          "weight": 1.2
         }
       ]
     }

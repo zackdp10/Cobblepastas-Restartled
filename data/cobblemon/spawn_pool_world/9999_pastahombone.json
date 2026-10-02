@@ -12,7 +12,25 @@
       "type": "pokemon",
       "bucket": "uncommon",
       "level": "20-38",
-      "weight": 12,
+      "weight": 10.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "canSeeSky": true
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "pastahombone-beach-alpha",
+      "pokemon": "pastahombone alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "20-38",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
@@ -30,12 +48,34 @@
       "type": "pokemon",
       "bucket": "uncommon",
       "level": "20-38",
-      "weight": 6,
+      "weight": 5.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
         ],
-        "canSeeSky": false
+        "canSeeSky": false,
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "pastahombone-cave-alpha",
+      "pokemon": "pastahombone alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "20-38",
+      "weight": 0.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "spawnablePositionType": "grounded"
     },
@@ -48,7 +88,25 @@
       "type": "pokemon",
       "bucket": "uncommon",
       "level": "20-38",
-      "weight": 12,
+      "weight": 10.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "canSeeSky": true
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "pastahombone-mountain-alpha",
+      "pokemon": "pastahombone alpha=true",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "20-38",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"

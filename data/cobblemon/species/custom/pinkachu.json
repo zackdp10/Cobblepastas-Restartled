@@ -138,8 +138,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.pinkachu.desc1",
-    "cobblemon.species.pinkachu.desc2"
+    "cobblemon.species.pinkachu.desc1"
   ],
   "preEvolution": "pichu",
   "evolutions": [],

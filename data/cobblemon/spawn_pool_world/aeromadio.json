@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aeromadio-1",
+      "pokemon": "madio madioform=aeromadio alpha=false",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.8,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak"
+        ],
+        "canSeeSky": true
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "aeromadio-1-alpha",
+      "pokemon": "madio madioform=aeromadio alpha=true",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 1.2,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak"
+        ],
+        "canSeeSky": true
+      },
+      "presets": [
+        "natural"
+      ]
+    }
+  ]
+}

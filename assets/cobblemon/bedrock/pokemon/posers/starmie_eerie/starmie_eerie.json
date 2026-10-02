@@ -1,0 +1,154 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('starmie_eerie', 'cry')",
+    "faint": "q.bedrock_primary('starmie_eerie', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('starmie_eerie', 'recoil')",
+    "special": "q.bedrock_primary('starmie_eerie', 'special', q.curve('symmetrical'))"
+  },
+  "portraitScale": 1.24,
+  "portraitTranslation": [
+    -0.16,
+    0.12,
+    0
+  ],
+  "poses": {
+    "battle_standing": {
+      "animations": [
+        "q.look('body', 0, 1)",
+        "q.bedrock('starmie_eerie', 'battle_idle')"
+      ],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starmie_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "float": {
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.look('body')",
+        "q.bedrock('starmie_eerie', 'water_idle')"
+      ],
+      "isTouchingWater": true,
+      "namedAnimations": {
+        "special": "q.bedrock_primary('starmie_eerie', 'water_special', q.curve('symmetrical_wide'))"
+      },
+      "poseTypes": [
+        "STAND",
+        "FLOAT"
+      ],
+      "isUnderWater": true,
+      "quirks": [
+        "q.bedrock_quirk('starmie_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "sleep": {
+      "animations": [
+        "q.bedrock('starmie_eerie', 'sleep')"
+      ],
+      "isTouchingWater": false,
+      "poseTypes": [
+        "SLEEP"
+      ]
+    },
+    "sprinting": {
+      "animations": [
+        "q.look('body', 0, 1)",
+        "q.bedrock('starmie_eerie', 'ground_run')"
+      ],
+      "condition": "q.is_sprinting",
+      "isTouchingWater": false,
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starmie_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "standing": {
+      "animations": [
+        "q.look('body', 0, 1)",
+        "q.bedrock('starmie_eerie', 'ground_idle')"
+      ],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starmie_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "surface_swim": {
+      "animations": [
+        "q.bedrock('starmie_eerie', 'surfacewater_swim')"
+      ],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starmie_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "swim": {
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.bedrock('starmie_eerie', 'water_swim')"
+      ],
+      "isUnderWater": true,
+      "poseTypes": [
+        "SWIM"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starmie_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "walking": {
+      "animations": [
+        "q.look('body', 0, 1)",
+        "q.bedrock('starmie_eerie', 'ground_walk')"
+      ],
+      "isTouchingWater": false,
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starmie_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    },
+    "surface_idle": {
+      "animations": [
+        "q.bedrock('starmie_eerie', 'water_idle')"
+      ],
+      "isTouchingWater": true,
+      "namedAnimations": {
+        "special": "q.bedrock_primary('starmie_eerie', 'water_special', q.curve('symmetrical_wide'))"
+      },
+      "poseTypes": [
+        "STAND",
+        "FLOAT"
+      ],
+      "isUnderWater": false,
+      "quirks": [
+        "q.bedrock_quirk('starmie_eerie', 'quirk_eye_dart', 4, 9, 1)"
+      ]
+    }
+  },
+  "profileScale": 0.73,
+  "profileTranslation": [
+    0,
+    0.72,
+    0
+  ],
+  "rootBone": "starmie"
+}

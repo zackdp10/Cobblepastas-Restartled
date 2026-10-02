@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "seamadio-1",
+      "pokemon": "madio madioform=seamadio alpha=false",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "submerged",
+      "weight": 10.8,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "seamadio-1-alpha",
+      "pokemon": "madio madioform=seamadio alpha=true",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "submerged",
+      "weight": 1.2,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

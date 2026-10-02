@@ -1,0 +1,141 @@
+{
+  "target": "cobblemon:starmie",
+  "forms": [
+    {
+      "baseStats": {
+        "hp": 60,
+        "attack": 75,
+        "defence": 85,
+        "special_attack": 100,
+        "special_defence": 85,
+        "speed": 115
+      },
+      "catchRate": 60,
+      "maleRatio": -1,
+      "baseExperienceYield": 182,
+      "baseFriendship": 50,
+      "evYield": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "water_3"
+      ],
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "starmie eerie=true alpha=false",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "swimSpeed": 0.3
+          },
+          "walk": {
+            "walkSpeed": 0.19
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "drowsyChance": 0.0033,
+          "light": "0-4",
+          "rouseChance": 0.0042,
+          "times": [
+            "day"
+          ]
+        }
+      },
+      "height": 11,
+      "weight": 800,
+      "name": "Eerie",
+      "aspects": [
+        "eerie"
+      ],
+      "primaryType": "water",
+      "secondaryType": "ghost",
+      "abilities": [
+        "analytic",
+        "naturalcure"
+      ],
+      "labels": [
+        "gen1",
+        "eerie"
+      ],
+      "evolutions": [],
+      "pokedex": [
+        "cobblemon.species.starmieeerie.desc1",
+        "cobblemon.species.starmieeerie.desc2"
+      ],
+      "lightingData": {
+        "lightLevel": 0,
+        "liquidGlowMode": "BOTH"
+      },
+      "moves": [
+        "1:astonish",
+        "1:harden",
+        "1:meanlook",
+        "1:moonlight",
+        "6:watergun",
+        "10:rapidspin",
+        "12:recover",
+        "15:glare",
+        "18:shadowball",
+        "22:bubblebeam",
+        "25:minimize",
+        "30:signalbeam",
+        "33:lightscreen",
+        "36:brine",
+        "40:recycle",
+        "43:powergem",
+        "48:cosmicpower",
+        "52:hydropump",
+        "tm:nightshade",
+        "tm:metronome",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:bubblebeam",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:thunderwave",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:reflect",
+        "tm:dreameater",
+        "tm:sleeptalk",
+        "tm:poisonjab",
+        "tm:rest",
+        "tm:willowisp",
+        "tm:hypnosis",
+        "tm:agility",
+        "tm:allyswitch",
+        "tm:surf",
+        "tm:strength",
+        "tm:flash",
+        "tm:shadowclaw",
+        "tm:waterfall",
+        "tm:dive"
+      ]
+    }
+  ]
+}

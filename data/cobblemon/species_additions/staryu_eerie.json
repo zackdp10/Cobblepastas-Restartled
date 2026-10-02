@@ -1,0 +1,146 @@
+{
+  "target": "cobblemon:staryu",
+  "forms": [
+    {
+      "baseStats": {
+        "hp": 30,
+        "attack": 45,
+        "defence": 55,
+        "special_attack": 70,
+        "special_defence": 55,
+        "speed": 85
+      },
+      "catchRate": 225,
+      "maleRatio": -1,
+      "baseExperienceYield": 68,
+      "baseFriendship": 50,
+      "evYield": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "water_3"
+      ],
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "starmie eerie=true alpha=false",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "swimSpeed": 0.3
+          },
+          "walk": {
+            "walkSpeed": 0.17
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "drowsyChance": 0.0033,
+          "light": "0-4",
+          "rouseChance": 0.0042,
+          "times": [
+            "day"
+          ]
+        }
+      },
+      "height": 8,
+      "weight": 345,
+      "name": "Eerie",
+      "aspects": [
+        "eerie"
+      ],
+      "primaryType": "water",
+      "secondaryType": "ghost",
+      "abilities": [
+        "analytic",
+        "naturalcure"
+      ],
+      "labels": [
+        "gen1",
+        "eerie"
+      ],
+      "evolutions": [
+        {
+          "id": "eerie_staryu_eerie_starmie",
+          "variant": "item_interact",
+          "result": "starmie eerie=true",
+          "consumeHeldItem": false,
+          "requiredContext": "cobblepastas:mist_stone",
+          "requirements": [],
+          "learnableMoves": []
+        }
+      ],
+      "pokedex": [
+        "cobblemon.species.staryueerie.desc1",
+        "cobblemon.species.staryueerie.desc2"
+      ],
+      "lightingData": {
+        "lightLevel": 0,
+        "liquidGlowMode": "BOTH"
+      },
+      "moves": [
+        "1:astonish",
+        "1:harden",
+        "6:watergun",
+        "10:rapidspin",
+        "12:recover",
+        "15:glare",
+        "18:shadowball",
+        "22:bubblebeam",
+        "25:minimize",
+        "30:signalbeam",
+        "33:lightscreen",
+        "36:brine",
+        "40:recycle",
+        "43:powergem",
+        "48:cosmicpower",
+        "52:hydropump",
+        "tm:nightshade",
+        "tm:metronome",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:bubblebeam",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:thunderwave",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:reflect",
+        "tm:dreameater",
+        "tm:sleeptalk",
+        "tm:poisonjab",
+        "tm:rest",
+        "tm:willowisp",
+        "tm:hypnosis",
+        "tm:agility",
+        "tm:allyswitch",
+        "tm:surf",
+        "tm:strength",
+        "tm:flash",
+        "tm:shadowclaw",
+        "tm:waterfall",
+        "tm:dive"
+      ]
+    }
+  ]
+}

@@ -3,262 +3,138 @@
   "animations": {
     "animation.whitehand.ground_idle": {
       "loop": true,
-      "animation_length": 4,
+      "animation_length": 2,
       "bones": {
         "body": {
-          "rotation": {
-            "0.0": [
-              20,
-              0,
-              0
-            ],
-            "4.0": [
-              20,
-              0,
-              0
-            ]
-          }
+          "rotation": [
+            "37.5-Math.cos(q.anim_time/2*360)*2",
+            0,
+            0
+          ],
+          "position": [
+            0,
+            "0+Math.sin(q.anim_time/2*360)*0.3",
+            0
+          ]
         },
-        "upperhand": {
-          "rotation": {
-            "0.0": [
-              10,
-              0,
-              0
-            ],
-            "2.0": [
-              20,
-              0,
-              0
-            ],
-            "4.0": [
-              10,
-              0,
-              0
-            ]
-          }
+        "toppalm": {
+          "rotation": [
+            "25-Math.cos(q.anim_time/2*360)*-4",
+            0,
+            0
+          ]
         },
-        "thumb": {
-          "rotation": {
-            "0.0": [
-              10,
-              20,
-              20
-            ],
-            "2.0": [
-              13.22818,
-              44.51319,
-              25.907
-            ],
-            "4.0": [
-              10,
-              20,
-              20
-            ]
-          }
-        },
-        "pinky": {
-          "rotation": {
-            "0.0": [
-              35,
-              0,
-              -30
-            ],
-            "2.0": [
-              55,
-              0,
-              -30
-            ],
-            "4.0": [
-              35,
-              0,
-              -30
-            ]
-          }
-        },
-        "ring": {
-          "rotation": {
-            "0.0": [
-              50,
-              0,
-              0
-            ],
-            "1.25": [
-              70,
-              0,
-              0
-            ],
-            "2.5": [
-              50,
-              0,
-              0
-            ]
-          }
-        },
-        "middle": {
-          "rotation": {
-            "0.0": [
-              20,
-              0,
-              0
-            ],
-            "1.5": [
-              50,
-              0,
-              0
-            ],
-            "3.0": [
-              20,
-              0,
-              0
-            ]
-          }
-        },
-        "index": {
-          "rotation": {
-            "0.0": [
-              20,
-              0,
-              10
-            ],
-            "1.75": [
-              45,
-              0,
-              10
-            ],
-            "3.5": [
-              20,
-              0,
-              10
-            ]
-          }
-        },
-        "pinky2": {
-          "rotation": {
-            "0.0": [
-              80,
-              0,
-              0
-            ],
-            "4.0": [
-              80,
-              0,
-              0
-            ]
-          }
-        },
-        "ring2": {
-          "rotation": {
-            "0.0": [
-              45,
-              0,
-              0
-            ],
-            "4.0": [
-              45,
-              0,
-              0
-            ]
-          }
-        },
-        "ring3": {
-          "rotation": {
-            "0.0": [
-              45,
-              0,
-              0
-            ],
-            "4.0": [
-              45,
-              0,
-              0
-            ]
-          }
-        },
-        "middle2": {
-          "rotation": {
-            "0.0": [
-              10,
-              0,
-              0
-            ],
-            "2.0": [
-              45,
-              0,
-              0
-            ],
-            "4.0": [
-              10,
-              0,
-              0
-            ]
-          }
-        },
-        "middle3": {
-          "rotation": {
-            "0.0": [
-              60,
-              0,
-              0
-            ],
-            "4.0": [
-              60,
-              0,
-              0
-            ]
-          }
-        },
-        "index2": {
-          "rotation": {
-            "0.0": [
-              20,
-              0,
-              0
-            ],
-            "2.0": [
-              35,
-              0,
-              0
-            ],
-            "4.0": [
-              20,
-              0,
-              0
-            ]
-          }
-        },
-        "index3": {
-          "rotation": {
-            "0.0": [
-              50,
-              0,
-              0
-            ],
-            "4.0": [
-              50,
-              0,
-              0
-            ]
-          }
+        "thumb1": {
+          "rotation": [
+            22.2728,
+            "-46.5998-Math.cos(q.anim_time/2*360)*8",
+            -25.5313
+          ]
         },
         "thumb2": {
-          "rotation": {
-            "0.0": [
-              0,
-              50,
-              0
-            ],
-            "2.0": [
-              0,
-              95,
-              0
-            ],
-            "4.0": [
-              0,
-              50,
-              0
-            ]
-          }
+          "rotation": [
+            0,
+            -30,
+            0
+          ]
+        },
+        "thumb3": {
+          "rotation": [
+            0,
+            "-52.5-Math.sin(q.anim_time/2*360)*-8",
+            0
+          ]
+        },
+        "wrist": {
+          "rotation": [
+            "-25-Math.cos(q.anim_time/2*360)*-3",
+            0,
+            0
+          ]
+        },
+        "indexfinger1": {
+          "rotation": [
+            "49.3218-Math.sin(q.anim_time/2*360)*8",
+            9.5438,
+            -8.1103
+          ]
+        },
+        "indexfinger2": {
+          "rotation": [
+            35,
+            0,
+            0
+          ]
+        },
+        "indexfinger3": {
+          "rotation": [
+            "85-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "middlefinger1": {
+          "rotation": [
+            "25-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "middlefinger2": {
+          "rotation": [
+            50,
+            0,
+            0
+          ]
+        },
+        "middlefinger3": {
+          "rotation": [
+            "75-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "ringfinger1": {
+          "rotation": [
+            "29.7873-Math.sin(q.anim_time/2*360)*-6",
+            -3.7419,
+            6.5045
+          ]
+        },
+        "ringfinger2": {
+          "rotation": [
+            50,
+            0,
+            0
+          ]
+        },
+        "ringfinger3": {
+          "rotation": [
+            "70-Math.cos(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "pinkyfinger1": {
+          "rotation": [
+            "66.7892-Math.sin(q.anim_time/2*360)*5",
+            -13.8344,
+            5.8545
+          ]
+        },
+        "pinkyfinger2": {
+          "rotation": [
+            45,
+            0,
+            0
+          ]
+        },
+        "pinkyfinger3": {
+          "rotation": [
+            "45-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
         }
       }
     },
@@ -267,280 +143,135 @@
       "animation_length": 2,
       "bones": {
         "body": {
-          "rotation": {
-            "0.0": [
-              20,
-              0,
-              0
-            ],
-            "2.0": [
-              20,
-              0,
-              0
-            ]
-          },
-          "position": {
-            "0.0": [
-              0,
-              0,
-              0
-            ],
-            "1.0": [
-              0,
-              1,
-              0
-            ],
-            "2.0": [
-              0,
-              0,
-              0
-            ]
-          }
+          "rotation": [
+            "67.5-Math.cos(q.anim_time/2*360)*2",
+            0,
+            0
+          ],
+          "position": [
+            0,
+            "0+Math.sin(q.anim_time/2*360)*1",
+            0
+          ]
         },
-        "upperhand": {
-          "rotation": {
-            "0.0": [
-              45,
-              0,
-              0
-            ],
-            "2.0": [
-              45,
-              0,
-              0
-            ]
-          }
+        "toppalm": {
+          "rotation": [
+            "7.5-Math.cos(q.anim_time/2*360)*-4",
+            0,
+            0
+          ]
         },
-        "lowerhand": {
-          "rotation": {
-            "0.0": [
-              25,
-              0,
-              0
-            ],
-            "2.0": [
-              25,
-              0,
-              0
-            ]
-          }
-        },
-        "thumb": {
-          "rotation": {
-            "0.0": [
-              40,
-              30,
-              0
-            ],
-            "2.0": [
-              40,
-              30,
-              0
-            ]
-          }
-        },
-        "pinky": {
-          "rotation": {
-            "0.0": [
-              95,
-              0,
-              0
-            ],
-            "2.0": [
-              95,
-              0,
-              0
-            ]
-          }
-        },
-        "ring": {
-          "rotation": {
-            "0.0": [
-              70,
-              0,
-              0
-            ],
-            "2.0": [
-              70,
-              0,
-              0
-            ]
-          }
-        },
-        "middle": {
-          "rotation": {
-            "0.0": [
-              65,
-              0,
-              0
-            ],
-            "2.0": [
-              65,
-              0,
-              0
-            ]
-          }
-        },
-        "index": {
-          "rotation": {
-            "0.0": [
-              70,
-              0,
-              0
-            ],
-            "2.0": [
-              70,
-              0,
-              0
-            ]
-          }
-        },
-        "pinky2": {
-          "rotation": {
-            "0.0": [
-              57.5,
-              0,
-              0
-            ],
-            "1.0": [
-              52.5,
-              0,
-              0
-            ],
-            "2.0": [
-              57.5,
-              0,
-              0
-            ]
-          }
-        },
-        "ring2": {
-          "rotation": {
-            "0.0": [
-              65,
-              0,
-              0
-            ],
-            "1.0": [
-              60,
-              0,
-              0
-            ],
-            "2.0": [
-              65,
-              0,
-              0
-            ]
-          }
-        },
-        "ring3": {
-          "rotation": {
-            "0.0": [
-              85,
-              0,
-              0
-            ],
-            "1.0": [
-              77.5,
-              0,
-              0
-            ],
-            "2.0": [
-              85,
-              0,
-              0
-            ]
-          }
-        },
-        "middle2": {
-          "rotation": {
-            "0.0": [
-              80,
-              0,
-              0
-            ],
-            "1.0": [
-              75,
-              0,
-              0
-            ],
-            "2.0": [
-              80,
-              0,
-              0
-            ]
-          }
-        },
-        "middle3": {
-          "rotation": {
-            "0.0": [
-              50,
-              0,
-              0
-            ],
-            "1.0": [
-              40,
-              0,
-              0
-            ],
-            "2.0": [
-              50,
-              0,
-              0
-            ]
-          }
-        },
-        "index2": {
-          "rotation": {
-            "0.0": [
-              50,
-              0,
-              0
-            ],
-            "1.0": [
-              45,
-              0,
-              0
-            ],
-            "2.0": [
-              50,
-              0,
-              0
-            ]
-          }
-        },
-        "index3": {
-          "rotation": {
-            "0.0": [
-              52.5,
-              0,
-              0
-            ],
-            "1.0": [
-              60,
-              0,
-              0
-            ],
-            "2.0": [
-              52.5,
-              0,
-              0
-            ]
-          }
+        "thumb1": {
+          "rotation": [
+            22.2728,
+            "-46.5998-Math.cos(q.anim_time/2*360)*8",
+            -25.5313
+          ]
         },
         "thumb2": {
-          "rotation": {
-            "0.0": [
-              0,
-              140,
-              0
-            ],
-            "2.0": [
-              0,
-              140,
-              0
-            ]
-          }
+          "rotation": [
+            0,
+            -30,
+            0
+          ]
+        },
+        "thumb3": {
+          "rotation": [
+            0,
+            "-52.5-Math.sin(q.anim_time/2*360)*-8",
+            0
+          ]
+        },
+        "wrist": {
+          "rotation": [
+            "-25-Math.cos(q.anim_time/2*360)*-3",
+            0,
+            0
+          ]
+        },
+        "indexfinger1": {
+          "rotation": [
+            "49.3218-Math.sin(q.anim_time/2*360)*8",
+            9.5438,
+            -8.1103
+          ]
+        },
+        "indexfinger2": {
+          "rotation": [
+            35,
+            0,
+            0
+          ]
+        },
+        "indexfinger3": {
+          "rotation": [
+            "85-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "middlefinger1": {
+          "rotation": [
+            "25-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "middlefinger2": {
+          "rotation": [
+            50,
+            0,
+            0
+          ]
+        },
+        "middlefinger3": {
+          "rotation": [
+            "75-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
+        },
+        "ringfinger1": {
+          "rotation": [
+            "29.7873-Math.sin(q.anim_time/2*360)*-6",
+            -3.7419,
+            6.5045
+          ]
+        },
+        "ringfinger2": {
+          "rotation": [
+            50,
+            0,
+            0
+          ]
+        },
+        "ringfinger3": {
+          "rotation": [
+            "70-Math.cos(q.anim_time/2*360)*-8",
+            0,
+            0
+          ]
+        },
+        "pinkyfinger1": {
+          "rotation": [
+            "66.7892-Math.sin(q.anim_time/2*360)*5",
+            -13.8344,
+            5.8545
+          ]
+        },
+        "pinkyfinger2": {
+          "rotation": [
+            45,
+            0,
+            0
+          ]
+        },
+        "pinkyfinger3": {
+          "rotation": [
+            "45-Math.cos(q.anim_time/2*360)*8",
+            0,
+            0
+          ]
         }
       }
     },
@@ -1155,111 +886,113 @@
     "animation.whitehand.shoulder_left": {
       "loop": true,
       "bones": {
-        "body": {
+        "bottompalm": {
           "rotation": [
             0,
             0,
-            20
+            27.5
           ],
           "position": [
-            3,
-            -20,
-            8
+            -1,
+            -17,
+            4
           ]
         },
-        "upperhand": {
-          "rotation": [
-            10,
-            0,
-            0
-          ],
-          "position": [
-            0,
-            0,
-            0
-          ]
-        },
-        "thumb": {
-          "rotation": [
-            0,
-            50,
-            0
-          ]
-        },
-        "pinky": {
-          "rotation": [
-            0,
-            0,
-            -20
-          ]
-        },
-        "ring": {
-          "rotation": [
-            20,
-            0,
-            -10
-          ]
-        },
-        "middle": {
-          "rotation": [
-            10,
-            0,
-            5
-          ]
-        },
-        "index": {
-          "rotation": [
-            20,
-            0,
-            35
-          ]
-        },
-        "pinky2": {
-          "rotation": [
-            25,
-            0,
-            0
-          ]
-        },
-        "ring3": {
+        "toppalm": {
           "rotation": [
             15,
             0,
             0
           ]
         },
-        "middle2": {
+        "thumb1": {
           "rotation": [
-            50,
-            0,
-            0
-          ]
-        },
-        "middle3": {
-          "rotation": [
-            30,
-            0,
-            0
-          ]
-        },
-        "index2": {
-          "rotation": [
-            40,
-            0,
-            0
-          ]
-        },
-        "index3": {
-          "rotation": [
-            50,
-            0,
-            0
+            -7.5898,
+            -15.8152,
+            26.0558
           ]
         },
         "thumb2": {
           "rotation": [
+            -90,
             0,
-            65,
+            40
+          ]
+        },
+        "thumb3": {
+          "rotation": [
+            25.7008,
+            -31.772,
+            -42.4292
+          ]
+        },
+        "indexfinger1": {
+          "rotation": [
+            7.4365,
+            0.9762,
+            -7.4365
+          ]
+        },
+        "indexfinger2": {
+          "rotation": [
+            5,
+            0,
+            0
+          ]
+        },
+        "indexfinger3": {
+          "rotation": [
+            7.5,
+            0,
+            0
+          ]
+        },
+        "middlefinger2": {
+          "rotation": [
+            5,
+            0,
+            0
+          ]
+        },
+        "middlefinger3": {
+          "rotation": [
+            10,
+            0,
+            0
+          ]
+        },
+        "ringfinger2": {
+          "rotation": [
+            7.5,
+            0,
+            0
+          ]
+        },
+        "ringfinger3": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        },
+        "pinkyfinger1": {
+          "rotation": [
+            0,
+            0,
+            10
+          ]
+        },
+        "pinkyfinger2": {
+          "rotation": [
+            25,
+            0,
+            0
+          ]
+        },
+        "pinkyfinger3": {
+          "rotation": [
+            15,
+            0,
             0
           ]
         }
@@ -1268,120 +1001,450 @@
     "animation.whitehand.shoulder_right": {
       "loop": true,
       "bones": {
-        "body": {
+        "bottompalm": {
           "rotation": [
             0,
             0,
-            -45
+            -27.5
           ],
           "position": [
-            -3,
-            -20,
-            8
+            1,
+            -17,
+            4
           ]
         },
-        "upperhand": {
-          "rotation": [
-            10,
-            0,
-            0
-          ],
-          "position": [
-            0,
-            0,
-            0
-          ]
-        },
-        "thumb": {
-          "rotation": [
-            -7.63074,
-            12.95254,
-            -30.86748
-          ]
-        },
-        "pinky": {
-          "rotation": [
-            60,
-            0,
-            -20
-          ]
-        },
-        "ring": {
-          "rotation": [
-            32.5,
-            0,
-            -10
-          ]
-        },
-        "middle": {
-          "rotation": [
-            20,
-            0,
-            5
-          ]
-        },
-        "index": {
-          "rotation": [
-            0,
-            0,
-            35
-          ]
-        },
-        "pinky2": {
-          "rotation": [
-            45,
-            0,
-            0
-          ]
-        },
-        "middle2": {
-          "rotation": [
-            40,
-            0,
-            0
-          ]
-        },
-        "middle3": {
+        "toppalm": {
           "rotation": [
             15,
             0,
             0
           ]
         },
-        "index2": {
+        "thumb1": {
           "rotation": [
-            30,
+            -7.5898,
+            -15.8152,
+            26.0558
+          ]
+        },
+        "thumb2": {
+          "rotation": [
+            -90,
+            0,
+            40
+          ]
+        },
+        "thumb3": {
+          "rotation": [
+            25.7008,
+            -31.772,
+            -42.4292
+          ]
+        },
+        "indexfinger1": {
+          "rotation": [
+            7.4365,
+            0.9762,
+            -7.4365
+          ]
+        },
+        "indexfinger2": {
+          "rotation": [
+            5,
             0,
             0
           ]
         },
-        "index3": {
+        "indexfinger3": {
           "rotation": [
-            30,
+            7.5,
             0,
             0
+          ]
+        },
+        "middlefinger2": {
+          "rotation": [
+            5,
+            0,
+            0
+          ]
+        },
+        "middlefinger3": {
+          "rotation": [
+            10,
+            0,
+            0
+          ]
+        },
+        "ringfinger2": {
+          "rotation": [
+            7.5,
+            0,
+            0
+          ]
+        },
+        "ringfinger3": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        },
+        "pinkyfinger1": {
+          "rotation": [
+            0,
+            0,
+            10
+          ]
+        },
+        "pinkyfinger2": {
+          "rotation": [
+            25,
+            0,
+            0
+          ]
+        },
+        "pinkyfinger3": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.whitehand.pose": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            37.5,
+            0,
+            0
+          ]
+        },
+        "toppalm": {
+          "rotation": [
+            25,
+            0,
+            0
+          ]
+        },
+        "thumb1": {
+          "rotation": [
+            22.2728,
+            -46.5998,
+            -25.5313
           ]
         },
         "thumb2": {
           "rotation": [
             0,
-            15,
+            -30,
             0
           ]
         },
-        "ring2": {
+        "thumb3": {
+          "rotation": [
+            0,
+            -52.5,
+            0
+          ]
+        },
+        "wrist": {
+          "rotation": [
+            -25,
+            0,
+            0
+          ]
+        },
+        "indexfinger1": {
+          "rotation": [
+            49.3218,
+            9.5438,
+            -8.1103
+          ]
+        },
+        "indexfinger2": {
+          "rotation": [
+            35,
+            0,
+            0
+          ]
+        },
+        "indexfinger3": {
+          "rotation": [
+            85,
+            0,
+            0
+          ]
+        },
+        "middlefinger1": {
+          "rotation": [
+            25,
+            0,
+            0
+          ]
+        },
+        "middlefinger2": {
           "rotation": [
             50,
             0,
             0
           ]
         },
-        "ring3": {
+        "middlefinger3": {
           "rotation": [
-            65,
+            75,
             0,
             0
           ]
+        },
+        "ringfinger1": {
+          "rotation": [
+            29.7873,
+            -3.7419,
+            6.5045
+          ]
+        },
+        "ringfinger2": {
+          "rotation": [
+            50,
+            0,
+            0
+          ]
+        },
+        "ringfinger3": {
+          "rotation": [
+            70,
+            0,
+            0
+          ]
+        },
+        "pinkyfinger1": {
+          "rotation": [
+            66.7892,
+            -13.8344,
+            5.8545
+          ]
+        },
+        "pinkyfinger2": {
+          "rotation": [
+            45,
+            0,
+            0
+          ]
+        },
+        "pinkyfinger3": {
+          "rotation": [
+            45,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.whitehand.recoil": {
+      "animation_length": 0.875,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.0833": [
+              0,
+              0,
+              1
+            ],
+            "0.375": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "wrist": {
+          "rotation": {
+            "0.0": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.0833": {
+              "post": [
+                -10,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [
+                5,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "indexfinger1": {
+          "rotation": {
+            "0.0": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.0833": {
+              "post": [
+                10,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [
+                -5,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "middlefinger1": {
+          "rotation": {
+            "0.0": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.0833": {
+              "post": [
+                10,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [
+                -5,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "ringfinger1": {
+          "rotation": {
+            "0.0": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.0833": {
+              "post": [
+                10,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [
+                -5,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "pinkyfinger1": {
+          "rotation": {
+            "0.0": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.0833": {
+              "post": [
+                10,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [
+                -5,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [
+                0,
+                0,
+                0
+              ],
+              "lerp_mode": "catmullrom"
+            }
+          }
         }
       }
     }

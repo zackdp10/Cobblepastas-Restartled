@@ -1,7 +1,14 @@
 {
   "item.cobblepastas.amalgamnite": "Amalgamnite",
-  "tooltip.cobblepastas.amalgamnite.tooltip": "\u00a77Allows Amalgameon to Mega Evolve into Mega Amalgameon",
+  "tooltip.cobblepastas.amalgamnite.tooltip": "§7Allows Amalgameon to Mega Evolve into Mega Amalgameon",
   "item.cobblepastas.blood_orb": "Blood Orb",
   "item.cobblepastas.blood_orb.tooltip": "Makes the holder bleed.",
-  "item.cobblepastas.blood_orb.tooltip.1": "It pulses in a way that feels wrong."
+  "item.cobblepastas.blood_orb.tooltip.1": "It pulses in a way that feels wrong.",
+  "painting.cobblepastas.shintopainting.title": "Shitno",
+  "painting.cobblepastas.unownpainting.title": "Unown",
+  "painting.cobblepastas.madiopainting.title": "Madio",
+  "painting.cobblepastas.hombonepainting.title": "Hombone",
+  "painting.cobblepastas.missingnopainting1.title": "MissingNo I",
+  "painting.cobblepastas.missingnopainting2.title": "MissingNo II",
+  "painting.cobblepastas.thekingpainting.title": "The King"
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kingmadio",
+  "speciesId": "cobblemon:kingmadio",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

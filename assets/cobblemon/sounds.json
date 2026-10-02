@@ -271,5 +271,119 @@
         "volume": 0.8
       }
     ]
+  },
+  "pokemon.staryu.cry": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/staryu/staryu_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.starmie.cry": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/starmie/starmie_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.staryu_eerie.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/staryu_eerie/staryu_eerie_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.starmie_eerie.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/starmie_eerie/starmie_eerie_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.normadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/normadio/cry",
+        "stream": false
+      }
+    ]
+  },
+  "pokemon.gluemadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/gluemadio/cry",
+        "stream": false
+      }
+    ]
+  },
+  "pokemon.earthmadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/earthmadio/cry",
+        "stream": false
+      }
+    ]
+  },
+  "pokemon.bonemadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/bonemadio/cry",
+        "stream": false
+      }
+    ]
+  },
+  "pokemon.seamadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/seamadio/cry",
+        "stream": false
+      }
+    ]
+  },
+  "pokemon.burstmadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/burstmadio/cry",
+        "stream": false
+      }
+    ]
+  },
+  "pokemon.treemadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/treemadio/cry",
+        "stream": false
+      }
+    ]
+  },
+  "pokemon.aeromadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/aeromadio/cry",
+        "stream": false
+      }
+    ]
+  },
+  "pokemon.blastmadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/blastmadio/cry",
+        "stream": false
+      }
+    ]
+  },
+  "pokemon.kingmadio.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/kingmadio/cry",
+        "stream": false
+      }
+    ]
   }
 }

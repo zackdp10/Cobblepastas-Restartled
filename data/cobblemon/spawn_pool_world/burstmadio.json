@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "burstmadio-1",
+      "pokemon": "madio madioform=burstmadio alpha=false",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.8,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:is_volcanic"
+        ]
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "burstmadio-1-alpha",
+      "pokemon": "madio madioform=burstmadio alpha=true",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 1.2,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:is_volcanic"
+        ]
+      },
+      "presets": [
+        "natural"
+      ]
+    }
+  ]
+}

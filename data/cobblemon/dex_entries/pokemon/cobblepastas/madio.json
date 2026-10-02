@@ -1,0 +1,57 @@
+{
+  "id": "cobblemon:madio",
+  "speciesId": "cobblemon:madio",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Gluemadio",
+      "unlockForms": [
+        "Gluemadio"
+      ]
+    },
+    {
+      "displayForm": "Earthmadio",
+      "unlockForms": [
+        "Earthmadio"
+      ]
+    },
+    {
+      "displayForm": "Bonemadio",
+      "unlockForms": [
+        "Bonemadio"
+      ]
+    },
+    {
+      "displayForm": "Seamadio",
+      "unlockForms": [
+        "Seamadio"
+      ]
+    },
+    {
+      "displayForm": "Burstmadio",
+      "unlockForms": [
+        "Burstmadio"
+      ]
+    },
+    {
+      "displayForm": "Treemadio",
+      "unlockForms": [
+        "Treemadio"
+      ]
+    },
+    {
+      "displayForm": "Aeromadio",
+      "unlockForms": [
+        "Aeromadio"
+      ]
+    }
+  ],
+  "variations": []
+}

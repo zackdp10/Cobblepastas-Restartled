@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:staryu",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "eerie"
+      ],
+      "poser": "cobblemon:staryu_eerie",
+      "model": "cobblemon:staryu_eerie.geo",
+      "texture": "cobblemon:textures/pokemon/staryu_eerie/staryu_eerie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "eerie",
+        "shiny"
+      ],
+      "poser": "cobblemon:staryu_eerie",
+      "model": "cobblemon:staryu_eerie.geo",
+      "texture": "cobblemon:textures/pokemon/staryu_eerie/staryu_eerie_shiny.png",
+      "layers": []
+    }
+  ]
+}

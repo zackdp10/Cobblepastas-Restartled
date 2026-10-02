@@ -1,0 +1,1011 @@
+{
+  "primaryType": "ghost",
+  "secondaryType": "normal",
+  "abilities": [
+    "hustle",
+    "clearbody"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "behaviour": {
+    "combat": {
+      "willFlee": false,
+      "willDefendSelf": true,
+      "willDefendOwner": false
+    },
+    "moving": {
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.25
+      },
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false,
+        "avoidsWater": true,
+        "swimSpeed": 0.25
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "fast",
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous",
+    "flying"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:teleport",
+    "5:tackle",
+    "11:scaryface",
+    "17:odorsleuth",
+    "23:astonish",
+    "31:smellingsalts",
+    "38:covet",
+    "42:slackoff",
+    "tm:waterpulse",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:gigadrain",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:torment",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:snatch",
+    "tm:flash",
+    "tm:shadowball"
+  ],
+  "baseScale": 1.8,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  "height": 7.5,
+  "weight": 80,
+  "lightingData": {
+    "lightLevel": 0,
+    "liquidGlowMode": "BOTH"
+  },
+  "evolutions": [],
+  "implemented": true,
+  "name": "Madio",
+  "nationalPokedexNumber": 10000,
+  "labels": [
+    "custom"
+  ],
+  "aspects": [
+    "normadio"
+  ],
+  "pokedex": [
+    "cobblemon.species.madio.desc1"
+  ],
+  "forms": [
+    {
+      "primaryType": "ghost",
+      "secondaryType": "poison",
+      "abilities": [
+        "liquidooze",
+        "airlock"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 70,
+        "defence": 70,
+        "special_attack": 70,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "behaviour": {
+        "combat": {
+          "willFlee": false,
+          "willDefendSelf": true,
+          "willDefendOwner": false
+        },
+        "moving": {
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false,
+            "walkSpeed": 0.25
+          },
+          "fly": {
+            "canFly": false
+          },
+          "swim": {
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false,
+            "avoidsWater": true,
+            "swimSpeed": 0.25
+          }
+        }
+      },
+      "catchRate": 45,
+      "maleRatio": -1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 140,
+      "experienceGroup": "fast",
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous",
+        "flying"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:slime_ball",
+            "quantityRange": "1",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:teleport",
+        "5:spiderweb",
+        "14:leer",
+        "19:acidarmor",
+        "24:acid",
+        "32:shadowball",
+        "41:poisongas",
+        "50:poisontail",
+        "61:memento",
+        "tm:dragonclaw",
+        "tm:waterpulse",
+        "tm:roar",
+        "tm:toxic",
+        "tm:hail",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:gigadrain",
+        "tm:frustration",
+        "tm:discharge",
+        "tm:return",
+        "tm:dig",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:shockwave",
+        "tm:sludgebomb",
+        "tm:sandstorm",
+        "tm:beatup",
+        "tm:torment",
+        "tm:facade",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:thief",
+        "tm:snatch",
+        "tm:strength",
+        "tm:flash",
+        "tm:waterfall"
+      ],
+      "baseScale": 1.05885,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.1,
+        "fixed": false
+      },
+      "height": 7.5,
+      "weight": 80,
+      "lightingData": {
+        "lightLevel": 0,
+        "liquidGlowMode": "BOTH"
+      },
+      "evolutions": [],
+      "name": "Gluemadio",
+      "aspects": [
+        "gluemadio"
+      ],
+      "pokedex": [
+        "cobblemon.species.madio.desc1"
+      ]
+    },
+    {
+      "primaryType": "ghost",
+      "secondaryType": "rock",
+      "abilities": [
+        "lightningrod",
+        "rockhead"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 70,
+        "defence": 70,
+        "special_attack": 70,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "behaviour": {
+        "combat": {
+          "willFlee": false,
+          "willDefendSelf": true,
+          "willDefendOwner": false
+        },
+        "moving": {
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false,
+            "walkSpeed": 0.25
+          },
+          "fly": {
+            "canFly": false
+          },
+          "swim": {
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false,
+            "avoidsWater": true,
+            "swimSpeed": 0.25
+          }
+        }
+      },
+      "catchRate": 45,
+      "maleRatio": -1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 140,
+      "experienceGroup": "fast",
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous",
+        "flying"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:flint",
+            "quantityRange": "1",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:teleport",
+        "5:eggbomb",
+        "11:meanlook",
+        "20:fissure",
+        "27:magnitude",
+        "35:rockblast",
+        "38:doubleedge",
+        "38:takedown",
+        "42:petaldance",
+        "56:mimic",
+        "98:thunder",
+        "tm:waterpulse",
+        "tm:calmmind",
+        "tm:roar",
+        "tm:toxic",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:frustration",
+        "tm:earthquake",
+        "tm:return",
+        "tm:dig",
+        "tm:shadowball",
+        "tm:reflect",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:snatch",
+        "tm:strength",
+        "tm:flash",
+        "tm:rocksmash"
+      ],
+      "baseScale": 1.8,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.1,
+        "fixed": false
+      },
+      "height": 8,
+      "weight": 80,
+      "lightingData": {
+        "lightLevel": 0,
+        "liquidGlowMode": "BOTH"
+      },
+      "evolutions": [],
+      "name": "Earthmadio",
+      "aspects": [
+        "earthmadio"
+      ],
+      "pokedex": [
+        "cobblemon.species.madio.desc1"
+      ]
+    },
+    {
+      "primaryType": "ghost",
+      "secondaryType": "ground",
+      "abilities": [
+        "levitate",
+        "speedboost"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 70,
+        "defence": 70,
+        "special_attack": 70,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "behaviour": {
+        "combat": {
+          "willFlee": false,
+          "willDefendSelf": true,
+          "willDefendOwner": false
+        },
+        "moving": {
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false,
+            "walkSpeed": 0.25
+          },
+          "fly": {
+            "canFly": false
+          },
+          "swim": {
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false,
+            "avoidsWater": true,
+            "swimSpeed": 0.25
+          }
+        }
+      },
+      "catchRate": 45,
+      "maleRatio": -1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 140,
+      "experienceGroup": "fast",
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous",
+        "flying"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:bone",
+            "quantityRange": "1",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:teleport",
+        "3:hypnosis",
+        "6:glare",
+        "13:meanlook",
+        "18:leer",
+        "24:boneclub",
+        "30:shadowpunch",
+        "37:headbutt",
+        "43:bonerush",
+        "50:bonemerang",
+        "59:perishsong",
+        "65:beatup",
+        "tm:focuspunch",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:grasswhistle",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:irontail",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:icepunch",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:sludgebomb",
+        "tm:beatup",
+        "tm:snatch",
+        "tm:cut",
+        "tm:flash",
+        "tm:rocksmash"
+      ],
+      "baseScale": 1.28565,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.1,
+        "fixed": false
+      },
+      "height": 8,
+      "weight": 80,
+      "lightingData": {
+        "lightLevel": 0,
+        "liquidGlowMode": "BOTH"
+      },
+      "evolutions": [],
+      "name": "Bonemadio",
+      "aspects": [
+        "bonemadio"
+      ],
+      "pokedex": [
+        "cobblemon.species.madio.desc1"
+      ]
+    },
+    {
+      "primaryType": "ghost",
+      "secondaryType": "water",
+      "abilities": [
+        "runaway",
+        "arenatrap"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 70,
+        "defence": 70,
+        "special_attack": 70,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "behaviour": {
+        "combat": {
+          "willFlee": false,
+          "willDefendSelf": true,
+          "willDefendOwner": false
+        },
+        "moving": {
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false,
+            "walkSpeed": 0.25
+          },
+          "fly": {
+            "canFly": false
+          },
+          "swim": {
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true,
+            "avoidsWater": false,
+            "swimSpeed": 0.25
+          }
+        }
+      },
+      "catchRate": 45,
+      "maleRatio": -1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 140,
+      "experienceGroup": "fast",
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous",
+        "flying"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:prismarine_shard",
+            "quantityRange": "1",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:teleport",
+        "7:leer",
+        "14:astonish",
+        "17:glare",
+        "24:waterpulse",
+        "32:swift",
+        "44:surf",
+        "50:meanlook",
+        "60:shadowclaw",
+        "tm:waterpulse",
+        "tm:calmmind",
+        "tm:roar",
+        "tm:toxic",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:icebeam",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:frustration",
+        "tm:return",
+        "tm:shadowball",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:snatch",
+        "tm:surf",
+        "tm:flash",
+        "tm:waterfall",
+        "tm:dive"
+      ],
+      "baseScale": 1.5,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.1,
+        "fixed": false
+      },
+      "height": 12,
+      "weight": 1150,
+      "lightingData": {
+        "lightLevel": 0,
+        "liquidGlowMode": "BOTH"
+      },
+      "evolutions": [],
+      "name": "Seamadio",
+      "aspects": [
+        "seamadio"
+      ],
+      "pokedex": [
+        "cobblemon.species.madio.desc1"
+      ]
+    },
+    {
+      "primaryType": "ghost",
+      "secondaryType": "fire",
+      "abilities": [
+        "magmaarmor",
+        "flashfire"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 70,
+        "defence": 70,
+        "special_attack": 70,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "behaviour": {
+        "combat": {
+          "willFlee": false,
+          "willDefendSelf": true,
+          "willDefendOwner": false
+        },
+        "moving": {
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false,
+            "walkSpeed": 0.25
+          },
+          "fly": {
+            "canFly": false
+          },
+          "swim": {
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false,
+            "avoidsWater": true,
+            "swimSpeed": 0.25
+          }
+        }
+      },
+      "catchRate": 45,
+      "maleRatio": -1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 140,
+      "experienceGroup": "fast",
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous",
+        "flying"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:gunpowder",
+            "quantityRange": "1",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:explosion",
+        "5:teleport",
+        "11:meanlook",
+        "23:painsplit",
+        "27:block",
+        "33:flamewheel",
+        "40:perishsong",
+        "45:shadowball",
+        "50:endure",
+        "tm:roar",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:grasswhistle",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:irontail",
+        "tm:thunderbolt",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:facade",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:skillswap",
+        "tm:snatch",
+        "tm:overheat",
+        "tm:strength",
+        "tm:flash"
+      ],
+      "baseScale": 1.8,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.1,
+        "fixed": false
+      },
+      "height": 11,
+      "weight": 80,
+      "lightingData": {
+        "lightLevel": 0,
+        "liquidGlowMode": "BOTH"
+      },
+      "evolutions": [
+        {
+          "id": "burstmadio_blastmadio",
+          "variant": "item_interact",
+          "result": "blastmadio",
+          "requiredContext": "cobblemon:fire_stone",
+          "consumeHeldItem": false,
+          "requirements": [],
+          "learnableMoves": []
+        }
+      ],
+      "name": "Burstmadio",
+      "aspects": [
+        "burstmadio"
+      ],
+      "pokedex": [
+        "cobblemon.species.madio.desc1"
+      ]
+    },
+    {
+      "primaryType": "ghost",
+      "secondaryType": "grass",
+      "abilities": [
+        "chlorophyll",
+        "effectspore"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 70,
+        "defence": 70,
+        "special_attack": 70,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "behaviour": {
+        "combat": {
+          "willFlee": false,
+          "willDefendSelf": true,
+          "willDefendOwner": false
+        },
+        "moving": {
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false,
+            "walkSpeed": 0.25
+          },
+          "fly": {
+            "canFly": false
+          },
+          "swim": {
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false,
+            "avoidsWater": true,
+            "swimSpeed": 0.25
+          }
+        }
+      },
+      "catchRate": 45,
+      "maleRatio": -1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 140,
+      "experienceGroup": "fast",
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous",
+        "flying"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:stick",
+            "quantityRange": "1",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:teleport",
+        "5:frenzyplant",
+        "11:flash",
+        "17:facade",
+        "24:ingrain",
+        "30:leechseed",
+        "33:leechlife",
+        "41:synthesis",
+        "52:batonpass",
+        "60:amnesia",
+        "66:spore",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:gigadrain",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:beatup",
+        "tm:facade",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:steelwing",
+        "tm:cut",
+        "tm:flash",
+        "tm:rocksmash"
+      ],
+      "baseScale": 0.8571,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.1,
+        "fixed": false
+      },
+      "height": 160,
+      "weight": 1000,
+      "lightingData": {
+        "lightLevel": 0,
+        "liquidGlowMode": "BOTH"
+      },
+      "evolutions": [],
+      "name": "Treemadio",
+      "aspects": [
+        "treemadio"
+      ],
+      "pokedex": [
+        "cobblemon.species.madio.desc1"
+      ]
+    },
+    {
+      "primaryType": "ghost",
+      "secondaryType": "flying",
+      "abilities": [
+        "earlybird",
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 70,
+        "defence": 70,
+        "special_attack": 70,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "behaviour": {
+        "combat": {
+          "willFlee": false,
+          "willDefendSelf": true,
+          "willDefendOwner": false
+        },
+        "moving": {
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false,
+            "walkSpeed": 0.25
+          },
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false,
+            "avoidsWater": true,
+            "swimSpeed": 0.25
+          }
+        }
+      },
+      "catchRate": 45,
+      "maleRatio": -1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 140,
+      "experienceGroup": "fast",
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggCycles": 20,
+      "eggGroups": [
+        "amorphous",
+        "flying"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "minecraft:feather",
+            "quantityRange": "1",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:teleport",
+        "5:peck",
+        "7:astonish",
+        "13:shadowclaw",
+        "19:fly",
+        "25:meanlook",
+        "31:aerialace",
+        "31:agility",
+        "37:extremespeed",
+        "43:shadowball",
+        "49:slash",
+        "55:aircutter",
+        "tm:roar",
+        "tm:toxic",
+        "tm:grasswhistle",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:frustration",
+        "tm:dig",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:sandstorm",
+        "tm:beatup",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:steelwing",
+        "tm:snatch",
+        "tm:cut",
+        "tm:surf"
+      ],
+      "baseScale": 1.8,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.1,
+        "fixed": false
+      },
+      "height": 15,
+      "weight": 415,
+      "lightingData": {
+        "lightLevel": 0,
+        "liquidGlowMode": "BOTH"
+      },
+      "evolutions": [],
+      "name": "Aeromadio",
+      "aspects": [
+        "aeromadio"
+      ],
+      "pokedex": [
+        "cobblemon.species.madio.desc1"
+      ]
+    }
+  ]
+}

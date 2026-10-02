@@ -3,6 +3,20 @@
   "order": 0,
   "variations": [
     {
+      "aspects": [],
+      "poser": "cobblemon:pinkachu",
+      "model": "cobblemon:pinkachu_male.geo",
+      "texture": "cobblemon:textures/pokemon/pinkachu/pinkachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/pinkachu/pinkachu_shiny.png",
+      "layers": []
+    },
+    {
       "aspects": [
         "male"
       ],

@@ -1,0 +1,127 @@
+{
+  "primaryType": "ghost",
+  "secondaryType": "dark",
+  "abilities": [
+    "wonderguard"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 115,
+    "defence": 70,
+    "special_attack": 100,
+    "special_defence": 55,
+    "speed": 100
+  },
+  "behaviour": {
+    "combat": {
+      "willFlee": false,
+      "willDefendSelf": true,
+      "willDefendOwner": false
+    },
+    "moving": {
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.25
+      },
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false,
+        "avoidsWater": true,
+        "swimSpeed": 0.25
+      }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 220,
+  "experienceGroup": "slow",
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:teleport",
+    "1:astonish",
+    "3:hypnosis",
+    "6:glare",
+    "13:meanlook",
+    "18:leer",
+    "24:bite",
+    "30:shadowpunch",
+    "37:hex",
+    "43:crunch",
+    "50:shadowball",
+    "59:nastyplot",
+    "65:darkpulse",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:darkpulse",
+    "tm:crunch",
+    "tm:hex",
+    "tm:nightshade",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:nastyplot",
+    "tm:calmmind",
+    "tm:swordsdance",
+    "tm:agility",
+    "tm:protect",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:torment",
+    "tm:confuseray",
+    "tm:willowisp",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:rest",
+    "tm:sleeptalk"
+  ],
+  "baseScale": 1.8,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.35,
+    "fixed": false
+  },
+  "height": 12,
+  "weight": 80,
+  "lightingData": {
+    "lightLevel": 0,
+    "liquidGlowMode": "BOTH"
+  },
+  "evolutions": [],
+  "implemented": true,
+  "name": "Kingmadio",
+  "nationalPokedexNumber": 10002,
+  "labels": [
+    "custom",
+    "legendary"
+  ],
+  "aspects": [],
+  "pokedex": [
+    "cobblemon.species.kingmadio.desc1"
+  ]
+}

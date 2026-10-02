@@ -1,0 +1,47 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "earthmadio-1",
+      "pokemon": "madio madioform=earthmadio alpha=false",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 10.8,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands"
+        ],
+        "maxSkyLight": 0,
+        "canSeeSky": false
+      },
+      "presets": [
+        "natural"
+      ]
+    },
+    {
+      "id": "earthmadio-1-alpha",
+      "pokemon": "madio madioform=earthmadio alpha=true",
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "weight": 1.2,
+      "level": "12-35",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands"
+        ],
+        "maxSkyLight": 0,
+        "canSeeSky": false
+      },
+      "presets": [
+        "natural"
+      ]
+    }
+  ]
+}

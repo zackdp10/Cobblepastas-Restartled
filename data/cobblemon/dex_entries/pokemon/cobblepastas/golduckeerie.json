@@ -1,0 +1,17 @@
+{
+  "id": "cobblemon:golduckeerie",
+  "speciesId": "cobblemon:golduck",
+  "displayAspects": [
+    "eerie"
+  ],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Eerie",
+      "unlockForms": [
+        "Eerie"
+      ]
+    }
+  ],
+  "variations": []
+}
