@@ -6,118 +6,213 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/birch_tree",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_sunscorched_den",
+          "weight": 34325
+        },
+        {
+          "name": "cobblemon:everstone",
+          "type": "minecraft:item",
+          "weight": 44005
+        },
+        {
+          "name": "cobblemon:heat_rock",
+          "type": "minecraft:item",
+          "weight": 13636
+        },
+        {
+          "name": "cobblemon:smooth_rock",
+          "type": "minecraft:item",
+          "weight": 6691
+        },
+        {
+          "name": "cobblemon:razor_fang",
+          "type": "minecraft:item",
+          "weight": 3387
+        },
+        {
+          "name": "cobblemon:vivichoke_seeds",
+          "type": "minecraft:item",
+          "weight": 55005
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/dripstone_oasis",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_rooted_pit",
+          "weight": 34325
+        },
+        {
+          "name": "cobblemon:damp_rock",
+          "type": "minecraft:item",
+          "weight": 21709
+        },
+        {
+          "name": "cobblemon:peat_block",
+          "type": "minecraft:item",
+          "weight": 6886
+        },
+        {
+          "name": "cobblemon:prism_scale",
+          "type": "minecraft:item",
+          "weight": 10053
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/enhydro_agate",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_sunscorched_remains",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/eroded_pillar",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_eroded_pillar",
+          "weight": 34325
+        },
+        {
+          "name": "cobblemon:black_augurite",
+          "type": "minecraft:item",
+          "weight": 2311
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/frozen_pond",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_spruce_tree",
+          "weight": 34325
+        },
+        {
+          "name": "cobblemon:icy_rock",
+          "type": "minecraft:item",
+          "weight": 11631
+        },
+        {
+          "name": "cobblemon:charcoal_stick",
+          "type": "minecraft:item",
+          "weight": 3504
+        },
+        {
+          "name": "cobblemon:fairy_feather",
+          "type": "minecraft:item",
+          "weight": 3227
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/frozen_spike",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_sandy_den",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/hydrothermal_vents",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_preserved_skeleton",
+          "weight": 34325
+        },
+        {
+          "name": "cobblemon:deep_sea_tooth",
+          "type": "minecraft:item",
+          "weight": 6394
+        },
+        {
+          "name": "cobblemon:deep_sea_scale",
+          "type": "minecraft:item",
+          "weight": 6394
+        },
+        {
+          "name": "cobblemon:never_melt_ice",
+          "type": "minecraft:item",
+          "weight": 5219
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/lush_den",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_birch_tree",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/mossy_pond",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_mud_pit",
+          "weight": 34325
+        },
+        {
+          "name": "cobblemon:dragon_fang",
+          "type": "minecraft:item",
+          "weight": 4499
+        },
+        {
+          "name": "cobblemon:absorb_bulb",
+          "type": "minecraft:item",
+          "weight": 3227
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/mud_pit",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_powdered_deposit",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/oak_tree",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_submerged_spike",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/powdered_deposit",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_frozen_pond",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/preserved_skeleton",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_dripstone_oasis",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/rooted_pit",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_underwater_fissure",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/sandy_den",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_submerged_impact",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/spruce_tree",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_enhydro_agate",
+          "weight": 34325
+        },
+        {
+          "name": "cobblemon:kings_rock",
+          "type": "minecraft:item",
+          "weight": 1476
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/submerged_impact",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_lush_den",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/submerged_spike",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_vibrant_hydrothermal_vents",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/sunscorched_den",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_frozen_spike",
+          "weight": 34325
+        },
+        {
+          "name": "cobblemon:razor_claw",
+          "type": "minecraft:item",
+          "weight": 1271
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/sunscorched_remains",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_oak_tree",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/suspicious_mound",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_hydrothermal_vents",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/underwater_fissure",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_suspicious_mound",
+          "weight": 34325
         },
         {
           "type": "minecraft:loot_table",
-          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/vibrant_hydrothermal_vents",
-          "weight": 1
+          "value": "cobblemon:fossils/common/prehistoric_mossy_pond",
+          "weight": 34325
         }
       ]
     }
