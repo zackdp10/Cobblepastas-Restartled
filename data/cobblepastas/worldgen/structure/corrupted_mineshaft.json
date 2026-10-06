@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:mineshaft",
+  "biomes": "#cobblepastas:is_corrupted",
+  "mineshaft_type": "mesa",
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}

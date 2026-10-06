@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblemon:fossils/common/prehistoric_lush_den",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblemon:fossils/uncommon/prehistoric_lush_den",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/sites/lush_den_rare",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "cobblepastas:block/cobbled_missing_texture"
+  }
+}

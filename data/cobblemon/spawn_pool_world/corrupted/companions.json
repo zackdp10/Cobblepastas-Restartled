@@ -1,0 +1,147 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "corrupted-missingno",
+      "pokemon": "missingno",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "30-50",
+      "weight": 0.25,
+      "condition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "corrupted-diglett",
+      "pokemon": "diglett",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "common",
+      "level": "5-24",
+      "weight": 20,
+      "condition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ],
+        "canSeeSky": false
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "corrupted-dugtrio",
+      "pokemon": "dugtrio",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "26-40",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ],
+        "canSeeSky": false
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "corrupted-zubat",
+      "pokemon": "zubat",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 20,
+      "condition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ],
+        "canSeeSky": false
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "corrupted-golbat",
+      "pokemon": "golbat",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "22-40",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ],
+        "canSeeSky": false
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "corrupted-magnemite",
+      "pokemon": "magnemite",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "common",
+      "level": "10-30",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "corrupted-porygon",
+      "pokemon": "porygon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "15-35",
+      "weight": 2,
+      "condition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "corrupted-ditto",
+      "pokemon": "ditto",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "uncommon",
+      "level": "15-35",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

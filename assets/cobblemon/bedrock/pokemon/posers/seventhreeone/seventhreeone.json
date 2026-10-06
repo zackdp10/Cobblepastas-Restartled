@@ -24,6 +24,9 @@
       ],
       "animations": [
         "q.bedrock('seventhreeone', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_primary_quirk('seventhreeone', 'image_flash', 8, 20, 1)"
       ]
     },
     "walking": {
@@ -34,6 +37,9 @@
       ],
       "animations": [
         "q.bedrock('seventhreeone', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_primary_quirk('seventhreeone', 'image_flash', 8, 20, 1)"
       ]
     }
   },

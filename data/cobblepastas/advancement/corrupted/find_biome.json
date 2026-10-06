@@ -1,0 +1,42 @@
+{
+  "parent": "cobblemon:root",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:missing_texture"
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.find_corrupted_biome"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.find_corrupted_biome.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_corrupted_biome": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "cobblepastas:corrupted"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [
+    [
+      "enter_corrupted_biome"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

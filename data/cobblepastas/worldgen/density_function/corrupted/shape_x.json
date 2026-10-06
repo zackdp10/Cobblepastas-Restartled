@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "cobblepastas:corrupted/outline_roll",
+  "min_inclusive": 0,
+  "max_exclusive": 0.5,
+  "when_in_range": "cobblepastas:corrupted/chunk_x",
+  "when_out_of_range": {
+    "type": "minecraft:add",
+    "argument1": 95,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": -1,
+      "argument2": "cobblepastas:corrupted/chunk_x"
+    }
+  }
+}

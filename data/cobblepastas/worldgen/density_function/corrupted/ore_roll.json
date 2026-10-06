@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:add",
+  "argument1": "cobblepastas:corrupted/ore_hash",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": -1,
+    "argument2": {
+      "type": "lithostitched:floor",
+      "argument": "cobblepastas:corrupted/ore_hash"
+    }
+  }
+}

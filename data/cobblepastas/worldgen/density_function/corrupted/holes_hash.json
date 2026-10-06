@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:mul",
+  "argument1": 43758.5453,
+  "argument2": {
+    "type": "lithostitched:sin",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": "cobblepastas:corrupted/anchor_noise",
+        "argument2": 12345.6789
+      },
+      "argument2": 8.901
+    }
+  }
+}

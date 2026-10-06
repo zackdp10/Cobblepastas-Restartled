@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "cobblepastas:corrupted_mineshaft",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 73519321,
+    "spacing": 8,
+    "separation": 4,
+    "frequency": 1.0
+  }
+}

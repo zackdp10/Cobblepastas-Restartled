@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:range_choice",
+    "input": "cobblepastas:corrupted/in_chunk_x",
+    "min_inclusive": 4,
+    "max_exclusive": 12,
+    "when_in_range": 1,
+    "when_out_of_range": 0
+  },
+  "argument2": {
+    "type": "minecraft:range_choice",
+    "input": "cobblepastas:corrupted/in_chunk_z",
+    "min_inclusive": 4,
+    "max_exclusive": 12,
+    "when_in_range": 1,
+    "when_out_of_range": 0
+  }
+}

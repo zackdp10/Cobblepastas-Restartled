@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:range_choice",
+    "input": "cobblepastas:corrupted/terrain_offset",
+    "min_inclusive": 64,
+    "max_exclusive": 100,
+    "when_in_range": 1,
+    "when_out_of_range": 0
+  },
+  "argument2": {
+    "type": "minecraft:range_choice",
+    "input": "cobblepastas:corrupted/y",
+    "min_inclusive": 88,
+    "max_exclusive": 128,
+    "when_in_range": 1,
+    "when_out_of_range": 0
+  }
+}

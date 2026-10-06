@@ -1,0 +1,31 @@
+{
+  "feature": "cobblepastas:corrupted/sky_fragments",
+  "placement": [
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:sample_density",
+        "density_function": "cobblepastas:corrupted/sky_fragments",
+        "min_inclusive": 0.5
+      }
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 192
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

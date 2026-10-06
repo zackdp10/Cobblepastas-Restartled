@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cobblepastas:missing_texture"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cobblepastas:missing_texture_pressure_plate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stone",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cobblepastas:missing_texture_pressure_plate"
+    ]
+  }
+}

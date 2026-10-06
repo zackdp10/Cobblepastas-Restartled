@@ -1,0 +1,53 @@
+{
+  "type": "lithostitched:wrap_noise_router",
+  "dimension": "minecraft:overworld",
+  "target": "final_density",
+  "priority": 1500,
+  "wrapper_function": {
+    "type": "minecraft:range_choice",
+    "input": {
+      "type": "minecraft:mul",
+      "argument1": "cobblepastas:corrupted/super_pillar",
+      "argument2": {
+        "type": "minecraft:range_choice",
+        "input": "cobblepastas:corrupted/y",
+        "min_inclusive": 64,
+        "max_exclusive": 320,
+        "when_in_range": 1,
+        "when_out_of_range": 0
+      }
+    },
+    "min_inclusive": 0.5,
+    "max_exclusive": 2,
+    "when_in_range": 1,
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": "cobblepastas:corrupted/suspended_gap",
+      "min_inclusive": 0.5,
+      "max_exclusive": 2,
+      "when_in_range": -1,
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "cobblepastas:corrupted/terrain_offset",
+        "min_inclusive": -0.5,
+        "max_exclusive": 0.5,
+        "when_in_range": {
+          "type": "lithostitched:wrapped_marker"
+        },
+        "when_out_of_range": {
+          "type": "lithostitched:shift",
+          "input": {
+            "type": "lithostitched:wrapped_marker"
+          },
+          "shift_x": 0,
+          "shift_y": {
+            "type": "minecraft:mul",
+            "argument1": -1,
+            "argument2": "cobblepastas:corrupted/terrain_offset"
+          },
+          "shift_z": 0
+        }
+      }
+    }
+  }
+}

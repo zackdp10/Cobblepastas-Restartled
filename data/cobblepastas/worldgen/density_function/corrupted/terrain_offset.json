@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": "cobblepastas:corrupted/lift_height",
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": "cobblepastas:corrupted/fractured",
+          "argument2": {
+            "type": "minecraft:range_choice",
+            "input": "cobblepastas:corrupted/fracture_roll",
+            "min_inclusive": 0,
+            "max_exclusive": 0.06,
+            "when_in_range": 48,
+            "when_out_of_range": {
+              "type": "minecraft:range_choice",
+              "input": "cobblepastas:corrupted/fracture_roll",
+              "min_inclusive": 0.06,
+              "max_exclusive": 0.105,
+              "when_in_range": 96,
+              "when_out_of_range": {
+                "type": "minecraft:range_choice",
+                "input": "cobblepastas:corrupted/fracture_roll",
+                "min_inclusive": 0.105,
+                "max_exclusive": 0.18,
+                "when_in_range": -88,
+                "when_out_of_range": -120
+              }
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": "cobblepastas:corrupted/rift_wall",
+        "argument2": 144
+      }
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": "cobblepastas:corrupted/grid_recess",
+      "argument2": -10
+    }
+  }
+}

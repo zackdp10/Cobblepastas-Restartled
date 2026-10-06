@@ -1,0 +1,22 @@
+{
+  "feature": "cobblepastas:corrupted/void_hole",
+  "placement": [
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:sample_density",
+        "density_function": "cobblepastas:corrupted/hole",
+        "min_inclusive": 0.5
+      }
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": -64
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pineapple.cobblepastas.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CorruptedBiomeFogMixin",
+    "CorruptedBiomeMoodMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

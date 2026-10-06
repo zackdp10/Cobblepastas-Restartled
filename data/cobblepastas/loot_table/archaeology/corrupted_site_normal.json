@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/birch_tree",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/dripstone_oasis",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/enhydro_agate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/eroded_pillar",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/frozen_pond",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/frozen_spike",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/hydrothermal_vents",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/lush_den",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/mossy_pond",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/mud_pit",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/oak_tree",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/powdered_deposit",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/preserved_skeleton",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/rooted_pit",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/sandy_den",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/spruce_tree",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/submerged_impact",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/submerged_spike",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/sunscorched_den",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/sunscorched_remains",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/suspicious_mound",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/underwater_fissure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblepastas/archaeology/sites/vibrant_hydrothermal_vents",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

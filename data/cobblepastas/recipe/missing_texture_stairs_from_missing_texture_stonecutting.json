@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cobblepastas:missing_texture"
+  },
+  "result": {
+    "count": 1,
+    "id": "cobblepastas:missing_texture_stairs"
+  }
+}

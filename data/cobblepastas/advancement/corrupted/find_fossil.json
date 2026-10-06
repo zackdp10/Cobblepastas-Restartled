@@ -1,0 +1,36 @@
+{
+  "parent": "cobblepastas:corrupted/find_biome",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:corrupted_fossil"
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.find_corrupted_fossil"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.find_corrupted_fossil.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_corrupted_fossil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cobblepastas:corrupted_fossil"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_corrupted_fossil"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

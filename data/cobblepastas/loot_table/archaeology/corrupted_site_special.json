@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblepastas:corrupted_fossil",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_site_normal",
+          "weight": 25
+        }
+      ]
+    }
+  ]
+}

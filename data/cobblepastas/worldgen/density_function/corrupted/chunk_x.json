@@ -1,0 +1,8 @@
+{
+  "type": "lithostitched:floor",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": "cobblepastas:corrupted/local_x",
+    "argument2": 0.0625
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:delegating",
+  "delegate": "cobblepastas:corrupted_mineshaft",
+  "spawn_condition": {
+    "type": "lithostitched:sample_density",
+    "density_function": "cobblepastas:corrupted/floating_mineshaft_start",
+    "min_inclusive": 0.5
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "cobblepastas:block/missing_texture_bricks",
+    "top": "cobblepastas:block/missing_texture_bricks",
+    "side": "cobblepastas:block/missing_texture_bricks"
+  }
+}

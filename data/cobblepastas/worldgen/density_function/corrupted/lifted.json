@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "cobblepastas:corrupted/lift_height",
+  "min_inclusive": 1,
+  "max_exclusive": 100,
+  "when_in_range": 1,
+  "when_out_of_range": 0
+}

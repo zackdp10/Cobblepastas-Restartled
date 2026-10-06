@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cobblepastas:block/missing_texture_bricks_slab"
+    },
+    "type=double": {
+      "model": "cobblepastas:block/missing_texture_bricks"
+    },
+    "type=top": {
+      "model": "cobblepastas:block/missing_texture_bricks_slab_top"
+    }
+  }
+}

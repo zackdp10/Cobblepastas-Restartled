@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cobblepastas:smooth_missing_texture"
+  },
+  "result": {
+    "count": 2,
+    "id": "cobblepastas:smooth_missing_texture_slab"
+  }
+}

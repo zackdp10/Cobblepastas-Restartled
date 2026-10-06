@@ -16,15 +16,26 @@
       "com.pineapple.cobblepastas.AmalgamniteRegistration",
       "com.pineapple.cobblepastas.HoneyberryWrapRegistration",
       "com.pineapple.cobblepastas.BloodOrbRegistration",
-      "com.pineapple.cobblepastas.BloodOrbHeldItemRemap"
+      "com.pineapple.cobblepastas.BloodOrbHeldItemRemap",
+      "com.pineapple.cobblepastas.TempOreRegistration",
+      "com.pineapple.cobblepastas.MissingStoneRegistration",
+      "com.pineapple.cobblepastas.CorruptedMapRegistration",
+      "com.pineapple.cobblepastas.MissingStoneControls"
     ]
   },
   "icon": "pack.png",
   "depends": {
-    "fabricloader": ">=0.16.0",
+    "fabricloader": ">=0.19.0",
     "fabric-api": ">=0.116.6+1.21.1",
     "minecraft": "~1.21.1",
     "cobblemon": ">=1.8.1",
-    "mega_showdown": ">=1.2.0"
-  }
+    "mega_showdown": ">=1.2.0",
+    "lithostitched": ">=1.8.0"
+  },
+  "mixins": [
+    {
+      "config": "cobblepastas-corrupted-fog.mixins.json",
+      "environment": "client"
+    }
+  ]
 }

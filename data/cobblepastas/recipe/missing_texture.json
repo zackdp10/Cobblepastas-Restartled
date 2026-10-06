@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "cobblepastas:cobbled_missing_texture"
+  },
+  "result": {
+    "id": "cobblepastas:missing_texture"
+  }
+}

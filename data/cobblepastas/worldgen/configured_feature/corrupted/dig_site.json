@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:structure_template",
+  "config": {
+    "template": "cobblepastas:corrupted/dig_site",
+    "processors": "cobblepastas:corrupted/dig_site_grounding",
+    "rotation": "none",
+    "liquid_settings": "ignore_waterlogging"
+  }
+}

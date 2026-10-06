@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblemon:fossils/common/prehistoric_powdered_deposit",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cobblepastas:archaeology/corrupted_filtered/cobblemon/fossils/uncommon/prehistoric_powdered_deposit",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

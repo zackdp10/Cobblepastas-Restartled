@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:min",
+  "argument1": 192,
+  "argument2": {
+    "type": "minecraft:max",
+    "argument1": 128,
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": 144,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 32,
+          "argument2": "cobblepastas:corrupted/outline_roll"
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 24,
+        "argument2": "cobblepastas:corrupted/edge_radius"
+      }
+    }
+  }
+}

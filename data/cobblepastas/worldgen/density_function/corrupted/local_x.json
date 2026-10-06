@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:add",
+  "argument1": "cobblepastas:corrupted/x",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": -1536,
+    "argument2": {
+      "type": "lithostitched:floor",
+      "argument": {
+        "type": "minecraft:mul",
+        "argument1": "cobblepastas:corrupted/x",
+        "argument2": 0.0006510416666666666
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "lithostitched:shift",
+  "input": {
+    "type": "minecraft:noise",
+    "noise": "cobblepastas:corrupted_roll",
+    "xz_scale": 1,
+    "y_scale": 0
+  },
+  "shift_x": {
+    "type": "minecraft:mul",
+    "argument1": -1,
+    "argument2": "cobblepastas:corrupted/local_x"
+  },
+  "shift_y": {
+    "type": "minecraft:mul",
+    "argument1": -1,
+    "argument2": "cobblepastas:corrupted/y"
+  },
+  "shift_z": {
+    "type": "minecraft:mul",
+    "argument1": -1,
+    "argument2": "cobblepastas:corrupted/local_z"
+  }
+}

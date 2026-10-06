@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": "cobblepastas:corrupted/grid_area",
+    "argument2": {
+      "type": "minecraft:range_choice",
+      "input": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": "cobblepastas:corrupted/chunk_x",
+          "argument2": "cobblepastas:corrupted/chunk_z"
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": -2,
+          "argument2": {
+            "type": "lithostitched:floor",
+            "argument": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": "cobblepastas:corrupted/chunk_x",
+                "argument2": "cobblepastas:corrupted/chunk_z"
+              },
+              "argument2": 0.5
+            }
+          }
+        }
+      },
+      "min_inclusive": 0,
+      "max_exclusive": 1,
+      "when_in_range": 1,
+      "when_out_of_range": 0
+    }
+  }
+}

@@ -6,49 +6,52 @@
       "aspects": [],
       "poser": "cobblemon:seventhreeone",
       "model": "cobblemon:seventhreeone.geo",
-      "texture": "cobblemon:textures/pokemon/seventhreeone/seventhreeone.png",
+      "texture": "cobblemon:textures/pokemon/seventhreeone/animation_base.png",
       "layers": [
         {
-          "name": "figures",
+          "name": "static_and_images",
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/figure1.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/figure1.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/figure2.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/figure3.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/figure4.png"
+              "cobblemon:textures/pokemon/seventhreeone/animation/frame0.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation/frame1.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation/frame2.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation/frame3.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation/frame4.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation/frame5.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation/frame6.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation/frame7.png"
             ],
-            "fps": 2.5,
+            "fps": 25,
             "loop": true
           }
         }
       ]
     },
     {
-      "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/seventhreeone/seventhreeone.png",
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/seventhreeone/animation_base.png",
       "layers": [
         {
-          "name": "figures_shiny",
+          "name": "static_and_images",
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures_shiny/figure1_shiny.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures_shiny/figure1_shiny.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/static.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/figure2.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures/figure3.png",
-              "cobblemon:textures/pokemon/seventhreeone/figures_shiny/figure4_shiny.png"
+              "cobblemon:textures/pokemon/seventhreeone/animation_shiny/frame0.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation_shiny/frame1.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation_shiny/frame2.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation_shiny/frame3.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation_shiny/frame4.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation_shiny/frame5.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation_shiny/frame6.png",
+              "cobblemon:textures/pokemon/seventhreeone/animation_shiny/frame7.png"
             ],
-            "fps": 2.5,
+            "fps": 25,
             "loop": true
           }
         }
-      ]
+      ],
+      "poser": "cobblemon:seventhreeone"
     }
   ]
 }

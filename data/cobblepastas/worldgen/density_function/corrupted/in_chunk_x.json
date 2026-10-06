@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "argument1": "cobblepastas:corrupted/local_x",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": -16,
+    "argument2": "cobblepastas:corrupted/chunk_x"
+  }
+}

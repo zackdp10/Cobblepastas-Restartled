@@ -10,9 +10,9 @@
         "natural"
       ],
       "type": "pokemon",
-      "bucket": "uncommon",
+      "bucket": "ultra-rare",
       "level": "5-25",
-      "weight": 3.6,
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -20,7 +20,12 @@
         "canSeeSky": false,
         "maxSkyLight": 7
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ]
+      }
     },
     {
       "id": "glitchlett-cave-alpha",
@@ -29,9 +34,9 @@
         "natural"
       ],
       "type": "pokemon",
-      "bucket": "uncommon",
+      "bucket": "ultra-rare",
       "level": "5-25",
-      "weight": 0.4,
+      "weight": 0.1,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -39,7 +44,12 @@
         "canSeeSky": false,
         "maxSkyLight": 7
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:corrupted"
+        ]
+      }
     }
   ]
 }

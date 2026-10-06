@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "cobblepastas:block/cobbled_missing_texture"
+  }
+}

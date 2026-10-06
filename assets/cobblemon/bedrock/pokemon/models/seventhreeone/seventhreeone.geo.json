@@ -5,7 +5,7 @@
       "description": {
         "identifier": "geometry.unknown",
         "texture_width": 128,
-        "texture_height": 128,
+        "texture_height": 256,
         "visible_bounds_width": 4,
         "visible_bounds_height": 4.5,
         "visible_bounds_offset": [
@@ -28,7 +28,7 @@
           "parent": "seventhreeone",
           "pivot": [
             0,
-            5,
+            29,
             0
           ],
           "cubes": [
@@ -46,6 +46,114 @@
               "uv": [
                 0,
                 0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flash_image1",
+          "parent": "seventhreeone",
+          "pivot": [
+            0,
+            29,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -24,
+                5,
+                0
+              ],
+              "size": [
+                48,
+                48,
+                0
+              ],
+              "uv": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flash_image2",
+          "parent": "seventhreeone",
+          "pivot": [
+            0,
+            29,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -24,
+                5,
+                0
+              ],
+              "size": [
+                48,
+                48,
+                0
+              ],
+              "uv": [
+                0,
+                96
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flash_image3",
+          "parent": "seventhreeone",
+          "pivot": [
+            0,
+            29,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -24,
+                5,
+                0
+              ],
+              "size": [
+                48,
+                48,
+                0
+              ],
+              "uv": [
+                0,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flash_image4",
+          "parent": "seventhreeone",
+          "pivot": [
+            0,
+            29,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -24,
+                5,
+                0
+              ],
+              "size": [
+                48,
+                48,
+                0
+              ],
+              "uv": [
+                0,
+                192
               ]
             }
           ]

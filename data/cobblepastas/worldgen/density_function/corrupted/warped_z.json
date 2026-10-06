@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": "cobblepastas:corrupted/local_z",
+    "argument2": -768
+  },
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 24,
+    "argument2": "cobblepastas:corrupted/edge_z"
+  }
+}

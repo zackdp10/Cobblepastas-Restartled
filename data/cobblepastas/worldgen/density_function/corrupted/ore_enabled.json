@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:mul",
+  "argument1": "cobblepastas:corrupted/patch",
+  "argument2": {
+    "type": "minecraft:range_choice",
+    "input": "cobblepastas:corrupted/ore_roll",
+    "min_inclusive": 0,
+    "max_exclusive": 0.25,
+    "when_in_range": 1,
+    "when_out_of_range": 0
+  }
+}

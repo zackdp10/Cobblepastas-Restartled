@@ -1,0 +1,11 @@
+{
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "priority": 1500,
+  "biome": "cobblepastas:corrupted",
+  "parameters": {
+    "cobblepastas:corrupted/patch": {
+      "min_inclusive": 0.5
+    }
+  }
+}

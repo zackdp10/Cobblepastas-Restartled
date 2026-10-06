@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "cobblepastas:missing_texture_slab",
+    "cobblepastas:cobbled_missing_texture_slab",
+    "cobblepastas:smooth_missing_texture_slab",
+    "cobblepastas:missing_texture_bricks_slab"
+  ]
+}

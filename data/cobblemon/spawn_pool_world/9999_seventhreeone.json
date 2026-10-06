@@ -10,12 +10,12 @@
         "natural"
       ],
       "type": "pokemon",
-      "bucket": "ultra-rare",
+      "bucket": "rare",
       "level": "15-40",
       "weight": 4.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_village"
+          "cobblepastas:corrupted"
         ]
       },
       "spawnablePositionType": "grounded"
@@ -27,12 +27,12 @@
         "natural"
       ],
       "type": "pokemon",
-      "bucket": "ultra-rare",
+      "bucket": "rare",
       "level": "15-40",
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_village"
+          "cobblepastas:corrupted"
         ]
       },
       "spawnablePositionType": "grounded"

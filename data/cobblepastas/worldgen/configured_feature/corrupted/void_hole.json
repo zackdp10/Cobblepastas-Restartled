@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:structure_template",
+  "config": {
+    "template": "cobblepastas:corrupted/void_hole",
+    "processors": "minecraft:empty",
+    "rotation": "none",
+    "liquid_settings": "ignore_waterlogging"
+  }
+}

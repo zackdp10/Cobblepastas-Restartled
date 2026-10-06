@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:mul",
+                  "argument1": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:mul",
+                      "argument1": {
+                        "type": "minecraft:mul",
+                        "argument1": "cobblepastas:corrupted/outline",
+                        "argument2": {
+                          "type": "minecraft:range_choice",
+                          "input": "cobblepastas:corrupted/presence_roll",
+                          "min_inclusive": 0,
+                          "max_exclusive": 0.375,
+                          "when_in_range": 1,
+                          "when_out_of_range": 0
+                        }
+                      },
+                      "argument2": {
+                        "type": "minecraft:range_choice",
+                        "input": "minecraft:overworld/continents",
+                        "min_inclusive": 0.08,
+                        "max_exclusive": 100,
+                        "when_in_range": 1,
+                        "when_out_of_range": 0
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:range_choice",
+                      "input": "cobblepastas:corrupted/land_0",
+                      "min_inclusive": 0.08,
+                      "max_exclusive": 100,
+                      "when_in_range": 1,
+                      "when_out_of_range": 0
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:range_choice",
+                    "input": "cobblepastas:corrupted/land_1",
+                    "min_inclusive": 0.08,
+                    "max_exclusive": 100,
+                    "when_in_range": 1,
+                    "when_out_of_range": 0
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:range_choice",
+                  "input": "cobblepastas:corrupted/land_2",
+                  "min_inclusive": 0.08,
+                  "max_exclusive": 100,
+                  "when_in_range": 1,
+                  "when_out_of_range": 0
+                }
+              },
+              "argument2": {
+                "type": "minecraft:range_choice",
+                "input": "cobblepastas:corrupted/land_3",
+                "min_inclusive": 0.08,
+                "max_exclusive": 100,
+                "when_in_range": 1,
+                "when_out_of_range": 0
+              }
+            },
+            "argument2": {
+              "type": "minecraft:range_choice",
+              "input": "cobblepastas:corrupted/land_4",
+              "min_inclusive": 0.08,
+              "max_exclusive": 100,
+              "when_in_range": 1,
+              "when_out_of_range": 0
+            }
+          },
+          "argument2": {
+            "type": "minecraft:range_choice",
+            "input": "cobblepastas:corrupted/land_5",
+            "min_inclusive": 0.08,
+            "max_exclusive": 100,
+            "when_in_range": 1,
+            "when_out_of_range": 0
+          }
+        },
+        "argument2": {
+          "type": "minecraft:range_choice",
+          "input": "cobblepastas:corrupted/land_6",
+          "min_inclusive": 0.08,
+          "max_exclusive": 100,
+          "when_in_range": 1,
+          "when_out_of_range": 0
+        }
+      },
+      "argument2": {
+        "type": "minecraft:range_choice",
+        "input": "cobblepastas:corrupted/land_7",
+        "min_inclusive": 0.08,
+        "max_exclusive": 100,
+        "when_in_range": 1,
+        "when_out_of_range": 0
+      }
+    },
+    "argument2": {
+      "type": "minecraft:range_choice",
+      "input": "cobblepastas:corrupted/land_8",
+      "min_inclusive": 0.08,
+      "max_exclusive": 100,
+      "when_in_range": 1,
+      "when_out_of_range": 0
+    }
+  }
+}

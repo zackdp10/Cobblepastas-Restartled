@@ -1,0 +1,24 @@
+{
+  "feature": "cobblepastas:corrupted/dig_site",
+  "placement": [
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:sample_density",
+        "density_function": "cobblepastas:corrupted/dig_site",
+        "min_inclusive": 0.5
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "lithostitched:offset",
+      "y_offset": -6
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

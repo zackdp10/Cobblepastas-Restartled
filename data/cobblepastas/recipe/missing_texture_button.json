@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "cobblepastas:missing_texture"
+    }
+  ],
+  "result": {
+    "id": "cobblepastas:missing_texture_button",
+    "count": 1
+  }
+}

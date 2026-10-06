@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": "cobblepastas:corrupted/warped_x",
+    "argument2": "cobblepastas:corrupted/warped_x"
+  },
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": "cobblepastas:corrupted/warped_z",
+    "argument2": "cobblepastas:corrupted/warped_z"
+  }
+}

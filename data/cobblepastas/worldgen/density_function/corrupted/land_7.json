@@ -1,0 +1,27 @@
+{
+  "type": "lithostitched:shift",
+  "input": "minecraft:overworld/continents",
+  "shift_x": {
+    "type": "minecraft:add",
+    "argument1": 896,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": -1,
+      "argument2": "cobblepastas:corrupted/local_x"
+    }
+  },
+  "shift_y": {
+    "type": "minecraft:mul",
+    "argument1": -1,
+    "argument2": "cobblepastas:corrupted/y"
+  },
+  "shift_z": {
+    "type": "minecraft:add",
+    "argument1": 768,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": -1,
+      "argument2": "cobblepastas:corrupted/local_z"
+    }
+  }
+}
