@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:shinto",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "shitno-form"
+      ],
+      "poser": "cobblemon:shitno",
+      "model": "cobblemon:shitno.geo",
+      "texture": "cobblemon:textures/pokemon/shinto/shitno.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shitno-form",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/shinto/shitno_shiny.png"
+    }
+  ]
+}

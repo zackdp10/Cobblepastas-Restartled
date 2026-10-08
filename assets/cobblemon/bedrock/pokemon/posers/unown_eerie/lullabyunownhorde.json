@@ -1,0 +1,64 @@
+{
+  "rootBone": "lullabyunownhorde",
+  "portraitScale": 1.2,
+  "portraitTranslation": [
+    0,
+    0.375,
+    0
+  ],
+  "profileScale": 0.675,
+  "profileTranslation": [
+    0,
+    0.6,
+    0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('lullabyunownhorde', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('lullabyunownhorde', 'ground_walk')"
+      ]
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": [
+        "HOVER"
+      ],
+      "animations": [
+        "q.bedrock('lullabyunownhorde', 'ground_idle')"
+      ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [
+        "FLY"
+      ],
+      "animations": [
+        "q.bedrock('lullabyunownhorde', 'ground_walk')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('lullabyunownhorde', 'cry')",
+    "recoil": "q.bedrock_stateful('lullabyunownhorde', 'recoil')"
+  }
+}

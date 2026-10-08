@@ -385,5 +385,37 @@
         "stream": false
       }
     ]
+  },
+  "pokemon.shinto.cry": {
+    "sounds": [
+      {
+        "name": "cobblepastas:pokemon/shinto/shinto_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.shinto-shitno.cry": {
+    "sounds": [
+      {
+        "name": "cobblepastas:pokemon/shinto/shitno_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.unown-eerie.cry": {
+    "sounds": [
+      {
+        "name": "cobblepastas:pokemon/unown_eerie/unown_eerie_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.unown-eerie-horde.cry": {
+    "sounds": [
+      {
+        "name": "cobblepastas:pokemon/unown_eerie/unown_horde_cry",
+        "volume": 0.8
+      }
+    ]
   }
 }

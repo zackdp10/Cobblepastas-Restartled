@@ -21,6 +21,8 @@
     "cobblepastas:missing_texture_bricks_slab",
     "cobblepastas:missing_texture_bricks_wall",
     "cobblepastas:missing_texture_button",
-    "cobblepastas:missing_texture_pressure_plate"
+    "cobblepastas:missing_texture_pressure_plate",
+    "cobblepastas:blood_gem_block",
+    "cobblepastas:blood_gem_cluster"
   ]
 }

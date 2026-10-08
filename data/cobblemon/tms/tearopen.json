@@ -1,1 +1,23 @@
-{"moveName":"tearopen","obtainMethods":[{"variant":"cobblemon:default"}],"recipe":[{"count":8,"item":"cobblemon:dark_gem"},{"count":1,"item":"cobblemon:razor_fang"}],"type":"dark"}
+{
+  "moveName": "tearopen",
+  "obtainMethods": [
+    {
+      "variant": "cobblemon:default"
+    }
+  ],
+  "recipe": [
+    {
+      "count": 8,
+      "item": "cobblemon:dark_gem"
+    },
+    {
+      "count": 1,
+      "item": "cobblemon:razor_fang"
+    },
+    {
+      "count": 1,
+      "item": "cobblepastas:blood_gem"
+    }
+  ],
+  "type": "dark"
+}

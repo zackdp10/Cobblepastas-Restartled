@@ -1,0 +1,22 @@
+{
+  "pokemons": [
+    "Unown"
+  ],
+  "showdown_form_change_id": "eerie",
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "required_aspects": [
+          [
+            "eerie"
+          ]
+        ]
+      },
+      "aspects": [
+        "unown_horde=solo"
+      ],
+      "pokemon_properties": "ability=gathering"
+    }
+  },
+  "effect": "cobblepastas:unown_dispersal"
+}

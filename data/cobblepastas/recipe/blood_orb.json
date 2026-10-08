@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RTG",
+    "TET",
+    "GTR"
+  ],
+  "key": {
+    "R": {
+      "item": "cobblepastas:temp_ore"
+    },
+    "T": {
+      "item": "minecraft:tinted_glass"
+    },
+    "G": {
+      "item": "cobblepastas:blood_gem"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "cobblepastas:blood_orb",
+    "count": 1
+  }
+}

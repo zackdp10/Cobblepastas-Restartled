@@ -1,0 +1,13 @@
+{
+  "keys": [
+    "shinto_form"
+  ],
+  "type": "choice",
+  "choices": [
+    "shinto",
+    "shitno"
+  ],
+  "default": "shinto",
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-form"
+}

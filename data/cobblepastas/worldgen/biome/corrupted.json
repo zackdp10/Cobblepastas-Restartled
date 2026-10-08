@@ -66,9 +66,10 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "cobblepastas:ore/temp_lower",
-      "cobblepastas:ore/temp_upper",
-      "cobblepastas:corrupted/missing_underground"
+      "cobblepastas:corrupted/missing_underground",
+      "cobblepastas:blood_gems_corrupted",
+      "cobblepastas:ore/corrupted_lower",
+      "cobblepastas:ore/corrupted_upper"
     ],
     [],
     [

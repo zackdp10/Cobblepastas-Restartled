@@ -1,0 +1,10 @@
+{
+  "snowstorm": {
+    "source_apply": [
+      "target"
+    ],
+    "particle_apply": "cobblepastas:unown_dispersal",
+    "apply_after": 0.15
+  },
+  "battle_pause_apply": 2.5
+}

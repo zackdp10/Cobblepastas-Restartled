@@ -1,0 +1,21 @@
+{
+  "pokemons": [
+    "Shinto"
+  ],
+  "showdown_form_change_id": "shitno",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "shinto_form=shitno"
+      ],
+      "pokemon_properties": "ability=myrules"
+    },
+    "revert": {
+      "aspects": [
+        "shinto_form=shinto"
+      ],
+      "pokemon_properties": "ability=youcheated"
+    }
+  },
+  "effect": "cobblepastas:shinto_smoke"
+}

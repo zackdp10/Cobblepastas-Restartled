@@ -17,10 +17,14 @@
       "com.pineapple.cobblepastas.HoneyberryWrapRegistration",
       "com.pineapple.cobblepastas.BloodOrbRegistration",
       "com.pineapple.cobblepastas.BloodOrbHeldItemRemap",
-      "com.pineapple.cobblepastas.TempOreRegistration",
+      "com.pineapple.cobblepastas.RootfleshRegistration",
       "com.pineapple.cobblepastas.MissingStoneRegistration",
       "com.pineapple.cobblepastas.CorruptedMapRegistration",
-      "com.pineapple.cobblepastas.MissingStoneControls"
+      "com.pineapple.cobblepastas.MissingStoneControls",
+      "com.pineapple.cobblepastas.BloodGemRegistration"
+    ],
+    "client": [
+      "com.pineapple.cobblepastas.BloodGemClientRegistration"
     ]
   },
   "icon": "pack.png",
@@ -36,6 +40,8 @@
     {
       "config": "cobblepastas-corrupted-fog.mixins.json",
       "environment": "client"
-    }
+    },
+    "cobblepastas-blood-gems.mixins.json",
+    "cobblepastas-shinto-display.mixins.json"
   ]
 }

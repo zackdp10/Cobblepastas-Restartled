@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.pineapple.cobblepastas.mixin.shinto",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ShintoNameMixin",
+    "ShintoBattleEndMixin"
+  ],
+  "client": [
+    "ShintoClientNameMixin",
+    "ShintoBattlePortraitMixin",
+    "ShintoDexNameMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

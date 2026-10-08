@@ -330,7 +330,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblepastas:temp_ore",
+          "name": "cobblepastas:glitched_item",
           "functions": [
             {
               "function": "minecraft:set_count",

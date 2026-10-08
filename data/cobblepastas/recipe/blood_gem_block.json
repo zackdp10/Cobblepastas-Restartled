@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": {
+      "item": "cobblepastas:blood_gem"
+    }
+  },
+  "result": {
+    "id": "cobblepastas:blood_gem_block",
+    "count": 1
+  }
+}

@@ -6,45 +6,37 @@
       "aspects": [
         "eerie"
       ],
-      "poser": "cobblemon:unown_c",
-      "model": "cobblemon:unown_eerie.geo",
-      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie.png",
-      "layers": [
-        {
-          "name": "emissive",
-          "emissive": true,
-          "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_emissive.png",
-          "translucent": true
-        }
-      ]
+      "poser": "cobblemon:lullabyunown",
+      "model": "cobblemon:lullabyunown.geo",
+      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie.png"
     },
     {
       "aspects": [
         "eerie",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_shiny.png",
-      "layers": [
-        {
-          "name": "emissive",
-          "emissive": true,
-          "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_emissive.png",
-          "translucent": true
-        }
-      ]
+      "poser": "cobblemon:lullabyunown",
+      "model": "cobblemon:lullabyunown.geo",
+      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_shiny.png"
     },
     {
       "aspects": [
         "eerie",
-        "alpha_eyes"
+        "horde-form"
       ],
-      "layers": [
-        {
-          "emissive": true,
-          "name": "alpha_eyes",
-          "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_alpha.png"
-        }
-      ]
+      "poser": "cobblemon:lullabyunownhorde",
+      "model": "cobblemon:lullabyunownhorde.geo",
+      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie.png"
+    },
+    {
+      "aspects": [
+        "eerie",
+        "horde-form",
+        "shiny"
+      ],
+      "poser": "cobblemon:lullabyunownhorde",
+      "model": "cobblemon:lullabyunownhorde.geo",
+      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_shiny.png"
     }
   ]
 }

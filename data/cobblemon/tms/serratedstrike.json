@@ -1,1 +1,23 @@
-{"moveName":"serratedstrike","obtainMethods":[{"variant":"cobblemon:default"}],"recipe":[{"count":6,"item":"cobblemon:steel_gem"},{"count":1,"item":"minecraft:flint"}],"type":"steel"}
+{
+  "moveName": "serratedstrike",
+  "obtainMethods": [
+    {
+      "variant": "cobblemon:default"
+    }
+  ],
+  "recipe": [
+    {
+      "count": 6,
+      "item": "cobblemon:steel_gem"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:flint"
+    },
+    {
+      "count": 1,
+      "item": "cobblepastas:blood_gem"
+    }
+  ],
+  "type": "steel"
+}

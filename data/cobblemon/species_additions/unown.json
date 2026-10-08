@@ -5,7 +5,7 @@
       "name": "Eerie",
       "primaryType": "ghost",
       "abilities": [
-        "shadowtag"
+        "gathering"
       ],
       "baseStats": {
         "hp": 48,
@@ -61,7 +61,42 @@
         }
       },
       "moves": [
-        "1:hiddenpower"
+        "1:hiddenpower",
+        "1:astonish",
+        "1:spite",
+        "5:disable",
+        "10:nightshade",
+        "15:confuseray",
+        "18:hypnosis",
+        "20:meanlook",
+        "25:hex",
+        "30:infestation",
+        "35:ominouswind",
+        "40:shadowball",
+        "45:curse",
+        "50:dreameater",
+        "55:perishsong",
+        "tm:protect",
+        "tm:substitute",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:psychic",
+        "tm:psyshock",
+        "tm:shadowball",
+        "tm:darkpulse",
+        "tm:calmmind",
+        "tm:nastyplot",
+        "tm:taunt",
+        "tm:trick",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:confuseray",
+        "tm:hex",
+        "tm:nightshade",
+        "tm:swift",
+        "tm:chargebeam",
+        "tm:infestation"
       ],
       "labels": [
         "gen2",
@@ -75,7 +110,132 @@
       ],
       "height": 5,
       "weight": 50,
-      "evolutions": []
+      "evolutions": [],
+      "baseScale": 1,
+      "hitbox": {
+        "width": 0.5,
+        "height": 1,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Eerie-Horde",
+      "primaryType": "ghost",
+      "abilities": [
+        "possession"
+      ],
+      "baseStats": {
+        "hp": 48,
+        "attack": 100,
+        "defence": 110,
+        "special_attack": 150,
+        "special_defence": 122,
+        "speed": 90
+      },
+      "catchRate": 225,
+      "maleRatio": -1,
+      "baseExperienceYield": 118,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_fast",
+      "eggCycles": 40,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false
+          }
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "unown alpha=false",
+              "tier": 1
+            }
+          ]
+        }
+      },
+      "moves": [
+        "1:hiddenpower",
+        "1:astonish",
+        "1:spite",
+        "5:disable",
+        "10:nightshade",
+        "15:confuseray",
+        "18:hypnosis",
+        "20:meanlook",
+        "25:hex",
+        "30:infestation",
+        "35:ominouswind",
+        "40:shadowball",
+        "45:curse",
+        "50:dreameater",
+        "55:perishsong",
+        "tm:protect",
+        "tm:substitute",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:psychic",
+        "tm:psyshock",
+        "tm:shadowball",
+        "tm:darkpulse",
+        "tm:calmmind",
+        "tm:nastyplot",
+        "tm:taunt",
+        "tm:trick",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:confuseray",
+        "tm:hex",
+        "tm:nightshade",
+        "tm:swift",
+        "tm:chargebeam",
+        "tm:infestation"
+      ],
+      "labels": [
+        "gen2",
+        "eerie"
+      ],
+      "pokedex": [
+        "cobblemon.species.unowneerie.desc2"
+      ],
+      "aspects": [
+        "eerie",
+        "horde-form"
+      ],
+      "height": 20,
+      "weight": 50,
+      "evolutions": [],
+      "baseScale": 2.0,
+      "hitbox": {
+        "width": 1.5,
+        "height": 2,
+        "fixed": false
+      },
+      "battleOnly": true
     }
   ]
 }

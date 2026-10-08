@@ -1,0 +1,69 @@
+{
+  "rootBone": "shitno",
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0,
+    1.65,
+    0
+  ],
+  "profileScale": 0.55,
+  "profileTranslation": [
+    0,
+    1.3,
+    0
+  ],
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT"
+      ],
+      "transformTicks": 5,
+      "animations": [
+        "q.bedrock('shitno', 'ground_idle')"
+      ],
+      "isBattle": false
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "transformTicks": 5,
+      "animations": [
+        "q.bedrock('shitno', 'ground_walk')"
+      ]
+    },
+    "sleeping": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 5,
+      "animations": [
+        "q.bedrock('shitno', 'sleep')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "transformTicks": 5,
+      "animations": [
+        "q.bedrock('shitno', 'ground_idle')"
+      ],
+      "isBattle": true
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('shitno', 'cry')",
+    "recoil": "q.bedrock_stateful('shitno', 'recoil')"
+  },
+  "profilePokedexTranslation": [
+    0,
+    1.0,
+    0
+  ]
+}

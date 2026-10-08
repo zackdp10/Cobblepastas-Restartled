@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.pineapple.cobblepastas.mixin.bloodgem",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BloodGemClusterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

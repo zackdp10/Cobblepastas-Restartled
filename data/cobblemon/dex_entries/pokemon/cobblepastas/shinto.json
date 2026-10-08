@@ -1,0 +1,21 @@
+{
+  "id": "cobblemon:shinto",
+  "speciesId": "cobblemon:shinto",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Shitno",
+      "unlockForms": [
+        "Shitno"
+      ]
+    }
+  ],
+  "variations": []
+}

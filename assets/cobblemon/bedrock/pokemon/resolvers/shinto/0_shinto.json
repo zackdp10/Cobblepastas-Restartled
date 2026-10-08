@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shinto",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:shinto",
+      "model": "cobblemon:shinto.geo",
+      "texture": "cobblemon:textures/pokemon/shinto/shinto.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/shinto/shinto_shiny.png"
+    }
+  ]
+}

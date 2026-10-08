@@ -37,7 +37,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "cobblepastas:temp_ore",
+              "name": "cobblepastas:glitched_item",
               "type": "minecraft:item"
             }
           ],

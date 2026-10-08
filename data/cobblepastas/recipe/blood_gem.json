@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobblepastas:blood_gem_block"
+    }
+  ],
+  "result": {
+    "id": "cobblepastas:blood_gem",
+    "count": 4
+  }
+}

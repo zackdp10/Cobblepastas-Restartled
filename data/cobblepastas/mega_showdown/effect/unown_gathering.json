@@ -1,0 +1,21 @@
+{
+  "snowstorm": {
+    "source_apply": [
+      "target"
+    ],
+    "particle_apply": "cobblepastas:unown_gathering_effect",
+    "apply_after": 4.1,
+    "sound_apply": {
+      "sound_id": "mega_showdown:form_change_basic",
+      "vol": 0.2,
+      "pitch": 1.3
+    },
+    "animations": {
+      "apply_delay": 4.3,
+      "animations_apply": [
+        "cry"
+      ]
+    }
+  },
+  "battle_pause_apply": 7.2
+}

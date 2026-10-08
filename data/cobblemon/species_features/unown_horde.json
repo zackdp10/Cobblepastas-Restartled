@@ -1,0 +1,13 @@
+{
+  "keys": [
+    "unown_horde"
+  ],
+  "type": "choice",
+  "choices": [
+    "solo",
+    "horde"
+  ],
+  "default": "solo",
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-form"
+}

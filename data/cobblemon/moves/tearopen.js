@@ -10,7 +10,7 @@
     if (target.status === "bld") {
       target.clearStatus();
       target.setStatus("hmg", source, move);
-    } else if (!target.status && this.randomChance(1, 5)) {
+    } else if (!target.status && this.randomChance(source.hasItem("bloodgem") ? 3 : 2, 10)) {
       target.setStatus("bld", source, move);
     }
   },

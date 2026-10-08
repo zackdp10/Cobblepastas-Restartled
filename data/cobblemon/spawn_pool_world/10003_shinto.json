@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shinto-dripstone-caves",
+      "pokemon": "shinto shinto_form=shinto alpha=false",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "20-35",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "minecraft:dripstone_caves"
+        ],
+        "canSeeSky": false
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}
