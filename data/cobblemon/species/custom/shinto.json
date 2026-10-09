@@ -73,7 +73,8 @@
   },
   "implemented": true,
   "labels": [
-    "custom"
+    "custom",
+    "mythical"
   ],
   "maleRatio": 0,
   "moves": [
@@ -473,7 +474,8 @@
         "fixed": false
       },
       "labels": [
-        "custom"
+        "custom",
+        "mythical"
       ],
       "evolutions": []
     }
