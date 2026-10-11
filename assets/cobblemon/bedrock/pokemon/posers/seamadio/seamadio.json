@@ -1,19 +1,7 @@
 {
   "rootBone": "madio",
-  "portraitScale": 1.25475,
-  "portraitTranslation": [
-    0,
-    0.168,
-    0
-  ],
-  "profileScale": 0.896,
-  "profileTranslation": [
-    0,
-    0.534,
-    0
-  ],
   "animations": {
-    "cry": "q.bedrock_stateful('seamadio', 'cry')",
+    "cry": "q.bedrock_primary('seamadio', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "recoil": "q.bedrock_stateful('seamadio', 'recoil')"
   },
   "poses": {
@@ -57,5 +45,17 @@
         "q.bedrock('seamadio', 'sleep')"
       ]
     }
-  }
+  },
+  "portraitScale": 2.0,
+  "portraitTranslation": [
+    -0.3,
+    -0.3,
+    0
+  ],
+  "profileScale": 1.429,
+  "profileTranslation": [
+    0,
+    0.079,
+    0
+  ]
 }

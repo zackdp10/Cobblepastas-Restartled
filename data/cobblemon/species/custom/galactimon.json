@@ -99,7 +99,8 @@
     "tm:dive"
   ],
   "labels": [
-    "custom"
+    "custom",
+    "cobblepastas"
   ],
   "pokedex": [
     "cobblemon.species.galactimon.desc1",

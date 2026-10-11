@@ -1,7 +1,7 @@
 {
   "animations": {
     "faint": "q.bedrock_primary('disabled', 'faint', q.curve('one'))",
-    "cry": "q.bedrock_stateful('disabled', 'cry')"
+    "cry": "q.bedrock_primary('disabled', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
   },
   "portraitScale": 1.3,
   "portraitTranslation": [

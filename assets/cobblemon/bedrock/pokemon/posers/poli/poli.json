@@ -1,6 +1,6 @@
 {
   "animations": {
-    "cry": "q.bedrock_stateful('poli', 'cry')",
+    "cry": "q.bedrock_primary('poli', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "recoil": "q.bedrock_stateful('poli', 'recoil')"
   },
   "portraitScale": 1.4,

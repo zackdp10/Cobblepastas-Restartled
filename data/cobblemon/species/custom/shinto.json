@@ -28,7 +28,7 @@
         "avoidsWater": true
       },
       "walk": {
-        "walkSpeed": 0.25
+        "walkSpeed": 0.28
       }
     },
     "resting": {
@@ -74,7 +74,8 @@
   "implemented": true,
   "labels": [
     "custom",
-    "mythical"
+    "mythical",
+    "cobblepastas"
   ],
   "maleRatio": 0,
   "moves": [
@@ -475,7 +476,8 @@
       },
       "labels": [
         "custom",
-        "mythical"
+        "mythical",
+        "cobblepastas"
       ],
       "evolutions": []
     }

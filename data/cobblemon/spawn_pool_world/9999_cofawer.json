@@ -12,7 +12,7 @@
       "type": "pokemon",
       "bucket": "ultra-rare",
       "level": "55-60",
-      "weight": 0.72,
+      "weight": 21.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
@@ -30,7 +30,7 @@
       "type": "pokemon",
       "bucket": "ultra-rare",
       "level": "55-60",
-      "weight": 0.08,
+      "weight": 2.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"

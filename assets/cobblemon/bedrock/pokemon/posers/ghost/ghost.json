@@ -1,6 +1,6 @@
 {
   "animations": {
-    "cry": "q.bedrock_stateful('ghost', 'cry')"
+    "cry": "q.bedrock_primary('ghost', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
   },
   "portraitScale": 2,
   "portraitTranslation": [

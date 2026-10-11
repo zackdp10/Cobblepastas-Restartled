@@ -1,6 +1,6 @@
 {
   "animations": {
-    "cry": "q.bedrock_stateful('glitchtrio', 'cry')",
+    "cry": "q.bedrock_primary('glitchtrio', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "faint": "q.bedrock_primary('glitchtrio', 'faint', q.curve('one'))",
     "physical": "q.bedrock_primary('glitchtrio', 'physical', q.curve('symmetrical'))"
   },

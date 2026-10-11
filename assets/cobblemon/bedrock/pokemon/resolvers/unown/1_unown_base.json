@@ -8,7 +8,15 @@
       ],
       "poser": "cobblemon:lullabyunown",
       "model": "cobblemon:lullabyunown.geo",
-      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie.png"
+      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -17,7 +25,15 @@
       ],
       "poser": "cobblemon:lullabyunown",
       "model": "cobblemon:lullabyunown.geo",
-      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_shiny.png"
+      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_shiny.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -26,7 +42,15 @@
       ],
       "poser": "cobblemon:lullabyunownhorde",
       "model": "cobblemon:lullabyunownhorde.geo",
-      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie.png"
+      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -36,7 +60,15 @@
       ],
       "poser": "cobblemon:lullabyunownhorde",
       "model": "cobblemon:lullabyunownhorde.geo",
-      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_shiny.png"
+      "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/unown_eerie/unown_eerie_shiny.png",
+          "translucent": true
+        }
+      ]
     }
   ]
 }

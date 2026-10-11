@@ -1,6 +1,6 @@
 {
   "animations": {
-    "cry": "q.bedrock_stateful('galactimon', 'cry')",
+    "cry": "q.bedrock_primary('galactimon', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "faint": "q.bedrock_primary('galactimon', 'faint', q.curve('one'))",
     "physical": "q.bedrock_primary('galactimon', 'physical', q.curve('symmetrical_wide'))",
     "special": "q.bedrock_primary('galactimon', 'special', q.curve('symmetrical_wide'))"

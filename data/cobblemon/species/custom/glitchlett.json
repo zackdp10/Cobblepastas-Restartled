@@ -159,7 +159,8 @@
     "legacy:toxic"
   ],
   "labels": [
-    "custom"
+    "custom",
+    "cobblepastas"
   ],
   "pokedex": [
     "cobblemon.species.glitchlett.desc1",

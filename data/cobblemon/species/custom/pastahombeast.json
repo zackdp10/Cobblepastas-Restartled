@@ -85,16 +85,17 @@
     "tm:openwound"
   ],
   "labels": [
-    "custom"
+    "custom",
+    "cobblepastas"
   ],
   "pokedex": [
     "cobblemon.species.pastahombeast.desc1",
     "cobblemon.species.pastahombeast.desc2"
   ],
-  "baseScale": 1.25,
+  "baseScale": 2.37037,
   "hitbox": {
     "width": 1.2,
-    "height": 1.9,
+    "height": 0.84375,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -106,7 +107,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 19,
+  "height": 20,
   "weight": 2200,
   "aspects": [],
   "preEvolution": "pastahombone"

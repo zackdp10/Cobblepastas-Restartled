@@ -23,6 +23,7 @@
     "cobblepastas:missing_texture_button",
     "cobblepastas:missing_texture_pressure_plate",
     "cobblepastas:blood_gem_block",
-    "cobblepastas:blood_gem_cluster"
+    "cobblepastas:blood_gem_cluster",
+    "cobblepastas:gravestone"
   ]
 }

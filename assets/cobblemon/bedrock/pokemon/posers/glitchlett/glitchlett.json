@@ -1,7 +1,7 @@
 {
   "animations": {
     "faint": "q.bedrock_primary('glitchlett', 'faint', q.curve('one'))",
-    "cry": "q.bedrock_stateful('glitchlett', 'cry')",
+    "cry": "q.bedrock_primary('glitchlett', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "physical": "q.bedrock_primary('glitchlett', 'physical', q.curve('symmetrical'))"
   },
   "portraitScale": 1.7,

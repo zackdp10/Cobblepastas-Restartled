@@ -12,7 +12,7 @@
       "type": "pokemon",
       "bucket": "ultra-rare",
       "level": "55-60",
-      "weight": 0.9,
+      "weight": 18.0,
       "condition": {
         "biomes": [
           "minecraft:stony_peaks"
@@ -29,7 +29,7 @@
       "type": "pokemon",
       "bucket": "ultra-rare",
       "level": "55-60",
-      "weight": 0.1,
+      "weight": 2.0,
       "condition": {
         "biomes": [
           "minecraft:stony_peaks"

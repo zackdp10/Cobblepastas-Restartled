@@ -2,7 +2,7 @@
   "portraitScale": 1.8,
   "portraitTranslation": [
     -0.5,
-    2.4,
+    2.2,
     0
   ],
   "profileScale": 0.5,
@@ -27,10 +27,10 @@
         "q.bedrock('unownking', 'ground_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('unownking', 'blink')",
-        "q.bedrock_quirk('unownking', 'blink2')",
-        "q.bedrock_quirk('unownking', 'blink3')"
-      ]
+        "q.bedrock_quirk('unownking', 'quirk_blink')",
+        "q.bedrock_quirk('unownking', 'quirk_look')"
+      ],
+      "isBattle": false
     },
     "walking": {
       "poseName": "walking",
@@ -43,9 +43,8 @@
         "q.bedrock('unownking', 'ground_walk')"
       ],
       "quirks": [
-        "q.bedrock_quirk('unownking', 'blink')",
-        "q.bedrock_quirk('unownking', 'blink2')",
-        "q.bedrock_quirk('unownking', 'blink3')"
+        "q.bedrock_quirk('unownking', 'quirk_blink')",
+        "q.bedrock_quirk('unownking', 'quirk_look')"
       ]
     },
     "battle-idle": {
@@ -56,16 +55,29 @@
       ],
       "isBattle": true,
       "animations": [
-        "q.bedrock('unownking', 'battle_idle')"
+        "q.bedrock('unownking', 'ground_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('unownking', 'blink')",
-        "q.bedrock_quirk('unownking', 'blink2')",
-        "q.bedrock_quirk('unownking', 'blink3')"
+        "q.bedrock_quirk('unownking', 'quirk_blink')",
+        "q.bedrock_quirk('unownking', 'quirk_look')"
       ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('unownking', 'sleep')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
     }
   },
   "animations": {
-    "cry": "q.bedrock_stateful('unownking', 'cry')"
+    "cry": "q.bedrock_primary('unownking', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
+    "recoil": "q.bedrock_stateful('unownking', 'recoil')"
   }
 }

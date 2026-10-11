@@ -20,12 +20,12 @@
     },
     "moving": {
       "walk": {
-        "canWalk": true,
+        "canWalk": false,
         "avoidsLand": false,
         "walkSpeed": 0.25
       },
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "swim": {
         "canSwimInWater": false,
@@ -100,7 +100,7 @@
     "tm:rest",
     "tm:sleeptalk"
   ],
-  "baseScale": 1.8,
+  "baseScale": 1.98,
   "hitbox": {
     "width": 0.9,
     "height": 1.35,
@@ -117,7 +117,8 @@
   "name": "Kingmadio",
   "nationalPokedexNumber": 10002,
   "labels": [
-    "custom"
+    "custom",
+    "cobblepastas"
   ],
   "aspects": [],
   "pokedex": [

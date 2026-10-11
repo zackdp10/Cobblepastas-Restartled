@@ -1,14 +1,14 @@
 {
-  "portraitScale": 1.1,
+  "portraitScale": 1.5,
   "portraitTranslation": [
     0,
-    -0.04,
+    -0.5,
     0
   ],
-  "profileScale": 0.9,
+  "profileScale": 1,
   "profileTranslation": [
     0,
-    0.3,
+    0.2,
     0
   ],
   "rootBone": "pastahombeast",
@@ -66,6 +66,6 @@
   },
   "animations": {
     "recoil": "q.bedrock_stateful('pastahombeast', 'recoil')",
-    "cry": "q.bedrock_stateful('pastahombeast', 'cry')"
+    "cry": "q.bedrock_primary('pastahombeast', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
   }
 }

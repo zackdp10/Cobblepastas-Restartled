@@ -13,7 +13,7 @@
       "type": "pokemon",
       "bucket": "rare",
       "level": "25-50",
-      "weight": 1.62,
+      "weight": 3.15,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -41,7 +41,7 @@
       "type": "pokemon",
       "bucket": "rare",
       "level": "25-50",
-      "weight": 0.18,
+      "weight": 0.35,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -69,7 +69,7 @@
       "type": "pokemon",
       "bucket": "uncommon",
       "level": "25-50",
-      "weight": 1.62,
+      "weight": 3.312,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -90,7 +90,7 @@
       "type": "pokemon",
       "bucket": "uncommon",
       "level": "25-50",
-      "weight": 0.18,
+      "weight": 0.368,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,

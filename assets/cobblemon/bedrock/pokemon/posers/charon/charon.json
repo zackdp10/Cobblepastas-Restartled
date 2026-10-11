@@ -71,6 +71,6 @@
     }
   },
   "animations": {
-    "cry": "q.bedrock_stateful('charon', 'cry')"
+    "cry": "q.bedrock_primary('charon', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
   }
 }

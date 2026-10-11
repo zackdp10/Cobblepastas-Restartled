@@ -72,7 +72,8 @@
     "tm:tearopen"
   ],
   "labels": [
-    "custom"
+    "custom",
+    "cobblepastas"
   ],
   "pokedex": [
     "cobblemon.species.disabled.desc1",

@@ -25,7 +25,8 @@
       "canLook": true,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "avoidsLand": false,
+        "walkSpeed": 0.25
       },
       "swim": {
         "swimSpeed": 0.1,
@@ -63,7 +64,8 @@
   ],
   "labels": [
     "custom",
-    "legendary"
+    "legendary",
+    "cobblepastas"
   ],
   "pokedex": [
     "cobblemon.species.unownking.desc1",

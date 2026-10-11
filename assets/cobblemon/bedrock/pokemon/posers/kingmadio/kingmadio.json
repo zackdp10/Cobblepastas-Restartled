@@ -2,7 +2,7 @@
   "rootBone": "kingmadio",
   "portraitScale": 2.0745,
   "portraitTranslation": [
-    0,
+    -0.3,
     -0.386,
     0
   ],
@@ -13,7 +13,7 @@
     0
   ],
   "animations": {
-    "cry": "q.bedrock_stateful('kingmadio', 'cry')",
+    "cry": "q.bedrock_primary('kingmadio', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "recoil": "q.bedrock_stateful('kingmadio', 'recoil')"
   },
   "poses": {

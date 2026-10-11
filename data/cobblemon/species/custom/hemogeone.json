@@ -68,7 +68,8 @@
   },
   "implemented": true,
   "labels": [
-    "custom"
+    "custom",
+    "cobblepastas"
   ],
   "lightingData": {
     "lightLevel": 7,

@@ -21,12 +21,12 @@
     },
     "moving": {
       "walk": {
-        "canWalk": true,
+        "canWalk": false,
         "avoidsLand": false,
         "walkSpeed": 0.25
       },
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "swim": {
         "canSwimInWater": false,
@@ -123,7 +123,8 @@
   "name": "Blastmadio",
   "nationalPokedexNumber": 10001,
   "labels": [
-    "custom"
+    "custom",
+    "cobblepastas"
   ],
   "aspects": [],
   "pokedex": [

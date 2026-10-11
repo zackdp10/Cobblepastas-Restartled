@@ -9,7 +9,7 @@
       ],
       "type": "pokemon-herd",
       "bucket": "rare",
-      "weight": 12,
+      "weight": 20.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
@@ -65,7 +65,7 @@
       ],
       "type": "pokemon-herd",
       "bucket": "rare",
-      "weight": 6,
+      "weight": 10.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -123,7 +123,7 @@
       ],
       "type": "pokemon-herd",
       "bucket": "rare",
-      "weight": 12,
+      "weight": 20.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"

@@ -44,6 +44,6 @@
     }
   },
   "animations": {
-    "cry": "q.bedrock_stateful('cofawer', 'cry')"
+    "cry": "q.bedrock_primary('cofawer', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
   }
 }

@@ -1,6 +1,6 @@
 {
   "animations": {
-    "cry": "q.bedrock_stateful('staryu_eerie', 'cry')",
+    "cry": "q.bedrock_primary('staryu_eerie', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "physical": "q.bedrock_primary('staryu_eerie', 'physical', q.curve('symmetrical'))"
   },
   "portraitScale": 2.02,

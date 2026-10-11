@@ -19,7 +19,7 @@
       ],
       "spawnablePositionType": "grounded",
       "type": "pokemon-herd",
-      "weight": 0.9,
+      "weight": 6.0,
       "levelRange": "29-52",
       "maxHerdSize": 4,
       "herdablePokemon": [
@@ -73,7 +73,7 @@
       ],
       "spawnablePositionType": "submerged",
       "type": "pokemon-herd",
-      "weight": 0.54,
+      "weight": 3.6,
       "weightMultiplier": {
         "condition": {
           "timeRange": "night"
@@ -135,7 +135,7 @@
       ],
       "spawnablePositionType": "submerged",
       "type": "pokemon-herd",
-      "weight": 0.54,
+      "weight": 3.6,
       "weightMultiplier": {
         "condition": {
           "timeRange": "night"
@@ -200,7 +200,7 @@
       ],
       "spawnablePositionType": "submerged",
       "type": "pokemon-herd",
-      "weight": 0.54,
+      "weight": 3.6,
       "levelRange": "29-52",
       "maxHerdSize": 4,
       "herdablePokemon": [

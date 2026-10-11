@@ -13,7 +13,7 @@
     0
   ],
   "animations": {
-    "cry": "q.bedrock_stateful('amalgameon', 'cry')",
+    "cry": "q.bedrock_primary('amalgameon', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "recoil": "q.bedrock_stateful('amalgameon', 'recoil')",
     "faint": "q.bedrock_primary('amalgameon', 'faint', q.curve('one'))"
   },

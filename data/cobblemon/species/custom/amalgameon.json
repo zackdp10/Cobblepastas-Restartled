@@ -134,12 +134,16 @@
       ],
       "labels": [
         "custom",
-        "mega"
+        "mega",
+        "cobblepastas"
       ],
       "pokedex": [
         "cobblemon.species.amalgameon-mega.desc1",
         "cobblemon.species.amalgameon-mega.desc2"
       ]
     }
+  ],
+  "labels": [
+    "cobblepastas"
   ]
 }

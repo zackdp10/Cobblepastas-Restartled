@@ -58,7 +58,7 @@
     }
   },
   "animations": {
-    "cry": "q.bedrock_stateful('shitno', 'cry')",
+    "cry": "q.bedrock_primary('shitno', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "recoil": "q.bedrock_stateful('shitno', 'recoil')"
   },
   "profilePokedexTranslation": [

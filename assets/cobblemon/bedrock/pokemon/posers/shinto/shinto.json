@@ -2,7 +2,7 @@
   "rootBone": "shinto",
   "portraitScale": 1.25,
   "portraitTranslation": [
-    0,
+    -0.3,
     1.25,
     0
   ],
@@ -67,7 +67,7 @@
     }
   },
   "animations": {
-    "cry": "q.bedrock_stateful('shinto', 'cry')",
+    "cry": "q.bedrock_primary('shinto', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "recoil": "q.bedrock_stateful('shinto', 'recoil')"
   },
   "profilePokedexTranslation": [

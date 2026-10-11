@@ -29,18 +29,6 @@
           "translucent": true
         }
       ]
-    },
-    {
-      "aspects": [
-        "alpha_eyes"
-      ],
-      "layers": [
-        {
-          "emissive": true,
-          "name": "alpha_eyes",
-          "texture": "cobblemon:textures/pokemon/unownking/unownking_alpha.png"
-        }
-      ]
     }
   ]
 }

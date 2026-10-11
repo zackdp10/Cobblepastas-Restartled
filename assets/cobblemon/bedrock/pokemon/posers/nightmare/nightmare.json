@@ -1,6 +1,6 @@
 {
   "animations": {
-    "cry": "q.bedrock_stateful('nightmare', 'cry')",
+    "cry": "q.bedrock_primary('nightmare', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "recoil": "q.bedrock_stateful('nightmare', 'recoil')",
     "faint": "q.bedrock_primary('nightmare', 'faint', q.curve('one'))"
   },

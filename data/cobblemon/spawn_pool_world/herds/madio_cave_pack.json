@@ -1,0 +1,45 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "madio-cave-pack",
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "weight": 20.0,
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "levelRange": "12-35",
+      "maxHerdSize": 4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave",
+          "#cobblemon:is_deep_dark"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 0,
+        "maxLight": 4
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "madio alpha=false",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "levelRange": "12-35",
+          "weight": 1
+        },
+        {
+          "pokemon": "madio alpha=false",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 3,
+          "levelRange": "12-35",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

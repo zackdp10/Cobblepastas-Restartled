@@ -12,7 +12,7 @@
       "type": "pokemon",
       "bucket": "rare",
       "level": "4-29",
-      "weight": 1.8,
+      "weight": 18.0,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -36,7 +36,7 @@
       "type": "pokemon",
       "bucket": "rare",
       "level": "4-29",
-      "weight": 0.2,
+      "weight": 2.0,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -60,7 +60,7 @@
       "type": "pokemon",
       "bucket": "ultra-rare",
       "level": "4-29",
-      "weight": 9,
+      "weight": 10.8,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -84,7 +84,7 @@
       "type": "pokemon",
       "bucket": "ultra-rare",
       "level": "4-29",
-      "weight": 1,
+      "weight": 1.2,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -108,7 +108,7 @@
       "type": "pokemon",
       "bucket": "uncommon",
       "level": "4-29",
-      "weight": 9,
+      "weight": 18.0,
       "condition": {
         "canSeeSky": false,
         "biomes": [
@@ -126,7 +126,7 @@
       "type": "pokemon",
       "bucket": "uncommon",
       "level": "4-29",
-      "weight": 1,
+      "weight": 2.0,
       "condition": {
         "canSeeSky": false,
         "biomes": [

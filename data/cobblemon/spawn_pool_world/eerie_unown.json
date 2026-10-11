@@ -12,7 +12,7 @@
       "type": "pokemon",
       "bucket": "rare",
       "level": "1-100",
-      "weight": 3.3921,
+      "weight": 10.8,
       "condition": {
         "biomes": [
           "#cobblemon:is_end"
@@ -29,7 +29,7 @@
       "type": "pokemon",
       "bucket": "rare",
       "level": "1-100",
-      "weight": 0.3769,
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_end"

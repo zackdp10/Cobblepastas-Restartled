@@ -66,6 +66,6 @@
   },
   "animations": {
     "recoil": "q.bedrock_stateful('pastahombone', 'recoil')",
-    "cry": "q.bedrock_stateful('pastahombone', 'cry')"
+    "cry": "q.bedrock_primary('pastahombone', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
   }
 }

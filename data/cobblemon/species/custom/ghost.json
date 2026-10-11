@@ -89,7 +89,8 @@
     "tm:serratedstrike"
   ],
   "labels": [
-    "custom"
+    "custom",
+    "cobblepastas"
   ],
   "pokedex": [
     "cobblemon.species.ghost.desc1",

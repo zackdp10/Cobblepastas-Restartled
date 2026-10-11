@@ -9,7 +9,7 @@
       ],
       "type": "pokemon-herd",
       "bucket": "ultra-rare",
-      "weight": 0.2,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"

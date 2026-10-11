@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 1600,
+  "targets": [
+    "minecraft:dark_forest"
+  ],
+  "replacement": "cobblepastas:fogbound_spruce_forest",
+  "parameters": {
+    "cobblepastas:fogbound_forest/region": {
+      "min_inclusive": 0.25
+    }
+  }
+}

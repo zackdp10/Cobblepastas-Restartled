@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:noise",
+    "noise": "cobblepastas:fogbound_forest",
+    "xz_scale": 0.125,
+    "y_scale": 0
+  }
+}

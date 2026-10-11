@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "cobblepastas:corrupted"
+    "cobblepastas:corrupted",
+    "cobblepastas:fogbound_spruce_forest"
   ]
 }

@@ -124,7 +124,8 @@
     "tm:fly"
   ],
   "labels": [
-    "custom"
+    "custom",
+    "cobblepastas"
   ],
   "pokedex": [
     "cobblemon.species.missingno.desc1",

@@ -97,6 +97,6 @@
     }
   },
   "animations": {
-    "cry": "q.bedrock_stateful('manafetus', 'cry')"
+    "cry": "q.bedrock_primary('manafetus', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
   }
 }

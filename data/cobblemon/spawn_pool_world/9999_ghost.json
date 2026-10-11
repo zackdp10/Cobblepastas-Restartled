@@ -12,7 +12,7 @@
       "type": "pokemon",
       "bucket": "uncommon",
       "level": "10-30",
-      "weight": 8.1,
+      "weight": 18.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -30,7 +30,7 @@
       "type": "pokemon",
       "bucket": "uncommon",
       "level": "10-30",
-      "weight": 0.9,
+      "weight": 2.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

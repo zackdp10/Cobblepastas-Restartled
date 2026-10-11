@@ -2,7 +2,7 @@
   "rootBone": "madio",
   "portraitScale": 1.351,
   "portraitTranslation": [
-    0,
+    -0.3,
     0.237,
     0
   ],
@@ -13,7 +13,7 @@
     0
   ],
   "animations": {
-    "cry": "q.bedrock_stateful('blastmadio', 'cry')",
+    "cry": "q.bedrock_primary('blastmadio', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "recoil": "q.bedrock_stateful('blastmadio', 'recoil')"
   },
   "poses": {

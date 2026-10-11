@@ -1,6 +1,6 @@
 {
   "animations": {
-    "cry": "q.bedrock_stateful('golduck_eerie', 'cry')"
+    "cry": "q.bedrock_primary('golduck_eerie', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
   },
   "portraitScale": 2.1,
   "portraitTranslation": [

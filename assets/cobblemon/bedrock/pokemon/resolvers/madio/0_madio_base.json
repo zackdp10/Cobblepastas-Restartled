@@ -6,7 +6,15 @@
       "aspects": [],
       "poser": "cobblemon:normadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/normadio/normadio.png"
+      "texture": "cobblemon:textures/pokemon/normadio/normadio.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -14,7 +22,15 @@
       ],
       "poser": "cobblemon:normadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/normadio/normadio_shiny.png"
+      "texture": "cobblemon:textures/pokemon/normadio/normadio_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -22,7 +38,15 @@
       ],
       "poser": "cobblemon:gluemadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/gluemadio/gluemadio.png"
+      "texture": "cobblemon:textures/pokemon/gluemadio/gluemadio.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -31,7 +55,15 @@
       ],
       "poser": "cobblemon:gluemadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/gluemadio/gluemadio_shiny.png"
+      "texture": "cobblemon:textures/pokemon/gluemadio/gluemadio_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -39,7 +71,13 @@
       ],
       "poser": "cobblemon:earthmadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/earthmadio/earthmadio.png"
+      "texture": "cobblemon:textures/pokemon/earthmadio/earthmadio.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
     },
     {
       "aspects": [
@@ -48,7 +86,13 @@
       ],
       "poser": "cobblemon:earthmadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/earthmadio/earthmadio_shiny.png"
+      "texture": "cobblemon:textures/pokemon/earthmadio/earthmadio_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
     },
     {
       "aspects": [
@@ -56,7 +100,15 @@
       ],
       "poser": "cobblemon:bonemadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/bonemadio/bonemadio.png"
+      "texture": "cobblemon:textures/pokemon/bonemadio/bonemadio.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -65,7 +117,15 @@
       ],
       "poser": "cobblemon:bonemadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/bonemadio/bonemadio_shiny.png"
+      "texture": "cobblemon:textures/pokemon/bonemadio/bonemadio_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -73,7 +133,15 @@
       ],
       "poser": "cobblemon:seamadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/seamadio/seamadio.png"
+      "texture": "cobblemon:textures/pokemon/seamadio/seamadio.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -82,7 +150,15 @@
       ],
       "poser": "cobblemon:seamadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/seamadio/seamadio_shiny.png"
+      "texture": "cobblemon:textures/pokemon/seamadio/seamadio_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -90,7 +166,15 @@
       ],
       "poser": "cobblemon:burstmadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/burstmadio/burstmadio.png"
+      "texture": "cobblemon:textures/pokemon/burstmadio/burstmadio.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -99,7 +183,15 @@
       ],
       "poser": "cobblemon:burstmadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/burstmadio/burstmadio_shiny.png"
+      "texture": "cobblemon:textures/pokemon/burstmadio/burstmadio_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -107,7 +199,15 @@
       ],
       "poser": "cobblemon:treemadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/treemadio/treemadio.png"
+      "texture": "cobblemon:textures/pokemon/treemadio/treemadio.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -116,7 +216,15 @@
       ],
       "poser": "cobblemon:treemadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/treemadio/treemadio_shiny.png"
+      "texture": "cobblemon:textures/pokemon/treemadio/treemadio_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -124,7 +232,15 @@
       ],
       "poser": "cobblemon:aeromadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/aeromadio/aeromadio.png"
+      "texture": "cobblemon:textures/pokemon/aeromadio/aeromadio.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
@@ -133,7 +249,15 @@
       ],
       "poser": "cobblemon:aeromadio",
       "model": "cobblemon:madio.geo",
-      "texture": "cobblemon:textures/pokemon/aeromadio/aeromadio_shiny.png"
+      "texture": "cobblemon:textures/pokemon/aeromadio/aeromadio_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/madio/madio_emissive.png",
+          "translucent": true
+        }
+      ]
     }
   ]
 }

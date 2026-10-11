@@ -13,7 +13,7 @@
     0
   ],
   "animations": {
-    "cry": "q.bedrock_stateful('panopteon', 'cry')",
+    "cry": "q.bedrock_primary('panopteon', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
     "recoil": "q.bedrock_stateful('panopteon', 'recoil')",
     "faint": "q.bedrock_primary('panopteon', 'faint', q.curve('one'))"
   },
