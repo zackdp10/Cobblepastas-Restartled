@@ -24,6 +24,7 @@ public final class AdvancementIconClient implements ClientModInitializer {
       Object registry = field("com.cobblemon.mod.common.client.render.item.CobblemonBuiltinItemRendererRegistry", "INSTANCE");
       Object renderer = make("com.cobblemon.mod.common.client.render.item.PokemonItemRenderer");
       Object gui = field("net.minecraft.client.render.model.json.ModelTransformationMode", "GUI");
+      Class<?> immediateConsumers = cls("net.minecraft.client.render.VertexConsumerProvider$Immediate");
       Object callback = listenerProxy(
           cls("com.cobblemon.mod.common.client.render.item.CobblemonBuiltinItemRenderer"),
           "Cobblepastas advancement icons",
@@ -32,7 +33,7 @@ public final class AdvancementIconClient implements ClientModInitializer {
             Object matrices = arguments[2];
             boolean guiMode = arguments[1].equals(gui);
             Object consumers = arguments[3];
-            boolean immediate = guiMode && cls("net.minecraft.client.render.VertexConsumerProvider$Immediate").isInstance(consumers);
+            boolean immediate = guiMode && immediateConsumers.isInstance(consumers);
             // Finish earlier GUI geometry before drawing this icon, then finish the
             // icon before the advancement tooltip is drawn over it.
             if (immediate) invoke(consumers, null, "draw");
@@ -40,6 +41,7 @@ public final class AdvancementIconClient implements ClientModInitializer {
             try {
               if (guiMode) {
                 Object pair = invoke(AdvancementIconRegistration.POKEMON_ICON, null, "getSpeciesAndAspects", arguments[0]);
+                if (pair == null) return null;
                 Object species = invoke(pair, null, "getFirst");
                 String id = invoke(species, null, "getResourceIdentifier").toString();
                 float[] layout = LAYOUT.get(id);
