@@ -1,0 +1,35 @@
+{
+  "parent": "cobblepastas:corrupted/find_fossil",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:advancement_pokemon_icon",
+      "components": {
+        "cobblemon:pokemon_item": {
+          "species": "cobblemon:missingno",
+          "aspects": []
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.achievement_null"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.achievement_null.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "capture": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "capture"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

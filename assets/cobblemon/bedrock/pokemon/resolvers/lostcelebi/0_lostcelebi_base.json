@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:lostcelebi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:lostcelebi.geo",
+      "poser": "cobblemon:lostcelebi",
+      "texture": "cobblemon:textures/pokemon/lostcelebi/lostcelebi.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/lostcelebi/lostcelebi_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lostcelebi/lostcelebi_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/lostcelebi/lostcelebi_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unown-palette-rare"
+      ],
+      "texture": "cobblemon:textures/pokemon/lostcelebi/lostcelebi_rare_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/lostcelebi/lostcelebi_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

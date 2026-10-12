@@ -1,0 +1,35 @@
+{
+  "parent": "cobblepastas:catching/ballpit",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:advancement_pokemon_icon",
+      "components": {
+        "cobblemon:pokemon_item": {
+          "species": "cobblemon:kingmadio",
+          "aspects": []
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.the_king_in_blue"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.the_king_in_blue.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "capture": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "capture"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

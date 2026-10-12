@@ -1,0 +1,36 @@
+{
+  "parent": "cobblepastas:root",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:temp_ore"
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.something_beneath_us"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.something_beneath_us.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cobblepastas:temp_ore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

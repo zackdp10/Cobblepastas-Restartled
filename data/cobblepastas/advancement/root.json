@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "cobblepastas:advancement_tab"
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.root"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "show_tab": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "show_tab"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

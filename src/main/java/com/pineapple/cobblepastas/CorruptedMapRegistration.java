@@ -14,7 +14,7 @@ import net.fabricmc.api.ModInitializer;
 
 /** Adds a cartographer explorer-map trade targeting the corrupted biome. */
 public final class CorruptedMapRegistration implements ModInitializer {
-  private static final String BIOME_ID = "corrupted";
+  private static final String BIOME_ID = "corrupted_chasms";
   private static final String MAP_NAME_KEY = "item.cobblepastas.corrupted_explorer_map";
   private static final int CARTOGRAPHER_LEVEL = 3;
   private static final int SEARCH_RADIUS = 8192;
@@ -110,7 +110,7 @@ public final class CorruptedMapRegistration implements ModInitializer {
         "addDecorationsNbt",
         map,
         target,
-        "cobblepastas:corrupted",
+        "cobblepastas:corrupted_chasms",
         field("net.minecraft.item.map.MapDecorationTypes", "RED_X"));
     Object title = invoke(null, "net.minecraft.text.Text", "translatable", MAP_NAME_KEY);
     invoke(

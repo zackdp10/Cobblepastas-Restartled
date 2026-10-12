@@ -22,7 +22,8 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:is_ocean"
+          "#cobblemon:is_ocean",
+          "cobblepastas:fogbound_spruce_forest"
         ]
       },
       "spawnablePositionType": "grounded"
@@ -46,7 +47,8 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:is_ocean"
+          "#cobblemon:is_ocean",
+          "cobblepastas:fogbound_spruce_forest"
         ]
       },
       "spawnablePositionType": "grounded"
@@ -70,7 +72,8 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:is_ocean"
+          "#cobblemon:is_ocean",
+          "cobblepastas:fogbound_spruce_forest"
         ]
       },
       "spawnablePositionType": "grounded"
@@ -94,7 +97,8 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:is_ocean"
+          "#cobblemon:is_ocean",
+          "cobblepastas:fogbound_spruce_forest"
         ]
       },
       "spawnablePositionType": "grounded"
@@ -115,7 +119,12 @@
           "#cobblemon:is_overworld"
         ]
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     },
     {
       "id": "ditto-eerie-3-alpha",
@@ -133,7 +142,12 @@
           "#cobblemon:is_overworld"
         ]
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "parent": "cobblepastas:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_sapling"
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.lost_in_the_fog"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.lost_in_the_fog.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "cobblepastas:fogbound_spruce_forest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enter"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

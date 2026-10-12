@@ -23,7 +23,7 @@
       "spawnablePositionType": "grounded",
       "anticondition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ]
       }
     },
@@ -47,7 +47,7 @@
       "spawnablePositionType": "grounded",
       "anticondition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ]
       }
     }

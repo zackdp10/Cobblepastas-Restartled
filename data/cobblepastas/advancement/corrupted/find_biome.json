@@ -1,5 +1,5 @@
 {
-  "parent": "cobblemon:root",
+  "parent": "cobblepastas:root",
   "display": {
     "icon": {
       "id": "cobblepastas:missing_texture"
@@ -24,7 +24,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "cobblepastas:corrupted"
+                "biomes": "cobblepastas:corrupted_chasms"
               }
             }
           }

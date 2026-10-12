@@ -1,0 +1,37 @@
+{
+  "parent": "cobblepastas:catching/first_cobblepasta",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:advancement_pokemon_icon",
+      "components": {
+        "cobblemon:pokemon_item": {
+          "species": "cobblemon:unown",
+          "aspects": [
+            "eerie"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.im_dead"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.im_dead.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "capture": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "capture"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

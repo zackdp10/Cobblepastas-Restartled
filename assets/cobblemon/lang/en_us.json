@@ -269,5 +269,9 @@
   "cobblemon.battle.heal.possession": "%1$s regained health through Possession!",
   "cobblemon.ability.possession": "Possession",
   "cobblemon.ability.possession.desc": "Restores HP equal to one eighth of damage dealt. At 25% HP or less, the horde disperses.",
-  "cobblemon.species.unowneerie.desc2": "Their letters promise safety, luring victims into trusting them. The promise is a lie. Gathered inside a corpse, they puppeteer its remains and swarm from its wounds and empty eye sockets."
+  "cobblemon.species.unowneerie.desc2": "Their letters promise safety, luring victims into trusting them. The promise is a lie. Gathered inside a corpse, they puppeteer its remains and swarm from its wounds and empty eye sockets.",
+  "cobblemon.species.purin.name": "Purin",
+  "cobblemon.species.purin.desc": "Its lullaby sounds familiar, yet those who hear it feel strangely uneasy. Once its audience falls asleep, Purin stops singing and watches them with unblinking red eyes. Some who wake claim they could still hear its song in their dreams, even though it had fallen silent long before.",
+  "cobblemon.species.lostcelebi.name": "Lost Celebi",
+  "cobblemon.species.lostcelebi.desc": "Half of its body is missing, yet it continues to hover as though nothing has changed. Its faint song echoes through otherwise silent places. Some believe it wanders through time searching for what it lost, while others fear its melody marks the end of their own journey."
 }

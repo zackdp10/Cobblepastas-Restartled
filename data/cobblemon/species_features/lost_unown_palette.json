@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": [
+    "lost_unown_palette"
+  ],
+  "choices": [
+    "standard",
+    "rare"
+  ],
+  "default": "standard",
+  "isAspect": true,
+  "aspectFormat": "unown-palette-{{choice}}"
+}

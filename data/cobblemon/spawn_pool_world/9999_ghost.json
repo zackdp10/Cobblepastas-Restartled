@@ -19,7 +19,12 @@
         ],
         "timeRange": "night"
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     },
     {
       "id": "ghost-1-alpha",
@@ -37,7 +42,12 @@
         ],
         "timeRange": "night"
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     }
   ]
 }

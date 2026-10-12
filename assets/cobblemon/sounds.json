@@ -417,5 +417,31 @@
         "volume": 0.8
       }
     ]
+  },
+  "pokemon.purin.cry": {
+    "sounds": [
+      {
+        "name": "cobblepastas:pokemon/purin/purin_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.purin.ambient": {
+    "sounds": [
+      "cobblemon:pokemon/jigglypuff/jigglypuff_ambient"
+    ]
+  },
+  "pokemon.lostcelebi.cry": {
+    "sounds": [
+      {
+        "name": "cobblepastas:pokemon/lostcelebi/lostcelebi_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.lostcelebi.ambient": {
+    "sounds": [
+      "cobblemon:pokemon/celebi/celebi_ambient"
+    ]
   }
 }

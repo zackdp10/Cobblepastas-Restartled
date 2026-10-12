@@ -15,7 +15,7 @@
       "weight": 15,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ]
       },
       "spawnablePositionType": "grounded"
@@ -32,7 +32,7 @@
       "weight": 20,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ],
         "canSeeSky": false
       },
@@ -50,7 +50,7 @@
       "weight": 5,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ],
         "canSeeSky": false
       },
@@ -68,7 +68,7 @@
       "weight": 20,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ],
         "canSeeSky": false
       },
@@ -86,7 +86,7 @@
       "weight": 5,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ],
         "canSeeSky": false
       },
@@ -104,7 +104,7 @@
       "weight": 12,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ]
       },
       "spawnablePositionType": "grounded"
@@ -121,7 +121,7 @@
       "weight": 2,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ]
       },
       "spawnablePositionType": "grounded"
@@ -138,7 +138,7 @@
       "weight": 4,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ]
       },
       "spawnablePositionType": "grounded"

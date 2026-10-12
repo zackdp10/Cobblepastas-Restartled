@@ -1,0 +1,61 @@
+{
+  "rootBone": "lostcelebi",
+  "portraitScale": 1.1,
+  "portraitTranslation": [
+    0,
+    0.8,
+    0
+  ],
+  "profileScale": 0.65,
+  "profileTranslation": [
+    0,
+    0.75,
+    0
+  ],
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "HOVER",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "transformTicks": 10,
+      "animations": [
+        "q.bedrock('lostcelebi', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lostcelebi', 'quirk_blink')"
+      ]
+    },
+    "moving": {
+      "poseTypes": [
+        "WALK",
+        "FLY",
+        "SWIM"
+      ],
+      "transformTicks": 10,
+      "animations": [
+        "q.bedrock('lostcelebi', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lostcelebi', 'quirk_blink')"
+      ]
+    },
+    "sleeping": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "animations": [
+        "q.bedrock('lostcelebi', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('lostcelebi', 'cry')",
+    "recoil": "q.bedrock_stateful('lostcelebi', 'recoil')"
+  }
+}

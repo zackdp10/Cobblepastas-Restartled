@@ -1,0 +1,61 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobblepastas-fogbound-purin",
+      "pokemon": "purin",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "rare",
+      "level": "10-30",
+      "weight": 50.0,
+      "condition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "cobblepastas-fogbound-lostcelebi",
+      "pokemon": "lostcelebi lost_unown_palette=standard",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 49.5,
+      "condition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded"
+    },
+    {
+      "id": "cobblepastas-fogbound-lostcelebi-rare-unown",
+      "pokemon": "lostcelebi lost_unown_palette=rare",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "cobblepastas:root",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:prison_ball"
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.a_prison_of_their_making"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.a_prison_of_their_making.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "cobblepastas:prison_ball"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

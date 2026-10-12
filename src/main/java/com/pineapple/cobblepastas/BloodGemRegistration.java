@@ -59,7 +59,7 @@ public final class BloodGemRegistration implements ModInitializer {
               context -> {
                 try {
                   Object key = invoke(context, null, "getBiomeKey");
-                  return !invoke(key, null, "getValue").equals(identifier("corrupted"));
+                  return !invoke(key, null, "getValue").equals(identifier("corrupted_chasms"));
                 } catch (ReflectiveOperationException error) {
                   throw new IllegalStateException(error);
                 }

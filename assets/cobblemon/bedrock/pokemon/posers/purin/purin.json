@@ -1,0 +1,51 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('purin', 'cry')",
+    "faint": "q.bedrock_primary('purin', 'faint', q.curve('one'))"
+  },
+  "portraitScale": 1.45,
+  "portraitTranslation": [
+    -0.11,
+    -0.41,
+    0
+  ],
+  "poses": {
+    "standing": {
+      "animations": [
+        "q.bedrock('purin', 'ground_idle')"
+      ],
+      "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('purin', 'blink')"
+      ]
+    },
+    "walking": {
+      "animations": [
+        "q.biped_walk(0.66, 0.6, 'foot_left', 'foot_right')",
+        "q.bedrock('purin', 'ground_idle')"
+      ],
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('purin', 'blink')"
+      ]
+    }
+  },
+  "profileScale": 0.92,
+  "profileTranslation": [
+    0.0,
+    0.33,
+    0.0
+  ],
+  "rootBone": "purin"
+}

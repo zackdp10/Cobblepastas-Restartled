@@ -1,0 +1,29 @@
+{
+  "parent": "cobblepastas:root",
+  "display": {
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.first_cobblepasta"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.first_cobblepasta.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "capture": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "capture"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

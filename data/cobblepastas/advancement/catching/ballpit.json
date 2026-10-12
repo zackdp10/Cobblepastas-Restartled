@@ -1,0 +1,79 @@
+{
+  "parent": "cobblepastas:catching/first_cobblepasta",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:advancement_pokemon_icon",
+      "components": {
+        "cobblemon:pokemon_item": {
+          "species": "cobblemon:madio",
+          "aspects": [
+            "normadio"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.ballpit"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.ballpit.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "normadio": {
+      "trigger": "minecraft:impossible"
+    },
+    "gluemadio": {
+      "trigger": "minecraft:impossible"
+    },
+    "earthmadio": {
+      "trigger": "minecraft:impossible"
+    },
+    "bonemadio": {
+      "trigger": "minecraft:impossible"
+    },
+    "seamadio": {
+      "trigger": "minecraft:impossible"
+    },
+    "burstmadio": {
+      "trigger": "minecraft:impossible"
+    },
+    "treemadio": {
+      "trigger": "minecraft:impossible"
+    },
+    "aeromadio": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "normadio"
+    ],
+    [
+      "gluemadio"
+    ],
+    [
+      "earthmadio"
+    ],
+    [
+      "bonemadio"
+    ],
+    [
+      "seamadio"
+    ],
+    [
+      "burstmadio"
+    ],
+    [
+      "treemadio"
+    ],
+    [
+      "aeromadio"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

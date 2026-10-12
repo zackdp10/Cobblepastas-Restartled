@@ -40,7 +40,7 @@ public final class CorruptedBiomeFog {
       }
       if (biomeKey == null) {
         Object id =
-            invoke(null, "net.minecraft.util.Identifier", "of", "cobblepastas", "corrupted");
+            invoke(null, "net.minecraft.util.Identifier", "of", "cobblepastas", "corrupted_chasms");
         biomeKey =
             invoke(
                 null,

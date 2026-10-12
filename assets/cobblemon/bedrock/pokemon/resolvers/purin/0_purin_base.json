@@ -1,0 +1,49 @@
+{
+  "species": "cobblemon:purin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:purin.geo",
+      "poser": "cobblemon:purin",
+      "texture": "cobblemon:textures/pokemon/purin/purin.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/purin/purin_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/purin/purin_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/purin/purin_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/purin/purin_emissive.png"
+        },
+        {
+          "name": "alpha_eyes",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/purin/purin_alpha.png"
+        }
+      ]
+    }
+  ]
+}

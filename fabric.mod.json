@@ -23,11 +23,14 @@
       "com.pineapple.cobblepastas.MissingStoneControls",
       "com.pineapple.cobblepastas.BloodGemRegistration",
       "com.pineapple.cobblepastas.GravestoneRegistration",
-      "com.pineapple.cobblepastas.PrisonBallRegistration"
+      "com.pineapple.cobblepastas.PrisonBallRegistration",
+      "com.pineapple.cobblepastas.CobblepastasAchievements",
+      "com.pineapple.cobblepastas.AdvancementIconRegistration"
     ],
     "client": [
       "com.pineapple.cobblepastas.BloodGemClientRegistration",
-      "com.pineapple.cobblepastas.PrisonBallClientRegistration"
+      "com.pineapple.cobblepastas.PrisonBallClientRegistration",
+      "com.pineapple.cobblepastas.AdvancementIconClient"
     ]
   },
   "icon": "pack.png",

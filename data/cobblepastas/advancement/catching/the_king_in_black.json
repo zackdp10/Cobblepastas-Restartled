@@ -1,0 +1,35 @@
+{
+  "parent": "cobblepastas:catching/im_dead",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:advancement_pokemon_icon",
+      "components": {
+        "cobblemon:pokemon_item": {
+          "species": "cobblemon:unownking",
+          "aspects": []
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.the_king_in_black"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.the_king_in_black.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "capture": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "capture"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

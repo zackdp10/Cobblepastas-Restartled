@@ -18,7 +18,7 @@ public final class CorruptedBiomeMood {
         Object biome = invoke(world, null, "getBiome", playerPosition);
         if (biomeKey == null) {
           Object id =
-              invoke(null, "net.minecraft.util.Identifier", "of", "cobblepastas", "corrupted");
+              invoke(null, "net.minecraft.util.Identifier", "of", "cobblepastas", "corrupted_chasms");
           biomeKey =
               invoke(
                   null,

@@ -27,7 +27,12 @@
           "#cobblemon:is_spooky"
         ]
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     },
     {
       "id": "learow-1-alpha",
@@ -53,7 +58,12 @@
           "#cobblemon:is_spooky"
         ]
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     }
   ]
 }

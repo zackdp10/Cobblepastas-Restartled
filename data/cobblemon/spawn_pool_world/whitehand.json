@@ -18,7 +18,12 @@
           "minecraft:dark_forest"
         ]
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     },
     {
       "id": "whitehand-1-alpha",
@@ -35,7 +40,12 @@
           "minecraft:dark_forest"
         ]
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     },
     {
       "id": "whitehand-2-normal",
@@ -76,7 +86,12 @@
           "minecraft:yellow_glazed_terracotta"
         ]
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     },
     {
       "id": "whitehand-2-alpha",
@@ -117,7 +132,12 @@
           "minecraft:yellow_glazed_terracotta"
         ]
       },
-      "spawnablePositionType": "grounded"
+      "spawnablePositionType": "grounded",
+      "anticondition": {
+        "biomes": [
+          "cobblepastas:fogbound_spruce_forest"
+        ]
+      }
     }
   ]
 }

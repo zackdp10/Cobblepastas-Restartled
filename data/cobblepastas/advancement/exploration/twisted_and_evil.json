@@ -1,0 +1,37 @@
+{
+  "parent": "cobblepastas:catching/first_cobblepasta",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:advancement_pokemon_icon",
+      "components": {
+        "cobblemon:pokemon_item": {
+          "species": "cobblemon:ditto",
+          "aspects": [
+            "eerie"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.twisted_and_evil"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.twisted_and_evil.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "seen": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "seen"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

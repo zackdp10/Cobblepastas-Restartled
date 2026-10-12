@@ -15,7 +15,7 @@
       "weight": 2.7,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ]
       },
       "spawnablePositionType": "grounded"
@@ -32,7 +32,7 @@
       "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "cobblepastas:corrupted"
+          "cobblepastas:corrupted_chasms"
         ]
       },
       "spawnablePositionType": "grounded"

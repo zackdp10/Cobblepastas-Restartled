@@ -1,0 +1,36 @@
+{
+  "parent": "cobblepastas:root",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:mist_stone"
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.new_block_by_the_water"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.new_block_by_the_water.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cobblepastas:mist_stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

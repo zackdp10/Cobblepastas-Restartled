@@ -1,0 +1,35 @@
+{
+  "parent": "cobblepastas:corrupted/find_fossil",
+  "display": {
+    "icon": {
+      "id": "cobblepastas:advancement_pokemon_icon",
+      "components": {
+        "cobblemon:pokemon_item": {
+          "species": "cobblemon:badegg",
+          "aspects": []
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.cobblepastas.revive_bad_egg"
+    },
+    "description": {
+      "translate": "advancements.cobblepastas.revive_bad_egg.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "revive": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "revive"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
