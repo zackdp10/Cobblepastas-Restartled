@@ -3,13 +3,13 @@
   "package": "com.pineapple.cobblepastas.mixin.shinto",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ShintoNameMixin",
+    "FormNameMixin",
     "ShintoBattleEndMixin"
   ],
   "client": [
-    "ShintoClientNameMixin",
+    "ClientFormNameMixin",
     "ShintoBattlePortraitMixin",
-    "ShintoDexNameMixin"
+    "DexFormNameMixin"
   ],
   "injectors": {
     "defaultRequire": 1
