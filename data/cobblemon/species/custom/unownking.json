@@ -4,8 +4,8 @@
   "nationalPokedexNumber": 20,
   "primaryType": "dark",
   "abilities": [
-    "strongjaw",
-    "h:pressure"
+    "sacrilege",
+    "h:forbiddensequence"
   ],
   "baseStats": {
     "hp": 100,

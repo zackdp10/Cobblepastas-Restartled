@@ -44,10 +44,11 @@
   },
   "mixins": [
     {
-      "config": "cobblepastas-corrupted-fog.mixins.json",
+      "config": "mixins/cobblepastas-corrupted-fog.mixins.json",
       "environment": "client"
     },
-    "cobblepastas-blood-gems.mixins.json",
-    "cobblepastas-shinto-display.mixins.json"
+    "mixins/cobblepastas-blood-gems.mixins.json",
+    "mixins/cobblepastas-shinto-display.mixins.json",
+    "mixins/cobblepastas-battle-tags.mixins.json"
   ]
 }

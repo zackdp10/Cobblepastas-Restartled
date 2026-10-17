@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.pineapple.cobblepastas.mixin.battle",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ShowdownSpeciesTagsMixin"],
+  "injectors": {"defaultRequire": 1}
+}

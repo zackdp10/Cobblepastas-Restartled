@@ -6,7 +6,7 @@
       "primaryType": "fighting",
       "secondaryType": "water",
       "abilities": [
-        "damp",
+        "buriedreflex",
         "reckless",
         "h:rattled"
       ],

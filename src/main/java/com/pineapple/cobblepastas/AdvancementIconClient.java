@@ -8,11 +8,11 @@ public final class AdvancementIconClient implements ClientModInitializer {
   // Scale and vertical correction for Cobblemon's fixed GUI item transform.
   private static final float GUI_DEPTH_SCALE = 0.01F;
   private static final Map<String, float[]> LAYOUT = Map.of(
-      "cobblemon:unownking", new float[] {0.552768f, -0.35191f},
+      "cobblemon:unownking", new float[] {1.658304f, 0.072f},
       "cobblemon:shinto", new float[] {1.25f, -0.0625f},
       "cobblemon:missingno", new float[] {0.5f, -0.475f},
       "cobblemon:turmur", new float[] {0.965517f, -0.084375f},
-      "cobblemon:kingmadio", new float[] {1.338065f, -0.084365f},
+      "cobblemon:kingmadio", new float[] {1.338065f, -0.2321825f},
       "cobblemon:unown", new float[] {3.417752f, -0.029779f},
       "cobblemon:madio", new float[] {1.0f, -0.185382f},
       "cobblemon:badegg", new float[] {2.87206f, 0.270625f},

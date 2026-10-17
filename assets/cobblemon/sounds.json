@@ -443,5 +443,13 @@
     "sounds": [
       "cobblemon:pokemon/celebi/celebi_ambient"
     ]
+  },
+  "pokemon.oni.cry": {
+    "sounds": [
+      {
+        "name": "cobblepastas:pokemon/oni/oni_cry",
+        "volume": 1.0
+      }
+    ]
   }
 }

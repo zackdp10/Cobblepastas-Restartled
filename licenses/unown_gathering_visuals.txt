@@ -1,1 +1,0 @@
-Gathering particle visuals adapted from Mega Showdown by Yajat Kaul. Source: https://github.com/yajatkaul/CobblemonMegaShowdown . Adapted visual assets are licensed CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/ . Unown replacement sprites supplied by the user.

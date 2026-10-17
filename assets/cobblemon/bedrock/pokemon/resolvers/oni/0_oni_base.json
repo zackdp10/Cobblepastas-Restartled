@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:oni",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:oni.geo",
+      "poser": "cobblemon:oni",
+      "texture": "cobblemon:textures/pokemon/oni/oni.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/oni/oni_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oni/oni_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/oni/oni_emissive.png"
+        },
+        {
+          "name": "alpha_eyes",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/oni/oni_alpha_eyes.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobblepastas-oni-frozen",
+      "pokemon": "oni",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "45-65",
+      "weight": 50.0,
+      "condition": {
+        "biomes": [
+          "minecraft:ice_spikes",
+          "minecraft:frozen_peaks"
+        ]
+      },
+      "spawnablePositionType": "grounded"
+    }
+  ]
+}
