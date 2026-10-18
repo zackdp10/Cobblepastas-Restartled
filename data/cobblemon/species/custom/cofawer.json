@@ -100,8 +100,7 @@
   },
   "height": 19,
   "weight": 925,
-  "aspects": []
-  },
+  "aspects": [],
   "combat": {
     "willDefendSelf": true,
     "willDefendOwner": true,
