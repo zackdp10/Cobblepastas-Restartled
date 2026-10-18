@@ -83,7 +83,7 @@
     "cobblemon.species.cofawer.desc1",
     "cobblemon.species.cofawer.desc2"
   ],
-  "baseScale": 1.1,
+  "baseScale": 1,
   "hitbox": {
     "width": 1.0,
     "height": 1.9,
@@ -101,4 +101,14 @@
   "height": 19,
   "weight": 925,
   "aspects": []
+  },
+  "combat": {
+    "willDefendSelf": true,
+    "willDefendOwner": true,
+    "willFlee": false
+  },
+  "resting": {
+    "drowsyChance": 0.0333,
+    "rouseChance": 0.0042
+  }
 }

@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sawsbuck",
+      "poser": "cobblemon:sawsbuck_spring",
       "model": "cobblemon:cofawer.geo",
       "texture": "cobblemon:textures/pokemon/cofawer/cofawer.png",
       "layers": [
