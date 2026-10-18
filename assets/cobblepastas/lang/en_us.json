@@ -67,8 +67,8 @@
   "advancements.cobblepastas.the_king_in_black.description": "Capture Unown King",
   "advancements.cobblepastas.you_cheated": "You Cheated!",
   "advancements.cobblepastas.you_cheated.description": "Capture Shinto, and pray you don’t face the consequences",
-  "advancements.cobblepastas.achievement_null": "achievement.null",
-  "advancements.cobblepastas.achievement_null.description": "Capture MissingNo.",
+  "advancements.cobblepastas.advancement_missingno": "advancement.missingno.",
+  "advancements.cobblepastas.advancement_missingno.description": "Capture MissingNo.",
   "advancements.cobblepastas.source_of_the_infection": "The Source of the Infection",
   "advancements.cobblepastas.source_of_the_infection.description": "Capture Turmur",
   "advancements.cobblepastas.the_king_in_blue": "The King in… Blue?",
@@ -93,6 +93,6 @@
   "advancements.cobblepastas.first_cobblepasta.description": "Capture your first Cobblepasta",
   "advancements.cobblepastas.twisted_and_evil": "Twisted and Evil",
   "advancements.cobblepastas.twisted_and_evil.description": "Find an eerie variant of a Pokémon",
-  "advancements.cobblepastas.revive_bad_egg": "Advancement.BadEgg",
+  "advancements.cobblepastas.revive_bad_egg": "advancement.badegg",
   "advancements.cobblepastas.revive_bad_egg.description": "Bring a Bad Egg back to life"
 }

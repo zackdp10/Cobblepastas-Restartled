@@ -11,10 +11,10 @@
       }
     },
     "title": {
-      "translate": "advancements.cobblepastas.achievement_null"
+      "translate": "advancements.cobblepastas.advancement_missingno"
     },
     "description": {
-      "translate": "advancements.cobblepastas.achievement_null.description"
+      "translate": "advancements.cobblepastas.advancement_missingno.description"
     },
     "frame": "challenge",
     "show_toast": true,
