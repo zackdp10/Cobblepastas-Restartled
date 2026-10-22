@@ -1,11 +1,11 @@
 {
   "format_version": "1.8.0",
   "animations": {
-    "animation.missingno.air_fly": {
+    "animation.pastamissingno.air_fly": {
       "loop": true,
       "animation_length": 1,
       "bones": {
-        "missingno": {
+        "pastamissingno": {
           "rotation": {
             "0.0": [
               0,
@@ -578,10 +578,10 @@
         }
       }
     },
-    "animation.missingno.special": {
+    "animation.pastamissingno.special": {
       "animation_length": 3,
       "bones": {
-        "missingno": {
+        "pastamissingno": {
           "position": {
             "0.0": [
               0,
@@ -1329,11 +1329,11 @@
         }
       }
     },
-    "animation.missingno.ground_idle": {
+    "animation.pastamissingno.ground_idle": {
       "loop": true,
       "animation_length": 1.6,
       "bones": {
-        "missingno": {
+        "pastamissingno": {
           "position": {
             "0.0": [
               0,
@@ -1958,7 +1958,7 @@
         }
       }
     },
-    "animation.missingno.faint": {
+    "animation.pastamissingno.faint": {
       "loop": false,
       "animation_length": 2,
       "bones": {
@@ -3444,11 +3444,11 @@
         }
       }
     },
-    "animation.missingno.ground_walk": {
+    "animation.pastamissingno.ground_walk": {
       "loop": true,
       "animation_length": 1.4,
       "bones": {
-        "missingno": {
+        "pastamissingno": {
           "rotation": {
             "0.0": [
               0,
@@ -3923,10 +3923,10 @@
         }
       }
     },
-    "animation.missingno.physical": {
+    "animation.pastamissingno.physical": {
       "animation_length": 3,
       "bones": {
-        "missingno": {
+        "pastamissingno": {
           "rotation": {
             "0.0": [
               0,
@@ -5698,7 +5698,7 @@
         }
       }
     },
-    "animation.missingno.blink": {
+    "animation.pastamissingno.blink": {
       "animation_length": 0.125,
       "bones": {
         "body1": {
@@ -5983,11 +5983,11 @@
         }
       }
     },
-    "animation.missingno.air_idle": {
+    "animation.pastamissingno.air_idle": {
       "loop": true,
       "animation_length": 1.6,
       "bones": {
-        "missingno": {
+        "pastamissingno": {
           "rotation": {
             "0.0": [
               0,
@@ -6692,7 +6692,7 @@
         }
       }
     },
-    "animation.missingno.recoil": {
+    "animation.pastamissingno.recoil": {
       "animation_length": 0.125,
       "bones": {
         "body1": {
@@ -7096,10 +7096,10 @@
         }
       }
     },
-    "animation.missingno.cry": {
+    "animation.pastamissingno.cry": {
       "animation_length": 1.5,
       "bones": {
-        "missingno": {
+        "pastamissingno": {
           "rotation": {
             "0.0": [
               0,
@@ -7581,11 +7581,11 @@
       },
       "sound_effects": {
         "0.0": {
-          "effect": "pokemon.missingno.cry"
+          "effect": "pokemon.pastamissingno.cry"
         }
       }
     },
-    "animation.missingno.sleep": {
+    "animation.pastamissingno.sleep": {
       "animation_length": 0.25,
       "bones": {
         "body4": {

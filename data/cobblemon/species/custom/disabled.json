@@ -79,7 +79,7 @@
     "cobblemon.species.disabled.desc1",
     "cobblemon.species.disabled.desc2"
   ],
-  "preEvolution": "jigglypuff",
+  "preEvolution": "purin",
   "evolutions": [],
   "baseScale": 0.8,
   "hitbox": {

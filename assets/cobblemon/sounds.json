@@ -95,10 +95,10 @@
       }
     ]
   },
-  "pokemon.missingno.cry": {
+  "pokemon.pastamissingno.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/missingno/missingno_cry",
+        "name": "cobblemon:pokemon/pastamissingno/pastamissingno_cry",
         "volume": 0.8
       }
     ]
@@ -309,7 +309,7 @@
   "pokemon.normadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/normadio/cry",
+        "name": "cobblemon:pokemon/normadio/normadio_cry",
         "stream": false
       }
     ]
@@ -317,7 +317,7 @@
   "pokemon.gluemadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/gluemadio/cry",
+        "name": "cobblemon:pokemon/gluemadio/gluemadio_cry",
         "stream": false
       }
     ]
@@ -325,7 +325,7 @@
   "pokemon.earthmadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/earthmadio/cry",
+        "name": "cobblemon:pokemon/earthmadio/earthmadio_cry",
         "stream": false
       }
     ]
@@ -333,7 +333,7 @@
   "pokemon.bonemadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/bonemadio/cry",
+        "name": "cobblemon:pokemon/bonemadio/bonemadio_cry",
         "stream": false
       }
     ]
@@ -341,7 +341,7 @@
   "pokemon.seamadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/seamadio/cry",
+        "name": "cobblemon:pokemon/seamadio/seamadio_cry",
         "stream": false
       }
     ]
@@ -349,7 +349,7 @@
   "pokemon.burstmadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/burstmadio/cry",
+        "name": "cobblemon:pokemon/burstmadio/burstmadio_cry",
         "stream": false
       }
     ]
@@ -357,7 +357,7 @@
   "pokemon.treemadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/treemadio/cry",
+        "name": "cobblemon:pokemon/treemadio/treemadio_cry",
         "stream": false
       }
     ]
@@ -365,7 +365,7 @@
   "pokemon.aeromadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/aeromadio/cry",
+        "name": "cobblemon:pokemon/aeromadio/aeromadio_cry",
         "stream": false
       }
     ]
@@ -373,7 +373,7 @@
   "pokemon.blastmadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/blastmadio/cry",
+        "name": "cobblemon:pokemon/blastmadio/blastmadio_cry",
         "stream": false
       }
     ]
@@ -381,7 +381,7 @@
   "pokemon.kingmadio.cry": {
     "sounds": [
       {
-        "name": "cobblemon:pokemon/kingmadio/cry",
+        "name": "cobblemon:pokemon/kingmadio/kingmadio_cry",
         "stream": false
       }
     ]
@@ -389,7 +389,7 @@
   "pokemon.shinto.cry": {
     "sounds": [
       {
-        "name": "cobblepastas:pokemon/shinto/shinto_cry",
+        "name": "cobblemon:pokemon/shinto/shinto_cry",
         "volume": 0.8
       }
     ]
@@ -397,7 +397,7 @@
   "pokemon.shinto-shitno.cry": {
     "sounds": [
       {
-        "name": "cobblepastas:pokemon/shinto/shitno_cry",
+        "name": "cobblemon:pokemon/shinto/shitno_cry",
         "volume": 0.8
       }
     ]
@@ -405,7 +405,7 @@
   "pokemon.unown-eerie.cry": {
     "sounds": [
       {
-        "name": "cobblepastas:pokemon/unown_eerie/unown_eerie_cry",
+        "name": "cobblemon:pokemon/unown_eerie/unown_eerie_cry",
         "volume": 0.8
       }
     ]
@@ -413,7 +413,7 @@
   "pokemon.unown-eerie-horde.cry": {
     "sounds": [
       {
-        "name": "cobblepastas:pokemon/unown_eerie/unown_horde_cry",
+        "name": "cobblemon:pokemon/unown_eerie/unown_horde_cry",
         "volume": 0.8
       }
     ]
@@ -421,7 +421,7 @@
   "pokemon.purin.cry": {
     "sounds": [
       {
-        "name": "cobblepastas:pokemon/purin/purin_cry",
+        "name": "cobblemon:pokemon/purin/purin_cry",
         "volume": 0.8
       }
     ]
@@ -434,7 +434,7 @@
   "pokemon.lostcelebi.cry": {
     "sounds": [
       {
-        "name": "cobblepastas:pokemon/lostcelebi/lostcelebi_cry",
+        "name": "cobblemon:pokemon/lostcelebi/lostcelebi_cry",
         "volume": 0.8
       }
     ]
@@ -447,7 +447,7 @@
   "pokemon.oni.cry": {
     "sounds": [
       {
-        "name": "cobblepastas:pokemon/oni/oni_cry",
+        "name": "cobblemon:pokemon/oni/oni_cry",
         "volume": 1.0
       }
     ]

@@ -61,7 +61,7 @@
     {
       "id": "badegg_missingno",
       "variant": "level_up",
-      "result": "missingno",
+      "result": "pastamissingno",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "corrupted-missingno",
-      "pokemon": "missingno",
+      "pokemon": "pastamissingno",
       "presets": [
         "natural"
       ],

@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:pastamissingno",
+    "speciesId": "cobblemon:pastamissingno",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

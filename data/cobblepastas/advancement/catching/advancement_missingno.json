@@ -5,7 +5,7 @@
       "id": "cobblepastas:advancement_pokemon_icon",
       "components": {
         "cobblemon:pokemon_item": {
-          "species": "cobblemon:missingno",
+          "species": "cobblemon:pastamissingno",
           "aspects": []
         }
       }

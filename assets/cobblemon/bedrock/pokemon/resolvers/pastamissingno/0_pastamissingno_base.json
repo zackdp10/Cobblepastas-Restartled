@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:pastamissingno",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pastamissingno",
+      "model": "cobblemon:pastamissingno.geo",
+      "texture": "cobblemon:textures/pokemon/pastamissingno/pastamissingno.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/pastamissingno/pastamissingno_shiny.png"
+    }
+  ]
+}

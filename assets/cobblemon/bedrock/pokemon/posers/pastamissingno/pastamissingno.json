@@ -1,10 +1,10 @@
 {
   "animations": {
-    "cry": "q.bedrock_primary('missingno', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
-    "faint": "q.bedrock_primary('missingno', 'faint', q.curve('one'))",
-    "physical": "q.bedrock_primary('missingno', 'physical', q.curve('symmetrical_wide'))",
-    "recoil": "q.bedrock_stateful('missingno', 'recoil')",
-    "special": "q.bedrock_primary('missingno', 'special', q.curve('symmetrical_wide'))"
+    "cry": "q.bedrock_primary('pastamissingno', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))",
+    "faint": "q.bedrock_primary('pastamissingno', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('pastamissingno', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('pastamissingno', 'recoil')",
+    "special": "q.bedrock_primary('pastamissingno', 'special', q.curve('symmetrical_wide'))"
   },
   "portraitScale": 1,
   "portraitTranslation": [
@@ -18,7 +18,7 @@
     1.18,
     0
   ],
-  "rootBone": "missingno",
+  "rootBone": "pastamissingno",
   "poses": {
     "standing": {
       "poseName": "standing",
@@ -30,10 +30,10 @@
         "PROFILE"
       ],
       "animations": [
-        "q.bedrock('missingno', 'ground_idle')"
+        "q.bedrock('pastamissingno', 'ground_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('missingno', 'blink')"
+        "q.bedrock_quirk('pastamissingno', 'blink')"
       ]
     },
     "walking": {
@@ -43,10 +43,10 @@
         "WALK"
       ],
       "animations": [
-        "q.bedrock('missingno', 'ground_walk')"
+        "q.bedrock('pastamissingno', 'ground_walk')"
       ],
       "quirks": [
-        "q.bedrock_quirk('missingno', 'blink')"
+        "q.bedrock_quirk('pastamissingno', 'blink')"
       ]
     },
     "hover": {
@@ -56,10 +56,10 @@
         "HOVER"
       ],
       "animations": [
-        "q.bedrock('missingno', 'air_idle')"
+        "q.bedrock('pastamissingno', 'air_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('missingno', 'blink')"
+        "q.bedrock_quirk('pastamissingno', 'blink')"
       ]
     },
     "fly": {
@@ -69,10 +69,10 @@
         "FLY"
       ],
       "animations": [
-        "q.bedrock('missingno', 'air_fly')"
+        "q.bedrock('pastamissingno', 'air_fly')"
       ],
       "quirks": [
-        "q.bedrock_quirk('missingno', 'blink')"
+        "q.bedrock_quirk('pastamissingno', 'blink')"
       ]
     },
     "sleep": {
@@ -81,7 +81,7 @@
         "SLEEP"
       ],
       "animations": [
-        "q.bedrock('missingno', 'sleep')"
+        "q.bedrock('pastamissingno', 'sleep')"
       ],
       "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"

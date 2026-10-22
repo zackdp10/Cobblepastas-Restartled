@@ -10,7 +10,7 @@ public final class AdvancementIconClient implements ClientModInitializer {
   private static final Map<String, float[]> LAYOUT = Map.of(
       "cobblemon:unownking", new float[] {1.658304f, 0.072f},
       "cobblemon:shinto", new float[] {1.25f, -0.0625f},
-      "cobblemon:missingno", new float[] {0.5f, -0.475f},
+      "cobblemon:pastamissingno", new float[] {0.5f, -0.475f},
       "cobblemon:turmur", new float[] {0.965517f, -0.084375f},
       "cobblemon:kingmadio", new float[] {1.338065f, -0.2321825f},
       "cobblemon:unown", new float[] {3.417752f, -0.029779f},

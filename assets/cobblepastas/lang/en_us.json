@@ -94,5 +94,9 @@
   "advancements.cobblepastas.twisted_and_evil": "Twisted and Evil",
   "advancements.cobblepastas.twisted_and_evil.description": "Find an eerie variant of a Pokémon",
   "advancements.cobblepastas.revive_bad_egg": "advancement.badegg",
-  "advancements.cobblepastas.revive_bad_egg.description": "Bring a Bad Egg back to life"
+  "advancements.cobblepastas.revive_bad_egg.description": "Bring a Bad Egg back to life",
+  "painting.cobblepastas.pinkachupainting.title": "Pinkachu",
+  "painting.cobblepastas.pinkachupainting.author": "ToonSkin",
+  "item.cobblepastas.blood_gem.tooltip.1": "Only affects moves that already cause Bleed or Hemorrhage",
+  "item.cobblepastas.temp_ore.tooltip.1": "The target must have Bleed or Hemorrhage"
 }

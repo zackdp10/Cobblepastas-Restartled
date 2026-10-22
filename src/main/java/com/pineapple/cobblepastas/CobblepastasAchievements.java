@@ -11,7 +11,7 @@ public final class CobblepastasAchievements implements ModInitializer {
   private static final Map<String, String> CAPTURES = Map.of(
       "cobblemon:unownking", "the_king_in_black",
       "cobblemon:shinto", "you_cheated",
-      "cobblemon:missingno", "achievement_null",
+      "cobblemon:pastamissingno", "advancement_missingno",
       "cobblemon:turmur", "source_of_the_infection",
       "cobblemon:kingmadio", "the_king_in_blue");
   private static final Set<String> MADIOS = Set.of(

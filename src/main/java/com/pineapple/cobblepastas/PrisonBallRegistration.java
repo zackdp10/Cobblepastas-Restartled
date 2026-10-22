@@ -9,6 +9,8 @@ import net.fabricmc.api.ModInitializer;
 
 /** A normal throwing ball with Cobblemon's native label-based capture bonus. */
 public final class PrisonBallRegistration implements ModInitializer {
+  static Object prisonBallItem;
+
   @Override
   @SuppressWarnings("unchecked")
   public void onInitialize() {
@@ -32,6 +34,7 @@ public final class PrisonBallRegistration implements ModInitializer {
         throw new IllegalStateException("Prison Ball is already registered");
       invoke(null, "net.minecraft.registry.Registry", "register",
           field("net.minecraft.registry.Registries", "ITEM"), id, item);
+      prisonBallItem = item;
       defaults.put(id, ball);
       Object items = field("com.cobblemon.mod.common.CobblemonItems", "INSTANCE");
       ((List<Object>) field(items, null, "pokeBalls")).add(item);

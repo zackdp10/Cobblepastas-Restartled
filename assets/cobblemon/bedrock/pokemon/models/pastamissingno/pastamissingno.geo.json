@@ -16,7 +16,7 @@
       },
       "bones": [
         {
-          "name": "missingno",
+          "name": "pastamissingno",
           "pivot": [
             0,
             0,
@@ -25,7 +25,7 @@
         },
         {
           "name": "body1",
-          "parent": "missingno",
+          "parent": "pastamissingno",
           "pivot": [
             0,
             0,
@@ -52,7 +52,7 @@
         },
         {
           "name": "body2",
-          "parent": "missingno",
+          "parent": "pastamissingno",
           "pivot": [
             0,
             0,
@@ -79,7 +79,7 @@
         },
         {
           "name": "body3",
-          "parent": "missingno",
+          "parent": "pastamissingno",
           "pivot": [
             0,
             0,
@@ -106,7 +106,7 @@
         },
         {
           "name": "body4",
-          "parent": "missingno",
+          "parent": "pastamissingno",
           "pivot": [
             0,
             0,
@@ -133,7 +133,7 @@
         },
         {
           "name": "body5",
-          "parent": "missingno",
+          "parent": "pastamissingno",
           "pivot": [
             0,
             0,
@@ -160,7 +160,7 @@
         },
         {
           "name": "body6",
-          "parent": "missingno",
+          "parent": "pastamissingno",
           "pivot": [
             0,
             0,
@@ -187,7 +187,7 @@
         },
         {
           "name": "body7",
-          "parent": "missingno",
+          "parent": "pastamissingno",
           "pivot": [
             0,
             0,

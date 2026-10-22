@@ -12,7 +12,7 @@
     "attack": 45,
     "defence": 20,
     "hp": 115,
-    "special_attack": 75,
+    "special_attack": 45,
     "special_defence": 25,
     "speed": 20
   },
@@ -71,7 +71,21 @@
     "special_defence": 0,
     "speed": 0
   },
-  "evolutions": [],
+  "evolutions": [
+    {
+      "id": "purin_disabled",
+      "variant": "level_up",
+      "result": "disabled",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    }
+  ],
   "experienceGroup": "fast",
   "height": 5,
   "hitbox": {

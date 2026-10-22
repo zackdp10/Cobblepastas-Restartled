@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "missingno",
+  "name": "pastamissingno",
   "nationalPokedexNumber": 1,
   "primaryType": "flying",
   "secondaryType": "normal",
@@ -128,8 +128,8 @@
     "cobblepastas"
   ],
   "pokedex": [
-    "cobblemon.species.missingno.desc1",
-    "cobblemon.species.missingno.desc2"
+    "cobblemon.species.pastamissingno.desc1",
+    "cobblemon.species.pastamissingno.desc2"
   ],
   "baseScale": 1.0,
   "hitbox": {
