@@ -1,0 +1,13 @@
+{
+  "pokemon": [
+    "unown"
+  ],
+  "cosmeticItems": [
+    {
+      "consumedItem": "cobblemon:ghost_gem",
+      "aspects": [
+        "stigmatized"
+      ]
+    }
+  ]
+}

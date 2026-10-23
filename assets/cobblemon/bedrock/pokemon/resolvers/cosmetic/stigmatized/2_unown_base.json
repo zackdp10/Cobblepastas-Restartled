@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:unown",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [
+        "stigmatized"
+      ],
+      "poser": "cobblemon:unown_c",
+      "model": "cobblemon:unown_stigmatized.geo",
+      "texture": "cobblemon:textures/pokemon/unown_stigmatized/unown_stigmatized.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/unown_stigmatized/unown_stigmatized.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "stigmatized",
+        "shiny"
+      ],
+      "poser": "cobblemon:unown_c",
+      "model": "cobblemon:unown_stigmatized.geo",
+      "texture": "cobblemon:textures/pokemon/unown_stigmatized/unown_stigmatized_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/unown_stigmatized/unown_stigmatized_shiny.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

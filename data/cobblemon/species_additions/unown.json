@@ -244,6 +244,10 @@
         "fixed": false
       },
       "battleOnly": true
+    },
+    {
+      "name": "Stigmatized",
+      "aspects": ["stigmatized"]
     }
   ]
 }
