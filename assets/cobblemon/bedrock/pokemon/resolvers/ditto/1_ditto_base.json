@@ -7,7 +7,7 @@
         "eerie"
       ],
       "poser": "cobblemon:ditto",
-      "model": "cobblemon:ditto.geo",
+      "model": "cobblemon:ditto_eerie.geo",
       "texture": "cobblemon:textures/pokemon/ditto_eerie/ditto_eerie.png",
       "layers": []
     },
