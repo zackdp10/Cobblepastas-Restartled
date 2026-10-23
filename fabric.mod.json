@@ -25,7 +25,8 @@
       "com.pineapple.cobblepastas.GravestoneRegistration",
       "com.pineapple.cobblepastas.PrisonBallRegistration",
       "com.pineapple.cobblepastas.CobblepastasAchievements",
-      "com.pineapple.cobblepastas.AdvancementIconRegistration"
+      "com.pineapple.cobblepastas.AdvancementIconRegistration",
+      "com.pineapple.cobblepastas.DeathTollSounds"
     ],
     "client": [
       "com.pineapple.cobblepastas.BloodGemClientRegistration",

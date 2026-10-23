@@ -295,5 +295,10 @@
   "cobblemon.battle.cant.partinggrin": "%1$s cannot use %2$s because of Parting Grin!",
   "cobblemon.battle.start.partinggrin": "%1$s cannot recover HP because of Parting Grin!",
   "cobblemon.battle.activate.buriedreflex": "%1$s can act faster than normal, thanks to its Buried Reflex!",
-  "cobblemon.battle.cant.dread": "%1$s is too frightened to use %2$s because of Dread!"
+  "cobblemon.battle.cant.dread": "%1$s is too frightened to use %2$s because of Dread!",
+  "cobblemon.species.hellbell.name": "Hell Bell",
+  "cobblemon.species.hellbell.desc": "Once it chooses a Trainer, Hell Bell refuses to leave their side. Its slow tolling guides them toward its former master, where a seemingly harmless request seals a terrible bargain. Those who surrender their true name are said to lose ownership of their very soul.",
+  "cobblemon.ability.deathtoll": "Death Toll",
+  "cobblemon.ability.deathtoll.desc": "After taking a physical hit, this Pokémon’s next damaging move deals 25% more damage. The effect does not stack and ends when it switches out.",
+  "cobblemon.battle.activate.deathtoll": "%1$s’s Death Toll empowered its next attack!"
 }

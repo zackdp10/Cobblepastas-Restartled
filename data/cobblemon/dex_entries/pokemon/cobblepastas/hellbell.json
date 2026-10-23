@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hellbell",
+  "speciesId": "cobblemon:hellbell",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

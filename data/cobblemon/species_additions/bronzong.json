@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:bronzong",
+  "evolutions": [
+    {
+      "id": "bronzong_hellbell",
+      "variant": "trade",
+      "result": "hellbell",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "imprison"
+        }
+      ]
+    }
+  ]
+}

@@ -451,5 +451,21 @@
         "volume": 1.0
       }
     ]
+  },
+  "pokemon.hellbell.cry": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/hellbell/hellbell_cry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "pokemon.hellbell.death_toll": {
+    "sounds": [
+      {
+        "name": "cobblemon:pokemon/hellbell/death_toll",
+        "volume": 0.75
+      }
+    ]
   }
 }

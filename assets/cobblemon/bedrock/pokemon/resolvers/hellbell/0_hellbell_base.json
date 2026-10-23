@@ -1,0 +1,69 @@
+{
+  "species": "cobblemon:hellbell",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "texture": "cobblemon:textures/pokemon/hellbell/hellbell.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/hellbell/hellbell_emissive.png"
+        }
+      ],
+      "model": "cobblemon:hellbell.geo",
+      "poser": "cobblemon:hellbell"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hellbell/hellbell_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/hellbell/hellbell_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "texture": "cobblemon:textures/pokemon/hellbell/hellbell.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/hellbell/hellbell_emissive.png"
+        },
+        {
+          "name": "alpha_eyes",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/hellbell/hellbell_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "alpha_eyes"
+      ],
+      "texture": "cobblemon:textures/pokemon/hellbell/hellbell_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/hellbell/hellbell_shiny_emissive.png"
+        },
+        {
+          "name": "alpha_eyes",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/hellbell/hellbell_alpha.png"
+        }
+      ]
+    }
+  ]
+}

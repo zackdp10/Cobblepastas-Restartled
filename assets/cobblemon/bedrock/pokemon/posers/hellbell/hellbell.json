@@ -1,0 +1,159 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('hellbell', 'cry')",
+    "faint": "q.bedrock_primary('hellbell', 'faint')",
+    "physical": "q.bedrock_primary('hellbell', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('hellbell', 'recoil')",
+    "status": "q.bedrock_primary('hellbell', 'status', q.curve('symmetrical_wide'))"
+  },
+  "firstPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.45,
+      0
+    ],
+    "seat_2": [
+      0,
+      0.45,
+      0
+    ]
+  },
+  "portraitScale": 1.12,
+  "portraitTranslation": [
+    -0.27,
+    -0.05,
+    0
+  ],
+  "poses": {
+    "battle_hover": {
+      "animations": [
+        "q.bedrock('hellbell', 'ground_idle')"
+      ],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('hellbell', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "poseTypes": [
+        "HOVER",
+        "STAND",
+        "FLOAT",
+        "NONE"
+      ]
+    },
+    "hover": {
+      "animations": [
+        "q.bedrock('hellbell', 'ground_idle')",
+        {
+          "animation": "q.bedrock('hellbell', 'ride_mount_run')",
+          "condition": "q.has_entity ? q.is_ridden"
+        }
+      ],
+      "isBattle": false,
+      "poseTypes": [
+        "HOVER",
+        "STAND",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "transformTicks": 10
+    },
+    "mount-walking": {
+      "animations": [
+        "q.bedrock('hellbell', 'mount_run')",
+        "q.bedrock('hellbell', 'ride_mount_run')"
+      ],
+      "condition": "q.has_entity ? q.is_ridden && !q.is_sprinting : 0.0",
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY"
+      ]
+    },
+    "running": {
+      "animations": [
+        "q.bedrock('hellbell', 'ground_run')"
+      ],
+      "condition": "q.has_entity ? !q.is_ridden && q.is_sprinting : 0.0",
+      "poseTypes": [
+        "FLY",
+        "WALK",
+        "SWIM"
+      ]
+    },
+    "sleep": {
+      "animations": [
+        "q.bedrock('hellbell', 'sleep')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "poseTypes": [
+        "SLEEP"
+      ]
+    },
+    "walking": {
+      "animations": [
+        "q.bedrock('hellbell', 'ground_walk')"
+      ],
+      "condition": "q.has_entity ? !q.is_ridden && !q.is_sprinting : 1.0",
+      "poseTypes": [
+        "FLY",
+        "WALK",
+        "SWIM"
+      ]
+    }
+  },
+  "profileScale": 0.49,
+  "profileTranslation": [
+    0,
+    0.98,
+    0
+  ],
+  "rootBone": "bronzong",
+  "thirdPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.3,
+      0
+    ],
+    "seat_1_reverse": [
+      0,
+      0.3,
+      0
+    ],
+    "seat_2": [
+      0,
+      0.3,
+      0
+    ],
+    "seat_2_reverse": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [
+      0,
+      0.3,
+      0
+    ],
+    "seat_1_reverse": [
+      0,
+      0.3,
+      0
+    ],
+    "seat_2": [
+      0,
+      0.3,
+      0
+    ],
+    "seat_2_reverse": [
+      0,
+      0.3,
+      0
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "timeline": [
+    {
+      "type": "entity_sound",
+      "sound": "cobblemon:pokemon.hellbell.death_toll",
+      "entityCondition": "q.entity.is_user == true"
+    }
+  ]
+}
