@@ -2,11 +2,11 @@
   "rootBone": "madio",
   "portraitScale": 1.351,
   "portraitTranslation": [
-    -0.3,
+    0,
     0.237,
     0
   ],
-  "profileScale": 0.9646,
+  "profileScale": 0.75,
   "profileTranslation": [
     0,
     0.548,

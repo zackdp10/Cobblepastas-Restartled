@@ -5,16 +5,16 @@
     "physical": "q.bedrock_primary('galactimon', 'physical', q.curve('symmetrical_wide'))",
     "special": "q.bedrock_primary('galactimon', 'special', q.curve('symmetrical_wide'))"
   },
-  "portraitScale": 1.4,
+  "portraitScale": 1.2,
   "portraitTranslation": [
     -0.1,
     0.65,
     0
   ],
-  "profileScale": 0.8,
+  "profileScale": 0.65,
   "profileTranslation": [
     0,
-    0.8,
+    0.9,
     0
   ],
   "rootBone": "galactimon",
