@@ -5,10 +5,10 @@
     0.4,
     0
   ],
-  "profileScale": 1.2,
+  "profileScale": 1,
   "profileTranslation": [
-    0,
-    0.8,
+    -0.1,
+    1,
     0
   ],
   "rootBone": "xtwothree",
