@@ -96,7 +96,7 @@
   "advancements.cobblepastas.revive_bad_egg": "advancement.badegg",
   "advancements.cobblepastas.revive_bad_egg.description": "Bring a Bad Egg back to life",
   "painting.cobblepastas.pinkachupainting.title": "Pinkachu",
-  "painting.cobblepastas.pinkachupainting.author": "ToonSkin",
+  "painting.cobblepastas.pinkachupainting.author": "wr0ngwarp, ToonSkin",
   "item.cobblepastas.blood_gem.tooltip.1": "Only affects moves that already cause Bleed or Hemorrhage",
   "item.cobblepastas.temp_ore.tooltip.1": "The target must have Bleed or Hemorrhage"
 }
