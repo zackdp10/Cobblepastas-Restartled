@@ -34,6 +34,28 @@
       }
     }
   },
+  "ai": [
+    {
+      "type": "cobblemon:add_tasks_to_activity",
+      "activity": "idle",
+      "tasksByPriority": {
+        "7": [
+          {
+            "type": "cobblemon:hate_entity",
+            "entityCondition": "q.entity.is_player",
+            "chance": 1.0
+          }
+        ],
+        "8": [
+          "stop_attacking_if_target_invalid",
+          "move_to_attack_target"
+        ],
+        "9": [
+          "melee_attack"
+        ]
+      }
+    }
+  ],
   "catchRate": 45,
   "maleRatio": 1,
   "shoulderMountable": false,

@@ -1,14 +1,14 @@
 {
-  "portraitScale": 0.7,
+  "portraitScale": 2,
   "portraitTranslation": [
-    0,
-    0.925,
+    -0.5,
+    1,
     0
   ],
   "profileScale": 0.55,
   "profileTranslation": [
     0,
-    1.0,
+    0.6,
     0
   ],
   "rootBone": "oni",
@@ -18,9 +18,24 @@
     "faint": "q.bedrock_primary('oni', 'faint', q.curve('one'))"
   },
   "poses": {
-    "hover": {
+    "standong": {
       "poseTypes": [
         "STAND",
+        "HOVER",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('oni', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('oni', 'quirk_blink')"
+      ]
+    },
+    "hover": {
+      "poseTypes": [
         "HOVER",
         "FLOAT",
         "NONE",

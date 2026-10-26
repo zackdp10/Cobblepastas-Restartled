@@ -19,9 +19,19 @@
     "combat": {
       "willDefendOwner": true
     },
-    "herd": {
-      "maxSize": 1
-    },
+        "herd": {
+          "maxSize": 30,
+          "toleratedLeaders": [
+            {
+              "pokemon": "lostcelebi alpha=false",
+              "tier": 1
+            },
+            {
+              "pokemon": "unownking alpha=false",
+              "tier": 2
+            }
+          ]
+        },
     "moving": {
       "fly": {
         "canFly": true
