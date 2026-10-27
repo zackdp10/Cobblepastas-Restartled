@@ -232,14 +232,6 @@
       }
     ]
   },
-  "pokemon.seventhreeone.cry": {
-    "sounds": [
-      {
-        "name": "cobblemon:pokemon/seven31/seven31_cry",
-        "volume": 0.3
-      }
-    ]
-  },
   "pokemon.xthreetwo.cry": {
     "sounds": [
       {
