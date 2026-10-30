@@ -1,0 +1,465 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "50-51",
+          "levelRangeOffset": "-49-49",
+          "maxTimes": 7,
+          "pokemon": "unown",
+          "weight": 5
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 10
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 10
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 10
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 10
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 10
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 10
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "unown eerie=true alpha=true",
+          "weight": 0.3
+        }
+      ],
+      "id": "unown-herd-1",
+      "levelRange": "25-100",
+      "maxHerdSize": 25,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 1000
+    },
+    
+    
+    {
+      
+      "id": "unown-herd-2",
+      "levelRange": "25-100",
+      "maxHerdSize": 50,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 9,
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "cobblepastas:corrupted_chasms"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "50-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "unown eerie=true scale_modifier=2.0",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=true",
+          "weight": 0.1
+        }
+      ]
+    },
+    
+    
+    {
+      
+      "id": "unown-herd-3",
+      "levelRange": "25-100",
+      "maxHerdSize": 50,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 25,
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "50-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 1,
+          "pokemon": "unown eerie=true scale_modifier=2.0",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=false",
+          "weight": 12
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "25-100",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 30,
+          "pokemon": "unown eerie=true alpha=true",
+          "weight": 0.1
+        }
+      ]
+    }
+  ]
+}

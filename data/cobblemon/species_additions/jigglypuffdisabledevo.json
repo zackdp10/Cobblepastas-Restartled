@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:jigglypuff",
+  "evolutions": [
+    {
+      "id": "jigglypuff-disabled-level_up",
+      "variant": "level_up",
+      "result": "disabled",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "cobblepastas:corrupted_chasms"
+        },
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ],
+      "requiredContext": "cobblemon:reaper_cloth"
+    }
+  ]
+}

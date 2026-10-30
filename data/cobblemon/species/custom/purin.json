@@ -93,21 +93,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "evolutions": [
-    {
-      "id": "purin_disabled",
-      "variant": "level_up",
-      "result": "disabled",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 32
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "experienceGroup": "fast",
   "height": 5,
   "hitbox": {
@@ -115,6 +101,7 @@
     "height": 0.9,
     "width": 0.9
   },
+  "preEvolution": "igglybuff",
   "implemented": true,
   "labels": [
     "custom",

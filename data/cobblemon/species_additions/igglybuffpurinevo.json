@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:igglybuff",
+  "evolutions": [
+    {
+      "id": "igglybuff-purin",
+      "variant": "item_interact",
+      "result": "purin",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:reaper_cloth"
+    }
+  ]
+}
