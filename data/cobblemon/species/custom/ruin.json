@@ -258,7 +258,7 @@
     "cobblemon.species.ruin.desc1",
     "cobblemon.species.ruin.desc2"
   ],
-  "preEvolution": "millenium",
+  "preEvolution": "species=cobblemon:millenium",
   "primaryType": "water",
   "riding": {
     "behaviours": {

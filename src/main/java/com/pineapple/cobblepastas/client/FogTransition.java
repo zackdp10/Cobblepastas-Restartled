@@ -21,6 +21,14 @@ final class FogTransition {
     return amount;
   }
 
+  // Fog-removal mods can use huge distances. Subtracting those from a small
+  // target loses the target to rounding and produces zero at the end of a fade.
+  static float blendDistance(float current, float target, float amount) {
+    if (amount <= 0.0f) return current;
+    if (amount >= 1.0f) return target;
+    return (float) ((1.0 - amount) * current + (double) amount * target);
+  }
+
   void clear() {
     world = null;
     previousTime = 0;

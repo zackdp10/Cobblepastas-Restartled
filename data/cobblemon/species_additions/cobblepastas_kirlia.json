@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:kirlia",
+  "evolutions": [
+    {
+      "id": "kirlia_charon",
+      "variant": "item_interact",
+      "result": "charon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shadowball"
+      ],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gender=male"
+        }
+      ],
+      "requiredContext": "cobblemon:reaper_cloth"
+    }
+  ]
+}

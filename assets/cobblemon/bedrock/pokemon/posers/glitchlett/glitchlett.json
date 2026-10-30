@@ -62,5 +62,10 @@
         "q.bedrock('glitchlett', 'sleep')"
       ]
     }
-  }
+  },
+  "profileSummaryTranslation": [
+    0,
+    0.3,
+    0
+  ]
 }

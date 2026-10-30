@@ -77,7 +77,7 @@
     {
       "id": "rainy_millenium",
       "variant": "item_interact",
-      "result": "millenium",
+      "result": "species=cobblemon:millenium",
       "consumeHeldItem": false,
       "learnableMoves": [
         "abyss",

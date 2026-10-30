@@ -66,8 +66,8 @@ public final class CorruptedBiomeFog {
       float currentEnd = (Float) getEnd.invoke(null);
       float end = Math.min(currentEnd, forest ? FOREST_FOG_END : FOG_END);
       float start = Math.min(currentStart, Math.min(forest ? FOREST_FOG_START : FOG_START, end * 0.25f));
-      setStart.invoke(null, currentStart + (start - currentStart) * amount);
-      setEnd.invoke(null, currentEnd + (end - currentEnd) * amount);
+      setStart.invoke(null, FogTransition.blendDistance(currentStart, start, amount));
+      setEnd.invoke(null, FogTransition.blendDistance(currentEnd, end, amount));
       // Radial distance avoids the flat vertical boundary of cylindrical terrain fog.
       // Preserve the shape of shorter-distance native fog (blindness, powder snow, etc.).
       if (forest && currentEnd > FOREST_FOG_END) setShape.invoke(null, sphere);

@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "cobblepastas-fogbound-ghost",
-      "pokemon": "ghost",
+      "pokemon": "species=cobblemon:ghost",
       "presets": [
         "natural"
       ],

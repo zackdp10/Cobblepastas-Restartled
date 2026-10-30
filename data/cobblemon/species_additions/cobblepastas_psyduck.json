@@ -1,0 +1,27 @@
+{
+  "target": "cobblemon:psyduck",
+  "evolutions": [
+    {
+      "id": "psyduck_golduck_eerie",
+      "variant": "level_up",
+      "result": "golduck eerie",
+      "consumeHeldItem": false,
+      "learnableMoves": [ "rocksmash" ],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gender=male"
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:quick_claw"
+        },
+        {
+          "variant": "defeat",
+          "target": "persian",
+	  "amount": 1
+        }
+      ]
+    }
+  ]
+}

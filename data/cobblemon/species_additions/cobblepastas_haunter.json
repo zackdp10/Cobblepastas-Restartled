@@ -1,0 +1,19 @@
+{
+  "target": "cobblemon:haunter",
+  "evolutions": [
+    {
+      "id": "haunter_nightmare",
+      "variant": "item_interact",
+      "result": "nightmare",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gender=male"
+        }
+      ],
+      "requiredContext": "cobblepastas:reds_cap"
+    }
+  ]
+}

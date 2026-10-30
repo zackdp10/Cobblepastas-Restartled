@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:pichu",
+  "evolutions": [
+    {
+      "id": "pichu-pinkachu-level_up",
+      "variant": "level_up",
+      "result": "pinkachu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:pink_concrete"
+        }
+      ]
+    },
+    {
+      "id": "pichu_freakachu",
+      "variant": "item_interact",
+      "result": "freakachu",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "painsplit"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
+    }
+  ]
+}

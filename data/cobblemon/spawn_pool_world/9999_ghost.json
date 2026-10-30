@@ -5,7 +5,7 @@
   "spawns": [
     {
       "id": "ghost-1-normal",
-      "pokemon": "ghost alpha=false",
+      "pokemon": "species=cobblemon:ghost alpha=false",
       "presets": [
         "natural"
       ],
@@ -28,7 +28,7 @@
     },
     {
       "id": "ghost-1-alpha",
-      "pokemon": "ghost alpha=true",
+      "pokemon": "species=cobblemon:ghost alpha=true",
       "presets": [
         "natural"
       ],

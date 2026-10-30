@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:solrock",
+  "evolutions": [
+    {
+      "id": "solrock_galactimon",
+      "variant": "item_interact",
+      "result": "galactimon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:sun_stone"
+    }
+  ]
+}
