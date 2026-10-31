@@ -1,14 +1,14 @@
 {
-  "portraitScale": 1.1,
+  "portraitScale": 2,
   "portraitTranslation": [
-    0.2,
-    0.7,
+    -0.2,
+    -0.1,
     0
   ],
-  "profileScale": 0.4,
+  "profileScale": 0.7,
   "profileTranslation": [
     0,
-    1.16,
+    0.7,
     0
   ],
   "rootBone": "pikachu",
