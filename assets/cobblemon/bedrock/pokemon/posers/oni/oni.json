@@ -21,7 +21,6 @@
     "standong": {
       "poseTypes": [
         "STAND",
-        "HOVER",
         "FLOAT",
         "NONE",
         "PORTRAIT",
