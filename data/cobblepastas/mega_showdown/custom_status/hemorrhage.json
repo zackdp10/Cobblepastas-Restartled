@@ -1,8 +1,0 @@
-{
-  "name": "hemorrhage",
-  "id": "hmg",
-  "applyMsg": "cobblemon.status.hemorrhage.apply",
-  "removeMsg": "cobblemon.status.hemorrhage.remove",
-  "minDur": 180,
-  "maxDur": 300
-}
