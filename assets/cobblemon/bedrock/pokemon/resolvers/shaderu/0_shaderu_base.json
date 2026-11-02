@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:shaderu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:shaderu.geo",
+      "poser": "cobblemon:shaderu",
+      "texture": "cobblemon:textures/pokemon/shaderu/shaderu.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/shaderu/shaderu_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/shaderu/shaderu_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/shaderu/shaderu_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

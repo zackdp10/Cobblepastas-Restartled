@@ -1,0 +1,201 @@
+{
+  "implemented": true,
+  "name": "shaderu",
+  "nationalPokedexNumber": 9999,
+  "primaryType": "ghost",
+  "secondaryType": "normal",
+  "abilities": [
+    "levitate",
+    "h:arenatrap"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 150,
+    "defence": 100,
+    "special_attack": 90,
+    "special_defence": 120,
+    "speed": 90
+  },
+  "behaviour": {
+    "combat": {
+      "willDefendOwner": true,
+      "willDefendSelf": true,
+      "willFlee": false
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": false,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "ai": [
+    {
+      "type": "cobblemon:add_tasks_to_activity",
+      "activity": "idle",
+      "tasksByPriority": {
+        "7": [
+          {
+            "type": "cobblemon:hate_entity",
+            "entityCondition": "q.entity.is_player",
+            "chance": 1.0
+          }
+        ],
+        "8": [
+          "stop_attacking_if_target_invalid",
+          "move_to_attack_target"
+        ],
+        "9": [
+          "melee_attack"
+        ]
+      }
+    }
+  ],
+  "catchRate": 1,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:ghost_gem",
+        "quantityRange": "1-1",
+        "percentage": 32
+      },
+      {
+        "item": "cobblemon:enigma_berry",
+        "quantityRange": "1-3",
+        "percentage": 83
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 2
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:recover",
+    "5:swift",
+    "10:glare",
+    "20:shadowpunch",
+    "25:refresh",
+    "30:shadowclaw",
+    "35:doubleedge",
+    "40:futuresight",
+    "45:shadowball",
+    "50:phantomforce",
+    "60:powertrip",
+    "tm:focuspunch",
+    "tm:dragonclaw",
+    "tm:waterpulse",
+    "tm:calmmind",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hail",
+    "tm:bulkup",
+    "tm:grasswhistle",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:hypnosis",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:gigadrain",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:ironhead",
+    "tm:thunderbolt",
+    "tm:discharge",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:icepunch",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:firepunch",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:beatup",
+    "tm:torment",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:steelwing",
+    "tm:skillswap",
+    "tm:snatch",
+    "tm:overheat",
+    "tm:cut",
+    "tm:fly",
+    "tm:surf",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "tm:waterfall",
+    "tm:dive"
+  ],
+  "labels": [
+    "custom",
+    "legendary",
+    "cobblepastas"
+  ],
+  "pokedex": [
+    "cobblemon.species.shaderu.desc1",
+    "cobblemon.species.shaderu.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 1,
+  "evolutions": []
+}
