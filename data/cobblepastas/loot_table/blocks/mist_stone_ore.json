@@ -28,7 +28,14 @@
             },
             {
               "type": "minecraft:item",
-              "name": "cobblepastas:mist_stone"
+              "name": "cobblepastas:mist_stone",
+              "functions": [
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                }
+              ]
             }
           ]
         }
