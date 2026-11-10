@@ -20,7 +20,9 @@
         "STAND",
         "NONE",
         "PORTRAIT",
-        "PROFILE"
+        "PROFILE",
+        "FLOAT",
+        "HOVER"
       ],
       "animations": [
         "q.bedrock('faceleech', 'ground_idle')"
@@ -30,10 +32,22 @@
       "poseName": "walking",
       "transformTicks": 10,
       "poseTypes": [
-        "WALK"
+        "WALK",
+        "SWIM",
+        "FLY"
       ],
       "animations": [
         "q.bedrock('faceleech', 'ground_walk')"
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('faceleech', 'sleep')"
       ]
     }
   },
