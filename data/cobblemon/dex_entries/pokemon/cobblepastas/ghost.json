@@ -5,9 +5,15 @@
     "conditionAspects": [],
     "forms": [
       {
-        "displayForm": "Normal",
+        "displayForm": "Lesser",
         "unlockForms": [
-          "Normal"
+          "Lesser"
+        ]
+      },
+      {
+        "displayForm": "Greater",
+        "unlockForms": [
+          "Greater"
         ]
       }
     ],

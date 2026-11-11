@@ -1,62 +1,72 @@
 {
-  "animations": {
-    "cry": "q.bedrock_primary('ghost', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
-  },
-  "portraitScale": 2,
+  "portraitScale": 2.4,
   "portraitTranslation": [
-    -0.25,
-    0.6,
+    -0.3,
+    0.15,
     0
   ],
   "profileScale": 1,
   "profileTranslation": [
     0,
-    0.6,
+    0.4,
     0
   ],
   "rootBone": "ghost",
+  "animations": {
+    "cry": "q.bedrock_stateful('ghost', 'cry')",
+    "recoil": "q.bedrock_stateful('ghost', 'recoil')",
+    "faint": "q.bedrock_primary('ghost', 'faint', q.curve('one'))"
+  },
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
       "poseTypes": [
         "STAND",
+        "FLOAT",
         "NONE",
         "PORTRAIT",
         "PROFILE"
       ],
       "animations": [
         "q.bedrock('ghost', 'ground_idle')"
-      ]
-    },
-    "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
       ],
-      "animations": [
-        "q.bedrock('ghost', 'ground_walk')"
+      "quirks": [
+        "q.bedrock_quirk('ghost', 'quirk_blink')"
       ]
     },
     "hover": {
-      "poseName": "hover",
-      "transformTicks": 10,
       "poseTypes": [
-        "HOVER"
+        "HOVER",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
       ],
       "animations": [
-        "q.bedrock('ghost', 'air_idle')"
+        "q.bedrock('ghost', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ghost', 'quirk_blink')"
       ]
     },
     "fly": {
-      "poseName": "fly",
-      "transformTicks": 10,
       "poseTypes": [
-        "FLY"
+        "WALK",
+        "FLY",
+        "SWIM"
       ],
       "animations": [
-        "q.bedrock('ghost', 'air_fly')"
+        "q.bedrock('ghost', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ghost', 'quirk_blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('ghost', 'sleep')"
       ]
     }
   }

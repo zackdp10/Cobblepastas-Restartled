@@ -45,7 +45,7 @@
 			},
 			"particle_effects": {
 				"0.0": {
-					"effect": "ghostly_smoke",
+					"effect": "shaderu_smoke",
 					"locator": "smog"
 				}
 			}
@@ -94,7 +94,7 @@
 			},
 			"particle_effects": {
 				"0.0": {
-					"effect": "ghostly_smoke",
+					"effect": "shaderu_smoke",
 					"locator": "smog"
 				}
 			}
@@ -105,8 +105,14 @@
 				"eyes": {
 					"scale": {
 						"0.0": [1, 1, 1],
-						"0.1667": {"pre": [1, 1, 1], "post": [1, 0, 1]},
-						"0.3333": {"pre": [1, 0, 1], "post": [1, 1, 1]}
+						"0.1667": {
+							"pre": [1, 1, 1],
+							"post": [1, 0, 1]
+						},
+						"0.3333": {
+							"pre": [1, 0, 1],
+							"post": [1, 1, 1]
+						}
 					}
 				}
 			}
@@ -405,8 +411,14 @@
 				"eyes": {
 					"scale": {
 						"0.0": [1, 1, 1],
-						"0.0833": {"pre": [1, 1, 1], "post": [1, 0, 1]},
-						"0.625": {"pre": [1, 0, 1], "post": [1, 1, 1]}
+						"0.0833": {
+							"pre": [1, 1, 1],
+							"post": [1, 0, 1]
+						},
+						"0.625": {
+							"pre": [1, 0, 1],
+							"post": [1, 1, 1]
+						}
 					}
 				},
 				"hand1": {

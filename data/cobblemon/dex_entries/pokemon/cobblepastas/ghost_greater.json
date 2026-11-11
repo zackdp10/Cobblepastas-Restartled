@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:ghost_greater",
+    "speciesId": "cobblemon:ghost",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Greater_Ghost",
+        "unlockForms": [
+          "Greater_Ghost"
+        ]
+      }
+    ],
+    "variations": []
+  }
