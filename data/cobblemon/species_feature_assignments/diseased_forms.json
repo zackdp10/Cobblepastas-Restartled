@@ -1,0 +1,13 @@
+{
+  "pokemon": [
+    "koffing",
+    "weezing",
+    "baltoy",
+    "claydol",
+    "paras",
+    "parasect"
+  ],
+  "features": [
+    "diseased"
+  ]
+}

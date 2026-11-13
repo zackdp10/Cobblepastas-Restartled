@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:claydol",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [ "diseased" ],
+      "model": "cobblemon:claydol.geo",
+      "poser": "cobblemon:claydol",
+      "texture": "cobblemon:textures/pokemon/claydol/claydol_zombie.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/claydol/claydol_zombie_emissive.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny", "diseased"
+      ],
+      "texture": "cobblemon:textures/pokemon/claydol/claydol_zombie_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/claydol/claydol_zombie_emissive.png",
+          "translucent": false
+        }
+      ]
+    }
+    
+  ]
+}

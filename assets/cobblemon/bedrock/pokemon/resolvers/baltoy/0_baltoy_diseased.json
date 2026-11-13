@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:baltoy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [ "diseased" ],
+      "model": "cobblemon:baltoy.geo",
+      "poser": "cobblemon:baltoy",
+      "texture": "cobblemon:textures/pokemon/baltoy/baltoy_zombie.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": [
+        "shiny", "diseased"
+      ],
+      "texture": "cobblemon:textures/pokemon/baltoy/baltoy_zombie_shiny.png"
+    }
+    
+  ]
+}

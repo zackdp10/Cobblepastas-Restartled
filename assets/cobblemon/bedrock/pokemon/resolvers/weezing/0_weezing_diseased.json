@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:weezing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [ "diseased" ],
+      "model": "cobblemon:weezing.geo",
+      "poser": "cobblemon:weezing",
+      "texture": "cobblemon:textures/pokemon/weezing/weezing_zombie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny", "diseased"
+      ],
+      "texture": "cobblemon:textures/pokemon/weezing/weezing_zombie_shiny.png",
+      "layers": []
+    }
+    
+  ]
+}

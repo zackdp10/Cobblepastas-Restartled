@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:koffing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [ "diseased" ],
+      "model": "cobblemon:koffing.geo",
+      "poser": "cobblemon:koffing",
+      "texture": "cobblemon:textures/pokemon/koffing/koffing_zombie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny", "diseased"
+      ],
+      "texture": "cobblemon:textures/pokemon/koffing/koffing_zombie_shiny.png",
+      "layers": []
+    }
+    
+  ]
+}
