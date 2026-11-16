@@ -5,21 +5,17 @@
   "spawns": [
     {
       "id": "shinto-dripstone-caves",
-      "pokemon": "shinto shinto_form=shinto alpha=false",
-      "presets": [
-        "natural"
-      ],
+      "pokemon": "shinto",
+      "spawnablePositionType": "grounded",
       "type": "pokemon",
       "bucket": "rare",
-      "level": "20-35",
+      "level": "20-66",
       "weight": 20.0,
       "condition": {
         "biomes": [
-          "minecraft:dripstone_caves"
-        ],
-        "canSeeSky": false
-      },
-      "spawnablePositionType": "grounded"
+          "#cobblemon:is_dripstone"
+        ]
+      }
     }
   ]
 }

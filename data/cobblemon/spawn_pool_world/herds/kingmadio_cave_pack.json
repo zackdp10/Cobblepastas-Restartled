@@ -1,0 +1,101 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kingmadio-cave-pack",
+      "type": "pokemon-herd",
+      "bucket": "ultra-rare",
+      "weight": 10.0,
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "levelRange": "30-100",
+      "maxHerdSize": 20,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cave",
+          "#cobblemon:is_deep_dark"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 0,
+        "maxLight": 4
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "kingmadio",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "levelRange": "60-100",
+          "weight": 100
+        },
+        {
+          "pokemon": "kingmadio alpha=true",
+          "isLeader": true,
+          "isFollower": false,
+          "maxTimes": 1,
+          "levelRange": "90-100",
+          "weight": 1
+        },
+        {
+          "pokemon": "madio",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 20,
+          "levelRange": "30-100",
+          "weight": 1
+        },
+        {
+          "pokemon": "madio",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 20,
+          "levelRange": "30-100",
+          "weight": 1
+        },
+        {
+          "pokemon": "madio",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 20,
+          "levelRange": "30-100",
+          "weight": 1
+        },
+        {
+          "pokemon": "madio",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 20,
+          "levelRange": "30-100",
+          "weight": 1
+        },
+        {
+          "pokemon": "madio",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 20,
+          "levelRange": "30-100",
+          "weight": 1
+        },
+        {
+          "pokemon": "madio",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 20,
+          "levelRange": "30-100",
+          "weight": 1
+        },
+        {
+          "pokemon": "madio",
+          "isLeader": false,
+          "isFollower": true,
+          "maxTimes": 20,
+          "levelRange": "30-100",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
