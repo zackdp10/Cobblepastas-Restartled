@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:parasect",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [ "diseased" ],
+      "model": "cobblemon:parasect.geo",
+      "poser": "cobblemon:parasect",
+      "texture": "cobblemon:textures/pokemon/parasect/parasect_zombie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny", "diseased"
+      ],
+      "texture": "cobblemon:textures/pokemon/parasect/parasect_zombie_shiny.png",
+      "layers": []
+    }
+    
+  ]
+}

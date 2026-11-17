@@ -6,13 +6,13 @@
       "id": "madio-cave-pack",
       "type": "pokemon-herd",
       "bucket": "uncommon",
-      "weight": 20.0,
+      "weight": 35.0,
       "spawnablePositionType": "grounded",
       "presets": [
         "natural"
       ],
       "levelRange": "12-35",
-      "maxHerdSize": 4,
+      "maxHerdSize": 8,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave",

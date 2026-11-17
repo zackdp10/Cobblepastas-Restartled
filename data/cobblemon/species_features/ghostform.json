@@ -1,0 +1,13 @@
+{
+  "keys": [
+    "ghostform"
+  ],
+  "type": "choice",
+  "choices": [
+    "lesser",
+    "greater"
+  ],
+  "default": "lesser",
+  "isAspect": true,
+  "aspectFormat": "form-{{choice}}"
+}

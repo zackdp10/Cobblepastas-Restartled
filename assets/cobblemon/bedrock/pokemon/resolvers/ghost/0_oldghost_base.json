@@ -1,0 +1,49 @@
+{
+  "species": "cobblemon:oldghost",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["cosmetic_item-idk"],
+      "poser": "cobblemon:oldghost",
+      "model": "cobblemon:oldghost.geo",
+      "texture": "cobblemon:textures/pokemon/ghost/oldghost.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ghost/oldghost_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "cosmetic_item-idk"
+      ],
+      "poser": "cobblemon:oldghost_shiny",
+      "texture": "cobblemon:textures/pokemon/ghost/oldghost_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ghost/oldghost_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "cosmetic_item-idk"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/ghost/oldghost_alpha.png"
+        }
+      ]
+    }
+  ]
+}

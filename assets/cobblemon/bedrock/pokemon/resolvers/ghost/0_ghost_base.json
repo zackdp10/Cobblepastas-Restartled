@@ -3,7 +3,7 @@
   "order": 0,
   "variations": [
     {
-      "aspects": [],
+      "aspects": [ ],
       "poser": "cobblemon:ghost",
       "model": "cobblemon:ghost.geo",
       "texture": "cobblemon:textures/pokemon/ghost/ghost.png",
@@ -12,7 +12,21 @@
           "name": "emissive",
           "emissive": true,
           "texture": "cobblemon:textures/pokemon/ghost/ghost_emissive.png",
-          "translucent": true
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [ "form-greater" ],
+      "poser": "cobblemon:ghost",
+      "model": "cobblemon:ghost.geo",
+      "texture": "cobblemon:textures/pokemon/ghost/ghost_greater.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ghost/ghost_greater_emissive.png",
+          "translucent": false
         }
       ]
     },
@@ -27,7 +41,21 @@
           "name": "emissive",
           "emissive": true,
           "texture": "cobblemon:textures/pokemon/ghost/ghost_shiny_emissive.png",
-          "translucent": true
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [ "form-greater", "shiny"],
+      "poser": "cobblemon:ghost_shiny",
+      "model": "cobblemon:ghost.geo",
+      "texture": "cobblemon:textures/pokemon/ghost/ghost_greater_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ghost/ghost_greater_shiny_emissive.png",
+          "translucent": false
         }
       ]
     },
@@ -40,6 +68,18 @@
           "emissive": true,
           "name": "alpha_eyes",
           "texture": "cobblemon:textures/pokemon/ghost/ghost_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [ "form-greater",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/ghost/ghost_greater_alpha.png"
         }
       ]
     }

@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:paras",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [ "diseased" ],
+      "model": "cobblemon:paras.geo",
+      "poser": "cobblemon:paras",
+      "texture": "cobblemon:textures/pokemon/paras/paras_zombie.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": [
+        "shiny", "diseased"
+      ],
+      "texture": "cobblemon:textures/pokemon/paras/paras_zombie_shiny.png",
+      "layers": [
+      ]
+    }
+    
+  ]
+}

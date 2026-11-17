@@ -1,62 +1,72 @@
 {
-  "animations": {
-    "cry": "q.bedrock_primary('ghost_shiny', 'cry', q.curve('symmetrical_wide'), q.exclude_labels('all'))"
-  },
-  "portraitScale": 2,
+  "portraitScale": 2.4,
   "portraitTranslation": [
-    -0.25,
-    0.6,
+    -0.3,
+    0.15,
     0
   ],
   "profileScale": 1,
   "profileTranslation": [
     0,
-    0.6,
+    0.4,
     0
   ],
-  "rootBone": "ghost",
+  "rootBone": "ghost_shiny",
+  "animations": {
+    "cry": "q.bedrock_stateful('ghost_shiny', 'cry')",
+    "recoil": "q.bedrock_stateful('ghost_shiny', 'recoil')",
+    "faint": "q.bedrock_primary('ghost_shiny', 'faint', q.curve('one'))"
+  },
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
       "poseTypes": [
         "STAND",
+        "FLOAT",
         "NONE",
         "PORTRAIT",
         "PROFILE"
       ],
       "animations": [
         "q.bedrock('ghost_shiny', 'ground_idle')"
-      ]
-    },
-    "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
       ],
-      "animations": [
-        "q.bedrock('ghost_shiny', 'ground_walk')"
+      "quirks": [
+        "q.bedrock_quirk('ghost_shiny', 'quirk_blink')"
       ]
     },
     "hover": {
-      "poseName": "hover",
-      "transformTicks": 10,
       "poseTypes": [
-        "HOVER"
+        "HOVER",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
       ],
       "animations": [
-        "q.bedrock('ghost_shiny', 'air_idle')"
+        "q.bedrock('ghost_shiny', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ghost_shiny', 'quirk_blink')"
       ]
     },
     "fly": {
-      "poseName": "fly",
-      "transformTicks": 10,
       "poseTypes": [
-        "FLY"
+        "WALK",
+        "FLY",
+        "SWIM"
       ],
       "animations": [
-        "q.bedrock('ghost_shiny', 'air_fly')"
+        "q.bedrock('ghost_shiny', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ghost_shiny', 'quirk_blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('ghost_shiny', 'sleep')"
       ]
     }
   }
