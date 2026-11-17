@@ -96,6 +96,7 @@
         {
           "id": "paras-amanita-level_up",
           "variant": "level_up",
+          "optional": false,
           "result": "amanita",
           "consumeHeldItem": false,
           "learnableMoves": [

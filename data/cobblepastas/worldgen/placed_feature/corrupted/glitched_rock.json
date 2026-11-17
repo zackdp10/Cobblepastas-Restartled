@@ -1,0 +1,63 @@
+{
+  "feature": "cobblepastas:corrupted/glitched_rock",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 6
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "lithostitched:offset",
+      "y_offset": -1
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:solid",
+            "offset": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:solid",
+            "offset": [
+              3,
+              0,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:solid",
+            "offset": [
+              0,
+              0,
+              4
+            ]
+          },
+          {
+            "type": "minecraft:solid",
+            "offset": [
+              3,
+              0,
+              4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

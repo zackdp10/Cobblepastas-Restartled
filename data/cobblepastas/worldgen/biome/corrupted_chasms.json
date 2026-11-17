@@ -96,7 +96,8 @@
       "cobblepastas:corrupted/void_hole",
       "cobblepastas:corrupted/missing_high",
       "cobblepastas:corrupted/missing_surface",
-      "cobblepastas:corrupted/missing_surface_elevated"
+      "cobblepastas:corrupted/missing_surface_elevated",
+      "cobblepastas:corrupted/glitched_rock"
     ]
   ],
   "has_precipitation": true,

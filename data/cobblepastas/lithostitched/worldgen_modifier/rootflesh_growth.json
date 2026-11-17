@@ -1,0 +1,6 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "cobblepastas:rootflesh_growth",
+  "step": "vegetal_decoration"
+}

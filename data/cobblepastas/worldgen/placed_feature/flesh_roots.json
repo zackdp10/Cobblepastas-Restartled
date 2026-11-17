@@ -2,8 +2,8 @@
   "feature": "cobblepastas:flesh_roots",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 8
+      "type": "minecraft:count",
+      "count": 2
     },
     {
       "type": "minecraft:in_square"
@@ -16,9 +16,29 @@
           "absolute": 8
         },
         "max_inclusive": {
-          "absolute": 112
+          "absolute": 104
         }
       }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "cobblepastas:flesh_root_support"
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air",
+          "minecraft:cave_air"
+        ]
+      }
+    },
+    {
+      "type": "lithostitched:offset",
+      "y_offset": -1
     },
     {
       "type": "minecraft:biome"
