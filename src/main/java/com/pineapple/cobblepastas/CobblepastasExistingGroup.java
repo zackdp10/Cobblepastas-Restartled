@@ -25,7 +25,7 @@ public final class CobblepastasExistingGroup implements ModInitializer {
           invoke(null, "net.minecraft.text.Text", "translatable", "itemGroup.cobblepastas"));
       Supplier<Object> icon = () -> {
         try {
-          return invoke(item("advancement_tab"), null, "getDefaultStack");
+          return invoke(item("prison_ball"), null, "getDefaultStack");
         } catch (ReflectiveOperationException error) {
           throw new IllegalStateException("Could not create Cobblepastas tab icon", error);
         }
